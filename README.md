@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python Version">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UncoveredTensor/phishguard">
   <img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/UncoveredTensor/phishguard">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/UncoveredTensor/phishguard">
