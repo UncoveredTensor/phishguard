@@ -43,7 +43,9 @@ To classify a batch of websites, you can use the following command:
     pipenv run phishguard -b [example.csv or example.txt]
 
 ## Inference
+The model can be executed in inference mode by utilizing the Docker image specified in this README. Upon launching the Docker container, the API can be accessed conveniently from localhost:3000.
 
 # For Contributors
+For those of you interested in contributing to the PhishGuard project, we highly appreciate your involvement. Whether you're a data scientist, a web developer, or someone with an interest in cybersecurity, there are plenty of opportunities for you to help improve PhishGuard. Underneath the this text we can see the sub headers where we can find the resources we have used within this project.
 
 ## Resources
