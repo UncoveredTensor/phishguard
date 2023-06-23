@@ -15,7 +15,7 @@ PhishGuard is a robust tool designed to classify whether a webpage is a phishing
 
 # Install Phishguard
 
-<details open>
+<details close>
 <summary>Docker</summary>
 <br>
   
