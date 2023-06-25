@@ -8,6 +8,9 @@ scikit-learn = "*"
 hyperopt = "*"
 xgboost = "*"
 typer = {extras = ["all"], version = "*"}
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
 
