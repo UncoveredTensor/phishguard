@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python Version">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UncoveredTensor/phishguard">
   <img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/UncoveredTensor/phishguard">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/UncoveredTensor/phishguard">
@@ -30,6 +30,13 @@ To ensure consistent dependencies within the project, we recommend running the f
 
     pipenv install
 
+## Retrain
+Since the project will continously be updated with new data and be retrained by UncoveredTensor, we give the option also to contributors and developers to retrain the model to their liking. Note: it is nice to know that the data that could be added on should be the same kind of features we want to use, since the model that is being used takes a certain feature matrix as input.
+
+To retrain the model architecture we can use the following pipenv command.
+
+    pipenv run train
+
 ## Example 
 
 Below this text, you will find example usages for classifying whether a page is a phishing site or not. You can perform classifications using two approaches: either by analyzing a large batch of pages or by evaluating a single website individually.
@@ -41,6 +48,8 @@ To classify a single website, you can use the following command:
 To classify a batch of websites, you can use the following command:
 
     pipenv run phishguard -b [example.csv or example.txt]
+
+
 
 ## Inference
 The model can be executed in inference mode by utilizing the Docker image specified in this README. Upon launching the Docker container, the API can be accessed conveniently from localhost:3000.
