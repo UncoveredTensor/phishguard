@@ -39,7 +39,10 @@ def normalize_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def merge_data(df: pd.DataFrame, external_data: str) -> pd.DataFrame:
-    pass
+    
+    external_data_df = pd.read_csv(external_data)
+
+    return pd.concat([df, external_data_df], axis=0)
 
 def split_train_test(df: pd.DataFrame, train_size: float) -> Tuple[pd.DataFrame, pd.DataFrame]:
 
@@ -102,17 +105,17 @@ def fit_xgboost(hyperspace: dict) -> Dict[float, STATUS_OK]:
 
 @app.command()
 def main(
-    source_dataset: str = typer.Option(False, "--source_data", "-sd", help="The original dataset that is going to be used for training."),
-    external_data: str = typer.Option(False, "-external_data", "-ed", help="Extra data that is going to be merged with the source dataset."),
-    top_features: int = typer.Option(False, "-top_features", "-tf", help="Top features that are going to be used for training."),
+    source_dataset: str = typer.Option('src/data/dataset.csv', "--source_data", "-sd", help="The original dataset that is going to be used for training."),
+    external_data: str = typer.Option(None, "-external_data", "-ed", help="Extra data that is going to be merged with the source dataset."),
+    top_features: int = typer.Option(40, "-top_features", "-tf", help="Top features that are going to be used for training."),
     hyperopt: Annotated[bool, typer.Option("-hyperopt", "-hpe", help="Enables hyperopt within the training.")] = False,
-    max_evals: int = typer.Option(False, "-max_evals", "-me", help="Max evals that we are going to use for the hyperopt."),
-    train_size: float = typer.Option(False, "-train_size", "-ts", help="Train size for the train test split."),
-    early_stopping_rounds: int = typer.Option(False, "--early_stopping_rounds", "-esr", help="Early stopping rounds for the xgboost model."),
-    gamma: float = typer.Option(False, "-gamma", "-g", help="Gamma value for the xgboost model."),
-    max_depth: int = typer.Option(False, "-max_depth", "-md", help="Max depth value for the xgboost model."),
-    eta: float = typer.Option(False, "-eta", "-e", help="Eta value for the xgboost model."),
-    alpha: float = typer.Option(False, "-alpha", "-a", help="Alpha value for the xgboost model."),
+    max_evals: int = typer.Option(50, "-max_evals", "-me", help="Max evals that we are going to use for the hyperopt."),
+    train_size: float = typer.Option(0.8, "-train_size", "-ts", help="Train size for the train test split."),
+    early_stopping_rounds: int = typer.Option(10, "--early_stopping_rounds", "-esr", help="Early stopping rounds for the xgboost model."),
+    gamma: Annotated[Tuple[int, int], typer.Option('-gamma', '-g', help="Gamma value for the xgboost model.")] = (0.1, 1.5),
+    max_depth: Annotated[Tuple[int, int], typer.Option('-max_depth', '-md', help="Max depth value for the xgboost model.")] = (1, 101),
+    eta: Annotated[Tuple[int, int], typer.Option('-eta', '-e', help="Eta value for the xgboost model.")] = (3, 0),
+    alpha: Annotated[Tuple[int, int], typer.Option('-alpha', '-a', help="Alpha value for the xgboost model.")] = (0.01, 1.0),
 ) -> None:
 
     """This is the main function that is going to be used for training the model.
@@ -120,6 +123,7 @@ def main(
     Args:
         source_dataset (str): The original dataset that is going to be used for training.
         external_data (str): Extra data that is going to be merged with the source dataset.
+        top_features (int): Top features that are going to be used for training.
         hyperopt (bool): Enables hyperopt within the training.
         max_evals (int): Max evals that we are going to use for the hyperopt.
         train_size (float): Train size for the train test split.
@@ -135,7 +139,7 @@ def main(
 
     df = load_data(source_data=source_dataset)
 
-    if external_data == None:
+    if external_data is not None:
         df = merge_data(df, external_data)
     
     df = normalize_features(df=df)
@@ -147,14 +151,14 @@ def main(
     train_set, test_set = split_train_test(df=df, train_size=train_size)
     
     hyperspace = {
-        'gamma': hp.uniform('gamma', 0.1, 1.5),
-        'eta': hp.loguniform('eta', -3, 0),
-        'max_depth': hp.randint('max_depth', 1, 101),
-        'alpha': hp.uniform('alpha', 0.01, 1.0),
+        'gamma': hp.uniform('gamma', gamma[0], gamma[1]),
+        'eta': hp.loguniform('eta', eta[0], eta[1]),
+        'max_depth': hp.randint('max_depth', max_depth[0], max_depth[1]),
+        'alpha': hp.uniform('alpha', alpha[0], alpha[1]),
         'train_set': train_set,
         'test_set': test_set,
         'objective': 'binary:logistic',
-        'early_stopping_rounds': 10,
+        'early_stopping_rounds': early_stopping_rounds,
         'predictor': 'gpu_predictor'
     }
 
