@@ -58,3 +58,8 @@ The model can be executed in inference mode by utilizing the Docker image specif
 For those of you interested in contributing to the PhishGuard project, we highly appreciate your involvement. Whether you're a data scientist, a web developer, or someone with an interest in cybersecurity, there are plenty of opportunities for you to help improve PhishGuard. Underneath the this text we can see the sub headers where we can find the resources we have used within this project.
 
 ## Resources
+in the "Resources" section of the project, you'll find direct links to the main components that have been instrumental in building the project. This includes links to the open-source datasets we used for training our model and the XGBoost model that forms the backbone of our project's functionality. Additionally, you'll find a link to the tracking server that helps monitoring and managing the model's performance. These resources offer a comprehensive overview for anyone interested in understanding or contributing to the project.
+
+XGBoost: **https://xgboost.readthedocs.io/en/stable/)https://xgboost.readthedocs.io/en/stable/** <br>
+Dataset: **https://data.mendeley.com/datasets/72ptz43s9v/1** <br>
+Tracking Server: (COMING SOON!)
