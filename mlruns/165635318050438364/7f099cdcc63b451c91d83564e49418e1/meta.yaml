@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/7f099cdcc63b451c91d83564e49418e1/artifacts
+deleted_time: 1687744017728
 end_time: 1687743331953
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7f099cdcc63b451c91d83564e49418e1
 run_name: lyrical-lark-199
 run_uuid: 7f099cdcc63b451c91d83564e49418e1

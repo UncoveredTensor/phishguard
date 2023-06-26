@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/b5a14fa348b74c9ead97e399bf01f19d/artifacts
+deleted_time: 1687744017839
 end_time: 1687743303636
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b5a14fa348b74c9ead97e399bf01f19d
 run_name: chill-moose-638
 run_uuid: b5a14fa348b74c9ead97e399bf01f19d

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/29a037796c98407c88fecebc22c880ec/artifacts
+deleted_time: 1687744017858
 end_time: 1687743472776
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 29a037796c98407c88fecebc22c880ec
 run_name: amusing-sponge-793
 run_uuid: 29a037796c98407c88fecebc22c880ec

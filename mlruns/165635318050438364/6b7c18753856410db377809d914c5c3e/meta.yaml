@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/6b7c18753856410db377809d914c5c3e/artifacts
+deleted_time: 1687744017821
 end_time: 1687743407681
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6b7c18753856410db377809d914c5c3e
 run_name: debonair-croc-519
 run_uuid: 6b7c18753856410db377809d914c5c3e

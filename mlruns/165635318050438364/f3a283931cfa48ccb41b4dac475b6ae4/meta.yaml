@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f3a283931cfa48ccb41b4dac475b6ae4/artifacts
+deleted_time: 1687744017815
 end_time: 1687743433431
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f3a283931cfa48ccb41b4dac475b6ae4
 run_name: abrasive-fowl-10
 run_uuid: f3a283931cfa48ccb41b4dac475b6ae4

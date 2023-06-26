@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/189ab4d79caa4fbbb0207899d7809a56/artifacts
+deleted_time: 1687744017800
 end_time: 1687743273511
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 189ab4d79caa4fbbb0207899d7809a56
 run_name: grandiose-wolf-712
 run_uuid: 189ab4d79caa4fbbb0207899d7809a56

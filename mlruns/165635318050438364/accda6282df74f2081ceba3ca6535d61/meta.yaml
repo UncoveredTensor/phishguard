@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/accda6282df74f2081ceba3ca6535d61/artifacts
+deleted_time: 1687744017811
 end_time: 1687743448029
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: accda6282df74f2081ceba3ca6535d61
 run_name: sassy-newt-450
 run_uuid: accda6282df74f2081ceba3ca6535d61

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/8714dfd5448f4c41b564a1bea92418c1/artifacts
+deleted_time: 1687744017668
 end_time: 1687743550516
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8714dfd5448f4c41b564a1bea92418c1
 run_name: gifted-colt-113
 run_uuid: 8714dfd5448f4c41b564a1bea92418c1

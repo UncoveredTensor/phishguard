@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/5b51c6472ce347bbbf7e3e066376516b/artifacts
+deleted_time: 1687744017582
 end_time: 1687743329668
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5b51c6472ce347bbbf7e3e066376516b
 run_name: amazing-sow-56
 run_uuid: 5b51c6472ce347bbbf7e3e066376516b

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/fce4378f22bf43669c5a3e60936c988e/artifacts
+deleted_time: 1687744017680
 end_time: 1687743457369
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fce4378f22bf43669c5a3e60936c988e
 run_name: merciful-horse-234
 run_uuid: fce4378f22bf43669c5a3e60936c988e

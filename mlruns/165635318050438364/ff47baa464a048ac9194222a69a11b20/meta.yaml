@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ff47baa464a048ac9194222a69a11b20/artifacts
+deleted_time: 1687744017656
 end_time: 1687743372619
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ff47baa464a048ac9194222a69a11b20
 run_name: wise-cow-985
 run_uuid: ff47baa464a048ac9194222a69a11b20

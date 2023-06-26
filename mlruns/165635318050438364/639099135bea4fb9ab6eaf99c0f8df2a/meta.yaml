@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/639099135bea4fb9ab6eaf99c0f8df2a/artifacts
+deleted_time: 1687744017743
 end_time: 1687743263134
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 639099135bea4fb9ab6eaf99c0f8df2a
 run_name: suave-vole-411
 run_uuid: 639099135bea4fb9ab6eaf99c0f8df2a

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/813781606ab54465abde692edbe071bf/artifacts
+deleted_time: 1687744017673
 end_time: 1687743479370
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 813781606ab54465abde692edbe071bf
 run_name: clumsy-sloth-425
 run_uuid: 813781606ab54465abde692edbe071bf

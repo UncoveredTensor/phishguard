@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/37a292ca709740e1af74bbe8755496df/artifacts
+deleted_time: 1687744017611
 end_time: 1687743387866
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 37a292ca709740e1af74bbe8755496df
 run_name: melodic-asp-157
 run_uuid: 37a292ca709740e1af74bbe8755496df

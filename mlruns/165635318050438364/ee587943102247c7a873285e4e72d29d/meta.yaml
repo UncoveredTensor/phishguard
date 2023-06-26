@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ee587943102247c7a873285e4e72d29d/artifacts
+deleted_time: 1687744017787
 end_time: 1687743313206
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ee587943102247c7a873285e4e72d29d
 run_name: learned-whale-36
 run_uuid: ee587943102247c7a873285e4e72d29d

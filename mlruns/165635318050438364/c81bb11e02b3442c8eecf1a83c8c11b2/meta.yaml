@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/c81bb11e02b3442c8eecf1a83c8c11b2/artifacts
+deleted_time: 1687744017656
 end_time: 1687743522804
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c81bb11e02b3442c8eecf1a83c8c11b2
 run_name: amusing-boar-59
 run_uuid: c81bb11e02b3442c8eecf1a83c8c11b2
