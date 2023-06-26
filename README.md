@@ -35,27 +35,27 @@ Since the project will continously be updated with new data and be retrained by 
 
 To retrain the model architecture we can use the help command.
 
-```bash
+```
 Usage:
   pipenv run train --help
   
 Flags:
 DATASET:
-  -sd, --source_data
-  -ed, --external_data
-  -tf, --top_features
+  -sd, --source_data       A path to the original dataset that is going to be used for training.
+  -ed, --external_data     A path to an extra data source that is going to be merged with the source dataset.
+  -tf, --top_features      The amount of top features we wanna use based on correlation matrix.
   
 MODEL:
-  -ts, --train-size
-  -esr, --early_stopping_rounds
-  -g, --gamma
-  -md, --max_depth
-  -e, --eta
-  -a, --alpha
+  -ts, --train-size                The train dataset size for when splitting the data into train and validation set.
+  -esr, --early_stopping_rounds    The amount of patience within the early stopping function.
+  -g, --gamma                      The gamma range for training the model. (0.1, 1) - default (0.1, 1.5) 
+  -md, --max_depth                 The max depth range for training the model (1, 50) - default (1, 101)
+  -e, --eta                        The learning range thats going to be used when training the model (-4, 0), default (-3, 0)
+  -a, --alpha                      The alpha range thats going to be used within the training of the model (0.01, 0.8), default (0.01, 1.0)
   
 HYPEROPT:
-  -hpe, --hyperopt
-  -me, --max_evals
+  -hpe, --hyperopt         Defines whether hyperopt needs to be used when training the XGBoost model.
+  -me, --max_evals         The amount of models we wanna train when doing hyperopt on our model default (50)
 ```
 
 ## Example 
