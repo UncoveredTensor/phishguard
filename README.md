@@ -33,9 +33,30 @@ To ensure consistent dependencies within the project, we recommend running the f
 ## Retrain
 Since the project will continously be updated with new data and be retrained by UncoveredTensor, we give the option also to contributors and developers to retrain the model to their liking. Note: it is nice to know that the data that could be added on should be the same kind of features we want to use, since the model that is being used takes a certain feature matrix as input.
 
-To retrain the model architecture we can use the following pipenv command.
+To retrain the model architecture we can use the help command.
 
-    pipenv run train
+```bash
+Usage:
+  pipenv run train --help
+  
+Flags:
+DATASET:
+  -sd, --source_data
+  -ed, --external_data
+  -tf, --top_features
+  
+MODEL:
+  -ts, --train-size
+  -esr, --early_stopping_rounds
+  -g, --gamma
+  -md, --max_depth
+  -e, --eta
+  -a, --alpha
+  
+HYPEROPT:
+  -hpe, --hyperopt
+  -me, --max_evals
+```
 
 ## Example 
 
