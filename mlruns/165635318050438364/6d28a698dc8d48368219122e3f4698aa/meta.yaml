@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/6d28a698dc8d48368219122e3f4698aa/artifacts
+end_time: 1687744134648
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 6d28a698dc8d48368219122e3f4698aa
+run_name: merciful-goat-780
+run_uuid: 6d28a698dc8d48368219122e3f4698aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687744132587
+status: 3
+tags: []
+user_id: ceyhun

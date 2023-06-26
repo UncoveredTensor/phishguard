@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f538c5e10f0e49bb869e797f1cd977b9/artifacts
+end_time: 1687744130503
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: f538c5e10f0e49bb869e797f1cd977b9
+run_name: capricious-shark-477
+run_uuid: f538c5e10f0e49bb869e797f1cd977b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687744126767
+status: 3
+tags: []
+user_id: ceyhun
