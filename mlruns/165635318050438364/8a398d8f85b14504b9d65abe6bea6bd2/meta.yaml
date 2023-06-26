@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/8a398d8f85b14504b9d65abe6bea6bd2/artifacts
+deleted_time: 1687742979830
+end_time: 1687742551328
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 8a398d8f85b14504b9d65abe6bea6bd2
+run_name: agreeable-turtle-365
+run_uuid: 8a398d8f85b14504b9d65abe6bea6bd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742549060
+status: 3
+tags: []
+user_id: ceyhun

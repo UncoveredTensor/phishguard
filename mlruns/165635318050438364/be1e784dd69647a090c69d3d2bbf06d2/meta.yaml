@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/be1e784dd69647a090c69d3d2bbf06d2/artifacts
+deleted_time: 1687741753585
+end_time: 1687741576150
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: be1e784dd69647a090c69d3d2bbf06d2
+run_name: dapper-robin-840
+run_uuid: be1e784dd69647a090c69d3d2bbf06d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741573713
+status: 3
+tags: []
+user_id: ceyhun

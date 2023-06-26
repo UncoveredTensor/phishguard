@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ad5fbf3324de4cc58ef58331034445ae/artifacts
+deleted_time: 1687741414050
+end_time: 1687741353275
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ad5fbf3324de4cc58ef58331034445ae
+run_name: colorful-sloth-48
+run_uuid: ad5fbf3324de4cc58ef58331034445ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741350059
+status: 3
+tags: []
+user_id: ceyhun

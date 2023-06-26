@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f224032ff45b4d8eaf7b28f19bea379c/artifacts
+deleted_time: 1687743165534
+end_time: 1687742781244
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f224032ff45b4d8eaf7b28f19bea379c
+run_name: valuable-rook-631
+run_uuid: f224032ff45b4d8eaf7b28f19bea379c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742778164
+status: 3
+tags: []
+user_id: ceyhun

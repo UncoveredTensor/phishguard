@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/8ab2b380d22a48adadaca1f7e5d8066e/artifacts
+deleted_time: 1687742979561
+end_time: 1687742702753
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 8ab2b380d22a48adadaca1f7e5d8066e
+run_name: rumbling-snail-808
+run_uuid: 8ab2b380d22a48adadaca1f7e5d8066e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742699378
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f98f7c3c150845a3925da6d1d211add2/artifacts
+deleted_time: 1687739228859
+end_time: 1687737162687
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f98f7c3c150845a3925da6d1d211add2
+run_name: secretive-shrike-795
+run_uuid: f98f7c3c150845a3925da6d1d211add2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737160144
+status: 3
+tags: []
+user_id: ceyhun

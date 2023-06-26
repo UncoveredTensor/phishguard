@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e814aad8fd3748738cfff1b305fa66ef/artifacts
+deleted_time: 1687743232678
+end_time: 1687741868685
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e814aad8fd3748738cfff1b305fa66ef
+run_name: fun-fish-393
+run_uuid: e814aad8fd3748738cfff1b305fa66ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741866887
+status: 3
+tags: []
+user_id: ceyhun

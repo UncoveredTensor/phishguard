@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/13c1ac652ded4a7fb7974e41a1396a8d/artifacts
+deleted_time: 1687738953202
+end_time: 1687738214851
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 13c1ac652ded4a7fb7974e41a1396a8d
+run_name: adaptable-hare-701
+run_uuid: 13c1ac652ded4a7fb7974e41a1396a8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738211425
+status: 3
+tags: []
+user_id: ceyhun

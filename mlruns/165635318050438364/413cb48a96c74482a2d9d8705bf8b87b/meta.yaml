@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/413cb48a96c74482a2d9d8705bf8b87b/artifacts
+end_time: 1687743483057
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 413cb48a96c74482a2d9d8705bf8b87b
+run_name: funny-panda-435
+run_uuid: 413cb48a96c74482a2d9d8705bf8b87b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743479448
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ad07912a4fa347b1b59c60a94efc2c03/artifacts
+deleted_time: 1687739228835
+end_time: 1687737313018
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ad07912a4fa347b1b59c60a94efc2c03
+run_name: stylish-hog-722
+run_uuid: ad07912a4fa347b1b59c60a94efc2c03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737311001
+status: 3
+tags: []
+user_id: ceyhun

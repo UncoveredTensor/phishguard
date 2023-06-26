@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f6329b3cf9754f22b56d0dab20d83944/artifacts
+deleted_time: 1687741753666
+end_time: 1687741636974
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f6329b3cf9754f22b56d0dab20d83944
+run_name: unleashed-hare-682
+run_uuid: f6329b3cf9754f22b56d0dab20d83944
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741634612
+status: 3
+tags: []
+user_id: ceyhun

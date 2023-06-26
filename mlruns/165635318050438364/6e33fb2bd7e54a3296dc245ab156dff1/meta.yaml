@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/6e33fb2bd7e54a3296dc245ab156dff1/artifacts
+deleted_time: 1687743053493
+end_time: 1687742853286
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 6e33fb2bd7e54a3296dc245ab156dff1
+run_name: burly-boar-787
+run_uuid: 6e33fb2bd7e54a3296dc245ab156dff1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742848772
+status: 3
+tags: []
+user_id: ceyhun

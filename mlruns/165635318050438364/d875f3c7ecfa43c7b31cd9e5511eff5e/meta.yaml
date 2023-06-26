@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d875f3c7ecfa43c7b31cd9e5511eff5e/artifacts
+deleted_time: 1687742979752
+end_time: 1687741971540
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d875f3c7ecfa43c7b31cd9e5511eff5e
+run_name: flawless-cat-588
+run_uuid: d875f3c7ecfa43c7b31cd9e5511eff5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741969210
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/b158882e02d04bdbb24d92d7aa3809b8/artifacts
+deleted_time: 1687742979837
+end_time: 1687742652171
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: b158882e02d04bdbb24d92d7aa3809b8
+run_name: orderly-moose-774
+run_uuid: b158882e02d04bdbb24d92d7aa3809b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742648530
+status: 3
+tags: []
+user_id: ceyhun

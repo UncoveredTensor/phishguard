@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d68e5eb6656146c78e501447515b079e/artifacts
+end_time: 1687743285215
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: d68e5eb6656146c78e501447515b079e
+run_name: unruly-lynx-61
+run_uuid: d68e5eb6656146c78e501447515b079e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743280761
+status: 3
+tags: []
+user_id: ceyhun

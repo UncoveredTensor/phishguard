@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e2fc1cd425e5406aab42b246562370ac/artifacts
+deleted_time: 1687741256046
+end_time: 1687741229364
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e2fc1cd425e5406aab42b246562370ac
+run_name: big-tern-992
+run_uuid: e2fc1cd425e5406aab42b246562370ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741227658
+status: 3
+tags: []
+user_id: ceyhun

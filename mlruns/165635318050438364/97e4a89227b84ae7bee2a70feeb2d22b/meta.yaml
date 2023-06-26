@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/97e4a89227b84ae7bee2a70feeb2d22b/artifacts
+deleted_time: 1687742979604
+end_time: 1687742211886
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 97e4a89227b84ae7bee2a70feeb2d22b
+run_name: invincible-asp-784
+run_uuid: 97e4a89227b84ae7bee2a70feeb2d22b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742208504
+status: 3
+tags: []
+user_id: ceyhun

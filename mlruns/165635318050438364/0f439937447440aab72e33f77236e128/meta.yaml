@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/0f439937447440aab72e33f77236e128/artifacts
+deleted_time: 1687741753662
+end_time: 1687741470560
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 0f439937447440aab72e33f77236e128
+run_name: suave-penguin-205
+run_uuid: 0f439937447440aab72e33f77236e128
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741467590
+status: 3
+tags: []
+user_id: ceyhun

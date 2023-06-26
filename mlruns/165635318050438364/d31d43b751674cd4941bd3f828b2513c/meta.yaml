@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d31d43b751674cd4941bd3f828b2513c/artifacts
+deleted_time: 1687739228844
+end_time: 1687737234525
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d31d43b751674cd4941bd3f828b2513c
+run_name: dapper-cow-599
+run_uuid: d31d43b751674cd4941bd3f828b2513c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737232798
+status: 3
+tags: []
+user_id: ceyhun

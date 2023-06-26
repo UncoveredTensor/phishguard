@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f3c11b0bd9bb4ec09743e14606f7119d/artifacts
+end_time: 1687743507334
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: f3c11b0bd9bb4ec09743e14606f7119d
+run_name: rare-pig-674
+run_uuid: f3c11b0bd9bb4ec09743e14606f7119d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743505104
+status: 3
+tags: []
+user_id: ceyhun

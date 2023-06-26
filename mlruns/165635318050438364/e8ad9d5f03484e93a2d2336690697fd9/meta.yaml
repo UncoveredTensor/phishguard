@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e8ad9d5f03484e93a2d2336690697fd9/artifacts
+deleted_time: 1687742979640
+end_time: 1687742127678
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e8ad9d5f03484e93a2d2336690697fd9
+run_name: wise-jay-984
+run_uuid: e8ad9d5f03484e93a2d2336690697fd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742125288
+status: 3
+tags: []
+user_id: ceyhun

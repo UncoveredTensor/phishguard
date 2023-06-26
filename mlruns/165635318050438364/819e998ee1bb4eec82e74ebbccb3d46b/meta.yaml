@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/819e998ee1bb4eec82e74ebbccb3d46b/artifacts
+deleted_time: 1687741753690
+end_time: 1687741639591
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 819e998ee1bb4eec82e74ebbccb3d46b
+run_name: popular-pug-630
+run_uuid: 819e998ee1bb4eec82e74ebbccb3d46b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741637051
+status: 3
+tags: []
+user_id: ceyhun

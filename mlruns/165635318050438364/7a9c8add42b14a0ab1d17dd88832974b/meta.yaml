@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/7a9c8add42b14a0ab1d17dd88832974b/artifacts
+deleted_time: 1687743165496
+end_time: 1687742372645
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 7a9c8add42b14a0ab1d17dd88832974b
+run_name: charming-horse-205
+run_uuid: 7a9c8add42b14a0ab1d17dd88832974b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742367517
+status: 3
+tags: []
+user_id: ceyhun

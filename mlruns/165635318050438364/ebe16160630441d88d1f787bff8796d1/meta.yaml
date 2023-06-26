@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ebe16160630441d88d1f787bff8796d1/artifacts
+deleted_time: 1687739228740
+end_time: 1687738286330
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ebe16160630441d88d1f787bff8796d1
+run_name: fearless-roo-218
+run_uuid: ebe16160630441d88d1f787bff8796d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738284648
+status: 3
+tags: []
+user_id: ceyhun

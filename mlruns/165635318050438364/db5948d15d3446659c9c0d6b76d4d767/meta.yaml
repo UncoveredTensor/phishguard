@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/db5948d15d3446659c9c0d6b76d4d767/artifacts
+deleted_time: 1687742979713
+end_time: 1687742510804
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: db5948d15d3446659c9c0d6b76d4d767
+run_name: exultant-moose-459
+run_uuid: db5948d15d3446659c9c0d6b76d4d767
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742508824
+status: 3
+tags: []
+user_id: ceyhun

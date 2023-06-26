@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/75ee76104518454db499dd10dd13eac6/artifacts
+deleted_time: 1687743165766
+end_time: 1687742398344
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 75ee76104518454db499dd10dd13eac6
+run_name: rumbling-perch-459
+run_uuid: 75ee76104518454db499dd10dd13eac6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742394872
+status: 3
+tags: []
+user_id: ceyhun

@@ -11,6 +11,7 @@ typer = {extras = ["all"], version = "*"}
 pandas = "*"
 matplotlib = "*"
 seaborn = "*"
+mlflow = "*"
 
 [dev-packages]
 
@@ -20,3 +21,4 @@ python_version = "3.10"
 [scripts]
 train = "pipenv run python src/train.py"
 predict = "pipenv run python src/predict.py"
+tracking = "pipenv run mlflow ui"

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/346aeef45b5049f5aa6e1785f549ad7e/artifacts
+deleted_time: 1687742979785
+end_time: 1687741911324
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 346aeef45b5049f5aa6e1785f549ad7e
+run_name: dashing-goose-173
+run_uuid: 346aeef45b5049f5aa6e1785f549ad7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741906700
+status: 3
+tags: []
+user_id: ceyhun

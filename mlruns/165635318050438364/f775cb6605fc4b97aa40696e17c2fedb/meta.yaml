@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f775cb6605fc4b97aa40696e17c2fedb/artifacts
+deleted_time: 1687741753580
+end_time: 1687741590649
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f775cb6605fc4b97aa40696e17c2fedb
+run_name: polite-bird-944
+run_uuid: f775cb6605fc4b97aa40696e17c2fedb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741588187
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/c356dde9e21547c3af2872fad7c329b3/artifacts
+deleted_time: 1687742979663
+end_time: 1687742339227
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: c356dde9e21547c3af2872fad7c329b3
+run_name: bald-hog-849
+run_uuid: c356dde9e21547c3af2872fad7c329b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742336297
+status: 3
+tags: []
+user_id: ceyhun

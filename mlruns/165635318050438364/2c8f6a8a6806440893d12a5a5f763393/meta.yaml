@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/2c8f6a8a6806440893d12a5a5f763393/artifacts
+deleted_time: 1687743232783
+end_time: 1687742778074
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 2c8f6a8a6806440893d12a5a5f763393
+run_name: beautiful-stoat-624
+run_uuid: 2c8f6a8a6806440893d12a5a5f763393
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742775895
+status: 3
+tags: []
+user_id: ceyhun

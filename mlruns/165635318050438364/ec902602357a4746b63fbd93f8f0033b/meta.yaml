@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ec902602357a4746b63fbd93f8f0033b/artifacts
+deleted_time: 1687738953056
+end_time: 1687738274485
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ec902602357a4746b63fbd93f8f0033b
+run_name: gentle-crab-294
+run_uuid: ec902602357a4746b63fbd93f8f0033b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738271762
+status: 3
+tags: []
+user_id: ceyhun

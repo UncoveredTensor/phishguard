@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/edfc44dc6ba247eb89bdfdfa0d60149f/artifacts
+deleted_time: 1687743232673
+end_time: 1687742285169
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: edfc44dc6ba247eb89bdfdfa0d60149f
+run_name: able-shoat-171
+run_uuid: edfc44dc6ba247eb89bdfdfa0d60149f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742282756
+status: 3
+tags: []
+user_id: ceyhun

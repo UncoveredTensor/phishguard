@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ffdbc3e2224447a3ae005ff2ea0b1a89/artifacts
+deleted_time: 1687738953215
+end_time: 1687737136622
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ffdbc3e2224447a3ae005ff2ea0b1a89
+run_name: nervous-hare-172
+run_uuid: ffdbc3e2224447a3ae005ff2ea0b1a89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737133815
+status: 3
+tags: []
+user_id: ceyhun

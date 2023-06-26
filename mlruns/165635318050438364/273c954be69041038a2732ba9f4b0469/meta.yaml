@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/273c954be69041038a2732ba9f4b0469/artifacts
+deleted_time: 1687743232732
+end_time: 1687741956520
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 273c954be69041038a2732ba9f4b0469
+run_name: crawling-fly-936
+run_uuid: 273c954be69041038a2732ba9f4b0469
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741954781
+status: 3
+tags: []
+user_id: ceyhun

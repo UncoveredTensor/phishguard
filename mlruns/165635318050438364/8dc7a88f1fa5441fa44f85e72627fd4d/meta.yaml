@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/8dc7a88f1fa5441fa44f85e72627fd4d/artifacts
+deleted_time: 1687743053660
+end_time: 1687741988038
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 8dc7a88f1fa5441fa44f85e72627fd4d
+run_name: dapper-gull-762
+run_uuid: 8dc7a88f1fa5441fa44f85e72627fd4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741983346
+status: 3
+tags: []
+user_id: ceyhun

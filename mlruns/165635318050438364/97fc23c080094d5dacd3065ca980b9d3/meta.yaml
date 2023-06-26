@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/97fc23c080094d5dacd3065ca980b9d3/artifacts
+deleted_time: 1687742979814
+end_time: 1687742345755
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 97fc23c080094d5dacd3065ca980b9d3
+run_name: rogue-jay-828
+run_uuid: 97fc23c080094d5dacd3065ca980b9d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742342829
+status: 3
+tags: []
+user_id: ceyhun

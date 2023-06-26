@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/c8e4ab31c821431c9e00050d817465a6/artifacts
+deleted_time: 1687742979618
+end_time: 1687742848691
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: c8e4ab31c821431c9e00050d817465a6
+run_name: angry-ant-352
+run_uuid: c8e4ab31c821431c9e00050d817465a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742845282
+status: 3
+tags: []
+user_id: ceyhun

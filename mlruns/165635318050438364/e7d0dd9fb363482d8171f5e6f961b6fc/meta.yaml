@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e7d0dd9fb363482d8171f5e6f961b6fc/artifacts
+deleted_time: 1687739228788
+end_time: 1687737214674
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e7d0dd9fb363482d8171f5e6f961b6fc
+run_name: colorful-stork-970
+run_uuid: e7d0dd9fb363482d8171f5e6f961b6fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737212935
+status: 3
+tags: []
+user_id: ceyhun

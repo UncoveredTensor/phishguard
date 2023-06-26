@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a074b0d62c6743cb9ffb362933bd4b08/artifacts
+deleted_time: 1687739228722
+end_time: 1687737111647
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a074b0d62c6743cb9ffb362933bd4b08
+run_name: gaudy-seal-69
+run_uuid: a074b0d62c6743cb9ffb362933bd4b08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737109396
+status: 3
+tags: []
+user_id: ceyhun

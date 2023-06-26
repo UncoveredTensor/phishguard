@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a27afcb5a6f5438a906508b45f808fdf/artifacts
+deleted_time: 1687743053489
+end_time: 1687742838146
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a27afcb5a6f5438a906508b45f808fdf
+run_name: capricious-bat-157
+run_uuid: a27afcb5a6f5438a906508b45f808fdf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742835123
+status: 3
+tags: []
+user_id: ceyhun

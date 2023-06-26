@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/218f81db7f4e47c38bddcc7f909d38d7/artifacts
+deleted_time: 1687742979541
+end_time: 1687742962863
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 218f81db7f4e47c38bddcc7f909d38d7
+run_name: charming-seal-275
+run_uuid: 218f81db7f4e47c38bddcc7f909d38d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742959713
+status: 3
+tags: []
+user_id: ceyhun

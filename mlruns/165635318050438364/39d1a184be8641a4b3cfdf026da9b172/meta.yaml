@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/39d1a184be8641a4b3cfdf026da9b172/artifacts
+deleted_time: 1687743165648
+end_time: 1687742336217
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 39d1a184be8641a4b3cfdf026da9b172
+run_name: gregarious-mule-984
+run_uuid: 39d1a184be8641a4b3cfdf026da9b172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742333614
+status: 3
+tags: []
+user_id: ceyhun

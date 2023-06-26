@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/82b3e632ac7c4472912bf62066ca6afa/artifacts
+end_time: 1687743335392
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 82b3e632ac7c4472912bf62066ca6afa
+run_name: amusing-colt-837
+run_uuid: 82b3e632ac7c4472912bf62066ca6afa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743332035
+status: 3
+tags: []
+user_id: ceyhun

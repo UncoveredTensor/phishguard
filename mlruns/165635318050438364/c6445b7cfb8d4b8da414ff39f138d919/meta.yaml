@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/c6445b7cfb8d4b8da414ff39f138d919/artifacts
+deleted_time: 1687738953151
+end_time: 1687738094849
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: c6445b7cfb8d4b8da414ff39f138d919
+run_name: delicate-mule-618
+run_uuid: c6445b7cfb8d4b8da414ff39f138d919
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738093241
+status: 3
+tags: []
+user_id: ceyhun

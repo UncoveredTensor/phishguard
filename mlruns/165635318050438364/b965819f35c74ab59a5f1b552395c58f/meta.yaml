@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/b965819f35c74ab59a5f1b552395c58f/artifacts
+end_time: 1687743394115
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: b965819f35c74ab59a5f1b552395c58f
+run_name: caring-squirrel-22
+run_uuid: b965819f35c74ab59a5f1b552395c58f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743389850
+status: 3
+tags: []
+user_id: ceyhun

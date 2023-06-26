@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/21d876deb7294675b191b770a4972ada/artifacts
+deleted_time: 1687742979738
+end_time: 1687742058302
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 21d876deb7294675b191b770a4972ada
+run_name: nimble-grub-461
+run_uuid: 21d876deb7294675b191b770a4972ada
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742055453
+status: 3
+tags: []
+user_id: ceyhun

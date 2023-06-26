@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/60c9eee5a08a4682b7963d4d67ddb340/artifacts
+deleted_time: 1687743165588
+end_time: 1687741922271
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 60c9eee5a08a4682b7963d4d67ddb340
+run_name: defiant-elk-701
+run_uuid: 60c9eee5a08a4682b7963d4d67ddb340
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741919555
+status: 3
+tags: []
+user_id: ceyhun

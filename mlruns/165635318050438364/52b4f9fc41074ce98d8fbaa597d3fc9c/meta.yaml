@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/52b4f9fc41074ce98d8fbaa597d3fc9c/artifacts
+deleted_time: 1687741753637
+end_time: 1687741493784
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 52b4f9fc41074ce98d8fbaa597d3fc9c
+run_name: able-ape-576
+run_uuid: 52b4f9fc41074ce98d8fbaa597d3fc9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741490959
+status: 3
+tags: []
+user_id: ceyhun

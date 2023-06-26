@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d1d35c48b14a458cbeffbde1d8ed6205/artifacts
+deleted_time: 1687739228781
+end_time: 1687737123328
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d1d35c48b14a458cbeffbde1d8ed6205
+run_name: popular-shad-743
+run_uuid: d1d35c48b14a458cbeffbde1d8ed6205
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737121352
+status: 3
+tags: []
+user_id: ceyhun

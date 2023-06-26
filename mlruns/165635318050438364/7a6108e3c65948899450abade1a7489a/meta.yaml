@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/7a6108e3c65948899450abade1a7489a/artifacts
+deleted_time: 1687739228810
+end_time: 1687737254018
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 7a6108e3c65948899450abade1a7489a
+run_name: big-newt-990
+run_uuid: 7a6108e3c65948899450abade1a7489a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737250349
+status: 3
+tags: []
+user_id: ceyhun

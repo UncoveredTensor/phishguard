@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/43b64034932a4a1d9f45f71b0c63876e/artifacts
+deleted_time: 1687743232792
+end_time: 1687742968908
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 43b64034932a4a1d9f45f71b0c63876e
+run_name: abundant-grub-943
+run_uuid: 43b64034932a4a1d9f45f71b0c63876e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742966716
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/013d03547f3447c9a42ee270c2913f31/artifacts
+deleted_time: 1687743053571
+end_time: 1687742475805
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 013d03547f3447c9a42ee270c2913f31
+run_name: beautiful-finch-464
+run_uuid: 013d03547f3447c9a42ee270c2913f31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742471297
+status: 3
+tags: []
+user_id: ceyhun

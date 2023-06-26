@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/da1b5d9efb554c338551e4c6d077fed0/artifacts
+deleted_time: 1687743232794
+end_time: 1687741851999
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: da1b5d9efb554c338551e4c6d077fed0
+run_name: gentle-mole-265
+run_uuid: da1b5d9efb554c338551e4c6d077fed0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741850271
+status: 3
+tags: []
+user_id: ceyhun

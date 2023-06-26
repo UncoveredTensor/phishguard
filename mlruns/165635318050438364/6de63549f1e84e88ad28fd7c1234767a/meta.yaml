@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/6de63549f1e84e88ad28fd7c1234767a/artifacts
+deleted_time: 1687741414071
+end_time: 1687741291239
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 6de63549f1e84e88ad28fd7c1234767a
+run_name: aged-shrike-344
+run_uuid: 6de63549f1e84e88ad28fd7c1234767a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741288946
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/03f872ccab264a4abb0aae6042fbdafa/artifacts
+deleted_time: 1687743053431
+end_time: 1687742692014
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 03f872ccab264a4abb0aae6042fbdafa
+run_name: persistent-frog-657
+run_uuid: 03f872ccab264a4abb0aae6042fbdafa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742689552
+status: 3
+tags: []
+user_id: ceyhun

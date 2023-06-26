@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/4ba520b71f154bebb0f0903c64d7478f/artifacts
+deleted_time: 1687743053471
+end_time: 1687742546212
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 4ba520b71f154bebb0f0903c64d7478f
+run_name: peaceful-carp-995
+run_uuid: 4ba520b71f154bebb0f0903c64d7478f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742541900
+status: 3
+tags: []
+user_id: ceyhun

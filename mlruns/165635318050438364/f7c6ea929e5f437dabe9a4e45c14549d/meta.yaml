@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f7c6ea929e5f437dabe9a4e45c14549d/artifacts
+deleted_time: 1687743165501
+end_time: 1687742471208
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f7c6ea929e5f437dabe9a4e45c14549d
+run_name: colorful-gnu-994
+run_uuid: f7c6ea929e5f437dabe9a4e45c14549d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742468113
+status: 3
+tags: []
+user_id: ceyhun

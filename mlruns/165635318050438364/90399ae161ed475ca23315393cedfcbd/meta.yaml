@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/90399ae161ed475ca23315393cedfcbd/artifacts
+deleted_time: 1687743053459
+end_time: 1687741928751
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 90399ae161ed475ca23315393cedfcbd
+run_name: stately-foal-254
+run_uuid: 90399ae161ed475ca23315393cedfcbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741924332
+status: 3
+tags: []
+user_id: ceyhun

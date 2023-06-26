@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/05cc8b09ac1f4484b2673384b52b9c94/artifacts
+deleted_time: 1687743053559
+end_time: 1687742427675
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 05cc8b09ac1f4484b2673384b52b9c94
+run_name: sneaky-lark-656
+run_uuid: 05cc8b09ac1f4484b2673384b52b9c94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742425058
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/eb0a692d314d406fa6b2768fe7659ef3/artifacts
+deleted_time: 1687742979800
+end_time: 1687742037667
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: eb0a692d314d406fa6b2768fe7659ef3
+run_name: gregarious-hawk-281
+run_uuid: eb0a692d314d406fa6b2768fe7659ef3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742033451
+status: 3
+tags: []
+user_id: ceyhun

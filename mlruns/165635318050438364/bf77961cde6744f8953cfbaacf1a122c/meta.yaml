@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/bf77961cde6744f8953cfbaacf1a122c/artifacts
+deleted_time: 1687738953207
+end_time: 1687738083475
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: bf77961cde6744f8953cfbaacf1a122c
+run_name: bold-snipe-799
+run_uuid: bf77961cde6744f8953cfbaacf1a122c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738081033
+status: 3
+tags: []
+user_id: ceyhun

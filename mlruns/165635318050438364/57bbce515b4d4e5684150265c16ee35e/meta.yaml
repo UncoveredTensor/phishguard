@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/57bbce515b4d4e5684150265c16ee35e/artifacts
+end_time: 1687743452930
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 57bbce515b4d4e5684150265c16ee35e
+run_name: flawless-tern-159
+run_uuid: 57bbce515b4d4e5684150265c16ee35e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743448111
+status: 3
+tags: []
+user_id: ceyhun

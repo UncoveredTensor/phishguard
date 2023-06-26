@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/4df1e1ebbe9347b0bfa08e316f9b0ca2/artifacts
+deleted_time: 1687739490633
+end_time: 1687738127494
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 4df1e1ebbe9347b0bfa08e316f9b0ca2
+run_name: sedate-goat-264
+run_uuid: 4df1e1ebbe9347b0bfa08e316f9b0ca2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738125947
+status: 3
+tags: []
+user_id: ceyhun

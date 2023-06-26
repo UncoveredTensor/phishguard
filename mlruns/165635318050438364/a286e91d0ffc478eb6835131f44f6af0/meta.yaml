@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a286e91d0ffc478eb6835131f44f6af0/artifacts
+deleted_time: 1687743165641
+end_time: 1687742518208
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a286e91d0ffc478eb6835131f44f6af0
+run_name: classy-mole-460
+run_uuid: a286e91d0ffc478eb6835131f44f6af0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742514931
+status: 3
+tags: []
+user_id: ceyhun

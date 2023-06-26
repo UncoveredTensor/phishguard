@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d79ab60c9e75456f8145a26b188d0601/artifacts
+deleted_time: 1687741753636
+end_time: 1687741573634
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d79ab60c9e75456f8145a26b188d0601
+run_name: caring-swan-77
+run_uuid: d79ab60c9e75456f8145a26b188d0601
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741571199
+status: 3
+tags: []
+user_id: ceyhun

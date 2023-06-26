@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/69264225fb1b477393a5ae82f385e7f3/artifacts
+deleted_time: 1687743053641
+end_time: 1687742030074
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 69264225fb1b477393a5ae82f385e7f3
+run_name: bold-zebra-910
+run_uuid: 69264225fb1b477393a5ae82f385e7f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742026292
+status: 3
+tags: []
+user_id: ceyhun

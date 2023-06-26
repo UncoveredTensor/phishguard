@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/94d1f8a7952e41a1a1d98ce5247687ce/artifacts
+deleted_time: 1687738953240
+end_time: 1687738172529
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 94d1f8a7952e41a1a1d98ce5247687ce
+run_name: dazzling-stag-403
+run_uuid: 94d1f8a7952e41a1a1d98ce5247687ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738170405
+status: 3
+tags: []
+user_id: ceyhun

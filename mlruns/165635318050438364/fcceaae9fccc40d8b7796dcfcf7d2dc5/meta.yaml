@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/fcceaae9fccc40d8b7796dcfcf7d2dc5/artifacts
+deleted_time: 1687738953222
+end_time: 1687737250271
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: fcceaae9fccc40d8b7796dcfcf7d2dc5
+run_name: resilient-ape-875
+run_uuid: fcceaae9fccc40d8b7796dcfcf7d2dc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737247354
+status: 3
+tags: []
+user_id: ceyhun

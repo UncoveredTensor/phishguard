@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/2ec21045aca14a78977d805f3794cbc3/artifacts
+deleted_time: 1687739228827
+end_time: 1687738089271
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 2ec21045aca14a78977d805f3794cbc3
+run_name: inquisitive-roo-481
+run_uuid: 2ec21045aca14a78977d805f3794cbc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738086820
+status: 3
+tags: []
+user_id: ceyhun

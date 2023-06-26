@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/02616f6a251548ffa2ad58fad6c4f4a8/artifacts
+deleted_time: 1687739228697
+end_time: 1687737319708
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 02616f6a251548ffa2ad58fad6c4f4a8
+run_name: unruly-shrike-314
+run_uuid: 02616f6a251548ffa2ad58fad6c4f4a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737315128
+status: 3
+tags: []
+user_id: ceyhun

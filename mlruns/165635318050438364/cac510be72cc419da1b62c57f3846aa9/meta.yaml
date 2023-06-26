@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/cac510be72cc419da1b62c57f3846aa9/artifacts
+deleted_time: 1687739228765
+end_time: 1687737077703
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: cac510be72cc419da1b62c57f3846aa9
+run_name: flawless-cow-213
+run_uuid: cac510be72cc419da1b62c57f3846aa9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737073923
+status: 3
+tags: []
+user_id: ceyhun

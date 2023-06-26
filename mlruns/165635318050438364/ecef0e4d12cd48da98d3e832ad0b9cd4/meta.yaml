@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ecef0e4d12cd48da98d3e832ad0b9cd4/artifacts
+deleted_time: 1687739228694
+end_time: 1687737241566
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ecef0e4d12cd48da98d3e832ad0b9cd4
+run_name: polite-moth-385
+run_uuid: ecef0e4d12cd48da98d3e832ad0b9cd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737237265
+status: 3
+tags: []
+user_id: ceyhun

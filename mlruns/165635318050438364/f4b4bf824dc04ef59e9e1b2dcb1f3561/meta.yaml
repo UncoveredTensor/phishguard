@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f4b4bf824dc04ef59e9e1b2dcb1f3561/artifacts
+end_time: 1687743559233
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: f4b4bf824dc04ef59e9e1b2dcb1f3561
+run_name: whimsical-rat-325
+run_uuid: f4b4bf824dc04ef59e9e1b2dcb1f3561
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743556422
+status: 3
+tags: []
+user_id: ceyhun

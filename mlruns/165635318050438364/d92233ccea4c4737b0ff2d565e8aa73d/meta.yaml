@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d92233ccea4c4737b0ff2d565e8aa73d/artifacts
+deleted_time: 1687741753770
+end_time: 1687741610581
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d92233ccea4c4737b0ff2d565e8aa73d
+run_name: trusting-vole-209
+run_uuid: d92233ccea4c4737b0ff2d565e8aa73d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741607579
+status: 3
+tags: []
+user_id: ceyhun

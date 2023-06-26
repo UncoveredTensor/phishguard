@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/6f390aab65eb4337a0d00364a84c3e3c/artifacts
+deleted_time: 1687738953103
+end_time: 1687738144955
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 6f390aab65eb4337a0d00364a84c3e3c
+run_name: whimsical-wren-397
+run_uuid: 6f390aab65eb4337a0d00364a84c3e3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738140826
+status: 3
+tags: []
+user_id: ceyhun

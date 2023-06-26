@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/29b4fccbbfb14d7ba80f2a3968c891f8/artifacts
+deleted_time: 1687742979713
+end_time: 1687742357553
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 29b4fccbbfb14d7ba80f2a3968c891f8
+run_name: luminous-panda-536
+run_uuid: 29b4fccbbfb14d7ba80f2a3968c891f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742353039
+status: 3
+tags: []
+user_id: ceyhun

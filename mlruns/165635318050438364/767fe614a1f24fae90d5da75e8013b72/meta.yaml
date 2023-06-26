@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/767fe614a1f24fae90d5da75e8013b72/artifacts
+deleted_time: 1687742979653
+end_time: 1687742468032
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 767fe614a1f24fae90d5da75e8013b72
+run_name: magnificent-wren-433
+run_uuid: 767fe614a1f24fae90d5da75e8013b72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742464961
+status: 3
+tags: []
+user_id: ceyhun

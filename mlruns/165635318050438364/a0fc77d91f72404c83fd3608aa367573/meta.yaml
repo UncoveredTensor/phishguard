@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a0fc77d91f72404c83fd3608aa367573/artifacts
+deleted_time: 1687743053449
+end_time: 1687742392196
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a0fc77d91f72404c83fd3608aa367573
+run_name: fearless-finch-627
+run_uuid: a0fc77d91f72404c83fd3608aa367573
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742389339
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/6632c4804e4545c7b41e46c8a887a060/artifacts
+deleted_time: 1687743165573
+end_time: 1687742139506
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 6632c4804e4545c7b41e46c8a887a060
+run_name: skillful-quail-29
+run_uuid: 6632c4804e4545c7b41e46c8a887a060
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742137027
+status: 3
+tags: []
+user_id: ceyhun

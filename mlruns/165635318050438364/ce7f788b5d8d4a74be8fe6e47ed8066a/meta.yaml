@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ce7f788b5d8d4a74be8fe6e47ed8066a/artifacts
+deleted_time: 1687741414034
+end_time: 1687741369985
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ce7f788b5d8d4a74be8fe6e47ed8066a
+run_name: chill-panda-147
+run_uuid: ce7f788b5d8d4a74be8fe6e47ed8066a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741366745
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,5 +1,6 @@
 from typing import Tuple, Dict
 
+import warnings
 import typer
 from typing_extensions import Annotated
 import pandas as pd
@@ -7,9 +8,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, log_loss
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, log_loss, roc_auc_score
 from hyperopt import fmin, tpe, hp, STATUS_OK
 from xgboost import XGBClassifier
+import mlflow
+
+warnings.filterwarnings("ignore", category=UserWarning)
 
 app = typer.Typer()
 
@@ -62,6 +66,71 @@ def split_train_test(df: pd.DataFrame, train_size: float) -> Tuple[pd.DataFrame,
 
     return train_set, test_set
 
+def get_model_loss_plot(model) -> plt.figure:
+
+    """This function is used to get the model loss plot.
+
+    Args:
+        model (object): The model that is going to be evaluated.
+    
+    Returns:
+        plt.figure: The model loss plot.
+    """
+
+    results = model.evals_result()
+    train_logloss = results['validation_0']['logloss']
+    test_logloss = results['validation_1']['logloss']
+    epochs = range(1, len(train_logloss) + 1)
+
+    data = {'Epochs': epochs,
+            'Train Log Loss': train_logloss,
+            'Test Log Loss': test_logloss}
+
+    df = pd.DataFrame(data)
+
+    fig, ax = plt.subplots() 
+
+    sns.lineplot(data=df, x='Epochs', y='Train Log Loss', label='Train', ax=ax)
+    sns.lineplot(data=df, x='Epochs', y='Test Log Loss', label='Test', ax=ax)
+    ax.set_xlabel('Epochs')
+    ax.set_ylabel('Log Loss')
+    ax.set_title('XGBoost Log Loss per Epoch')
+    ax.legend()
+    plt.close()
+
+    return fig
+
+def get_model_evaluation(model, x_test, y_test) -> Dict[str, float]:
+
+    """This function is used to get the evaluation metrics of the model.
+
+    Args:
+        model (object): The model that is going to be evaluated.
+        x_test (pd.DataFrame): The test data.
+        y_test (pd.DataFrame): The test labels.
+    
+    Returns:
+        Dict[str]: The evaluation metrics.
+    """
+
+    y_pred = model.predict(x_test)
+    y_pred_proba = model.predict_proba(x_test)[:, 1]
+    accuracy = accuracy_score(y_test, y_pred)
+    logloss = log_loss(y_test, y_pred_proba)
+    f1 = f1_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    roc_auc = roc_auc_score(y_test, y_pred_proba)
+
+    return {
+        "accuracy": accuracy,
+        "log_loss": logloss,
+        "f1": f1,
+        "precision": precision,
+        "recall": recall,
+        "roc_auc": roc_auc
+    }
+
 def fit_xgboost(hyperspace: dict) -> Dict[float, STATUS_OK]: 
 
     """This function is used to fit the xgboost model.
@@ -84,24 +153,33 @@ def fit_xgboost(hyperspace: dict) -> Dict[float, STATUS_OK]:
     eval_set = [(X_train, y_train), (X_test, y_test)]
     
     model = XGBClassifier(**params)
-    
-    model.fit(
-        X_train, y_train,
-        eval_set=eval_set,
-        verbose=False
-    )
-    
-    y_pred = model.predict(X_test)
-    y_pred_proba = model.predict_proba(X_test)[:, 1]
-    accuracy = accuracy_score(y_test, y_pred)
-    logloss = log_loss(y_test, y_pred_proba)
-    f1 = f1_score(y_test, y_pred)
-    precision = precision_score(y_test, y_pred)
-    recall = recall_score(y_test, y_pred)
 
-    print(f"Accuracy: {accuracy}, Logloss: {logloss}, F1: {f1}, Precision: {precision}, Recall: {recall}")
+    mlflow.set_experiment("phishing")
+
+    with mlflow.start_run():
     
-    return {'loss': logloss, 'status': STATUS_OK}
+        model.fit(
+            X_train, y_train,
+            eval_set=eval_set,
+            verbose=False
+        )
+        
+        evaluation_metrics = get_model_evaluation(model=model, x_test=X_test, y_test=y_test)
+
+        mlflow.xgboost.log_model(model, "xgb_model")
+
+        mlflow.log_params(params)
+        
+        for metric_name, metric_value in evaluation_metrics.items():
+            mlflow.log_metric(metric_name, metric_value)
+
+        figure = get_model_loss_plot(model=model)
+
+        mlflow.log_figure(figure, "log_loss.png")
+
+    mlflow.end_run()
+        
+    return {'loss': evaluation_metrics['log_loss'], 'status': STATUS_OK}
 
 @app.command()
 def main(
@@ -114,7 +192,7 @@ def main(
     early_stopping_rounds: int = typer.Option(10, "--early_stopping_rounds", "-esr", help="Early stopping rounds for the xgboost model."),
     gamma: Annotated[Tuple[int, int], typer.Option('-gamma', '-g', help="Gamma value for the xgboost model.")] = (0.1, 1.5),
     max_depth: Annotated[Tuple[int, int], typer.Option('-max_depth', '-md', help="Max depth value for the xgboost model.")] = (1, 101),
-    eta: Annotated[Tuple[int, int], typer.Option('-eta', '-e', help="Eta value for the xgboost model.")] = (3, 0),
+    eta: Annotated[Tuple[int, int], typer.Option('-eta', '-e', help="Eta value for the xgboost model.")] = (-3, 0),
     alpha: Annotated[Tuple[int, int], typer.Option('-alpha', '-a', help="Alpha value for the xgboost model.")] = (0.01, 1.0),
 ) -> None:
 

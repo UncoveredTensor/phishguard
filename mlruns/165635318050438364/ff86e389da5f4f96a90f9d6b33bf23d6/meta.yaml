@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ff86e389da5f4f96a90f9d6b33bf23d6/artifacts
+deleted_time: 1687738953073
+end_time: 1687738125870
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ff86e389da5f4f96a90f9d6b33bf23d6
+run_name: big-rook-58
+run_uuid: ff86e389da5f4f96a90f9d6b33bf23d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738122576
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/5cc5db269cf944d8a17be3d2a681d6dc/artifacts
+deleted_time: 1687741414092
+end_time: 1687741281034
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 5cc5db269cf944d8a17be3d2a681d6dc
+run_name: sneaky-snipe-937
+run_uuid: 5cc5db269cf944d8a17be3d2a681d6dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741279057
+status: 3
+tags: []
+user_id: ceyhun

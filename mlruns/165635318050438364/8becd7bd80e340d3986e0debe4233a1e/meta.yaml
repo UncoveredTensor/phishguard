@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/8becd7bd80e340d3986e0debe4233a1e/artifacts
+end_time: 1687743538332
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 8becd7bd80e340d3986e0debe4233a1e
+run_name: salty-duck-224
+run_uuid: 8becd7bd80e340d3986e0debe4233a1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743535821
+status: 3
+tags: []
+user_id: ceyhun

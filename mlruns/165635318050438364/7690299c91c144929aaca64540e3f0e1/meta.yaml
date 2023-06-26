@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/7690299c91c144929aaca64540e3f0e1/artifacts
+end_time: 1687743465140
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 7690299c91c144929aaca64540e3f0e1
+run_name: nimble-fish-584
+run_uuid: 7690299c91c144929aaca64540e3f0e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743460726
+status: 3
+tags: []
+user_id: ceyhun

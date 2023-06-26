@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/93cc9fd25c2e4c95bb09c85e36d1b902/artifacts
+deleted_time: 1687738953076
+end_time: 1687738154266
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 93cc9fd25c2e4c95bb09c85e36d1b902
+run_name: delicate-elk-241
+run_uuid: 93cc9fd25c2e4c95bb09c85e36d1b902
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738152154
+status: 3
+tags: []
+user_id: ceyhun

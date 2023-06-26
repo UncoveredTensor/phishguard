@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/bb9e44a1a9384dfcb48617887c909507/artifacts
+deleted_time: 1687743053636
+end_time: 1687742841328
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: bb9e44a1a9384dfcb48617887c909507
+run_name: rare-loon-380
+run_uuid: bb9e44a1a9384dfcb48617887c909507
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742838229
+status: 3
+tags: []
+user_id: ceyhun

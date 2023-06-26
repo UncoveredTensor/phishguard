@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/2e2ac95f44dd4ae3ba9b6807ea148ae8/artifacts
+deleted_time: 1687741753762
+end_time: 1687741432137
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 2e2ac95f44dd4ae3ba9b6807ea148ae8
+run_name: unruly-sloth-318
+run_uuid: 2e2ac95f44dd4ae3ba9b6807ea148ae8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741428568
+status: 3
+tags: []
+user_id: ceyhun

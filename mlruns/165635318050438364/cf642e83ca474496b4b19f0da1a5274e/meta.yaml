@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/cf642e83ca474496b4b19f0da1a5274e/artifacts
+deleted_time: 1687742979727
+end_time: 1687742862008
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: cf642e83ca474496b4b19f0da1a5274e
+run_name: big-wasp-274
+run_uuid: cf642e83ca474496b4b19f0da1a5274e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742859369
+status: 3
+tags: []
+user_id: ceyhun

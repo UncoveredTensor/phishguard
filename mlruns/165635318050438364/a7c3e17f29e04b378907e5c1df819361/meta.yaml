@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a7c3e17f29e04b378907e5c1df819361/artifacts
+deleted_time: 1687742979688
+end_time: 1687741961131
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a7c3e17f29e04b378907e5c1df819361
+run_name: spiffy-frog-29
+run_uuid: a7c3e17f29e04b378907e5c1df819361
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741956597
+status: 3
+tags: []
+user_id: ceyhun

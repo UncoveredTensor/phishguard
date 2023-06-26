@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/9988cd8887e747d9ab6e539109da3aa1/artifacts
+deleted_time: 1687742979570
+end_time: 1687742559020
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 9988cd8887e747d9ab6e539109da3aa1
+run_name: loud-kit-651
+run_uuid: 9988cd8887e747d9ab6e539109da3aa1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742555887
+status: 3
+tags: []
+user_id: ceyhun

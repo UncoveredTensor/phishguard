@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e6f0af4492134df09cccf3e738c14eaa/artifacts
+end_time: 1687743516565
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: e6f0af4492134df09cccf3e738c14eaa
+run_name: angry-swan-452
+run_uuid: e6f0af4492134df09cccf3e738c14eaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743513639
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/2d79d8b919064ad283d5f801ceebc2a1/artifacts
+deleted_time: 1687742979614
+end_time: 1687742716996
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 2d79d8b919064ad283d5f801ceebc2a1
+run_name: resilient-worm-612
+run_uuid: 2d79d8b919064ad283d5f801ceebc2a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742714120
+status: 3
+tags: []
+user_id: ceyhun

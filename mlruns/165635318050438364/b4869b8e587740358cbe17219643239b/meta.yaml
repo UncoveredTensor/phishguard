@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/b4869b8e587740358cbe17219643239b/artifacts
+end_time: 1687743436841
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: b4869b8e587740358cbe17219643239b
+run_name: classy-finch-719
+run_uuid: b4869b8e587740358cbe17219643239b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687743433510
+status: 3
+tags: []
+user_id: ceyhun

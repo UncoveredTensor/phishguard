@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/c3cf6632d40c49b8960d694d5592361b/artifacts
+deleted_time: 1687743165666
+end_time: 1687741980210
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: c3cf6632d40c49b8960d694d5592361b
+run_name: worried-goose-948
+run_uuid: c3cf6632d40c49b8960d694d5592361b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741977954
+status: 3
+tags: []
+user_id: ceyhun

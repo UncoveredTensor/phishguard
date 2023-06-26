@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/554ab0034f3e4667bda4f9d0f60df610/artifacts
+deleted_time: 1687743165593
+end_time: 1687742561426
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 554ab0034f3e4667bda4f9d0f60df610
+run_name: righteous-mule-15
+run_uuid: 554ab0034f3e4667bda4f9d0f60df610
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742559100
+status: 3
+tags: []
+user_id: ceyhun

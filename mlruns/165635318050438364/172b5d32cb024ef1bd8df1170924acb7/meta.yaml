@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/172b5d32cb024ef1bd8df1170924acb7/artifacts
+deleted_time: 1687742979785
+end_time: 1687742163351
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 172b5d32cb024ef1bd8df1170924acb7
+run_name: nebulous-toad-519
+run_uuid: 172b5d32cb024ef1bd8df1170924acb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742159863
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/4e09939f727d4fc6a287007cb6fa9250/artifacts
+deleted_time: 1687743053538
+end_time: 1687742417286
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 4e09939f727d4fc6a287007cb6fa9250
+run_name: skillful-flea-300
+run_uuid: 4e09939f727d4fc6a287007cb6fa9250
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742414001
+status: 3
+tags: []
+user_id: ceyhun

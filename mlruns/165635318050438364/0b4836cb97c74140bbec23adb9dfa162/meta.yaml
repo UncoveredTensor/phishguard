@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/0b4836cb97c74140bbec23adb9dfa162/artifacts
+deleted_time: 1687743053655
+end_time: 1687742444921
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 0b4836cb97c74140bbec23adb9dfa162
+run_name: stately-crab-315
+run_uuid: 0b4836cb97c74140bbec23adb9dfa162
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742442241
+status: 3
+tags: []
+user_id: ceyhun

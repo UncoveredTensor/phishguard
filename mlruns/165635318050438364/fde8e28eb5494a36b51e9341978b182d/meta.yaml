@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/fde8e28eb5494a36b51e9341978b182d/artifacts
+deleted_time: 1687739228714
+end_time: 1687737297326
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: fde8e28eb5494a36b51e9341978b182d
+run_name: efficient-grouse-50
+run_uuid: fde8e28eb5494a36b51e9341978b182d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737294813
+status: 3
+tags: []
+user_id: ceyhun

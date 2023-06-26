@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/bfc1ab1ed2dc48dda7d6192b580deecb/artifacts
+deleted_time: 1687743165759
+end_time: 1687742658091
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: bfc1ab1ed2dc48dda7d6192b580deecb
+run_name: agreeable-sloth-106
+run_uuid: bfc1ab1ed2dc48dda7d6192b580deecb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742654874
+status: 3
+tags: []
+user_id: ceyhun

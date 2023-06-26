@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e044b6deb0d74663afe21e45d025b8b1/artifacts
+deleted_time: 1687743053398
+end_time: 1687741872678
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e044b6deb0d74663afe21e45d025b8b1
+run_name: blushing-bug-997
+run_uuid: e044b6deb0d74663afe21e45d025b8b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741868760
+status: 3
+tags: []
+user_id: ceyhun

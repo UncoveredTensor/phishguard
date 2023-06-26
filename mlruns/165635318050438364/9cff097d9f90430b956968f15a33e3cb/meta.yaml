@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/9cff097d9f90430b956968f15a33e3cb/artifacts
+deleted_time: 1687741414062
+end_time: 1687741405756
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 9cff097d9f90430b956968f15a33e3cb
+run_name: masked-fawn-417
+run_uuid: 9cff097d9f90430b956968f15a33e3cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741403598
+status: 3
+tags: []
+user_id: ceyhun

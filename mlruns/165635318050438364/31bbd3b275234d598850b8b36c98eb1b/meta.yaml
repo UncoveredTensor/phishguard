@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/31bbd3b275234d598850b8b36c98eb1b/artifacts
+deleted_time: 1687741256036
+end_time: 1687741235417
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 31bbd3b275234d598850b8b36c98eb1b
+run_name: crawling-shrike-559
+run_uuid: 31bbd3b275234d598850b8b36c98eb1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741232640
+status: 3
+tags: []
+user_id: ceyhun

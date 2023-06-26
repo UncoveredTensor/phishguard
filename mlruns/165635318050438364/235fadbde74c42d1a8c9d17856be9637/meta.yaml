@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/235fadbde74c42d1a8c9d17856be9637/artifacts
+deleted_time: 1687742979685
+end_time: 1687742177302
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 235fadbde74c42d1a8c9d17856be9637
+run_name: abundant-ram-251
+run_uuid: 235fadbde74c42d1a8c9d17856be9637
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742174559
+status: 3
+tags: []
+user_id: ceyhun

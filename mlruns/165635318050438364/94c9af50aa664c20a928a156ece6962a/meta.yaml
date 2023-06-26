@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/94c9af50aa664c20a928a156ece6962a/artifacts
+deleted_time: 1687743165760
+end_time: 1687742179564
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 94c9af50aa664c20a928a156ece6962a
+run_name: fearless-perch-356
+run_uuid: 94c9af50aa664c20a928a156ece6962a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742177382
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a4d40aa846a8416d895f741ba2f5afee/artifacts
+deleted_time: 1687741414046
+end_time: 1687741308102
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a4d40aa846a8416d895f741ba2f5afee
+run_name: fun-skunk-851
+run_uuid: a4d40aa846a8416d895f741ba2f5afee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741304824
+status: 3
+tags: []
+user_id: ceyhun

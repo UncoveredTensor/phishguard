@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/bb01a2fe0d23428198a7067b23e076a2/artifacts
+deleted_time: 1687743053676
+end_time: 1687742817097
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: bb01a2fe0d23428198a7067b23e076a2
+run_name: receptive-mole-360
+run_uuid: bb01a2fe0d23428198a7067b23e076a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742812436
+status: 3
+tags: []
+user_id: ceyhun

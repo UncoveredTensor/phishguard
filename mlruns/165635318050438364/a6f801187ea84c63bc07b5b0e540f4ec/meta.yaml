@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a6f801187ea84c63bc07b5b0e540f4ec/artifacts
+deleted_time: 1687742979752
+end_time: 1687741938104
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a6f801187ea84c63bc07b5b0e540f4ec
+run_name: serious-fly-619
+run_uuid: a6f801187ea84c63bc07b5b0e540f4ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741934990
+status: 3
+tags: []
+user_id: ceyhun

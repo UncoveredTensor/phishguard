@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/472f463dd8884bb1b17db1c0576e09aa/artifacts
+deleted_time: 1687738953133
+end_time: 1687737086484
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 472f463dd8884bb1b17db1c0576e09aa
+run_name: blushing-chimp-30
+run_uuid: 472f463dd8884bb1b17db1c0576e09aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687737083752
+status: 3
+tags: []
+user_id: ceyhun

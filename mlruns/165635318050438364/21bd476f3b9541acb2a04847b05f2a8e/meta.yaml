@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/21bd476f3b9541acb2a04847b05f2a8e/artifacts
+deleted_time: 1687742979657
+end_time: 1687742113214
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 21bd476f3b9541acb2a04847b05f2a8e
+run_name: likeable-rat-395
+run_uuid: 21bd476f3b9541acb2a04847b05f2a8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742109954
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/16c3cf8c111243aeaf03482c23d8af5a/artifacts
+deleted_time: 1687743165606
+end_time: 1687742578793
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 16c3cf8c111243aeaf03482c23d8af5a
+run_name: gaudy-squirrel-343
+run_uuid: 16c3cf8c111243aeaf03482c23d8af5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742573917
+status: 3
+tags: []
+user_id: ceyhun

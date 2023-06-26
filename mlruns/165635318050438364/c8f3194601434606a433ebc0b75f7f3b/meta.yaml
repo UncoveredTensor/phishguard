@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/c8f3194601434606a433ebc0b75f7f3b/artifacts
+deleted_time: 1687741753690
+end_time: 1687741577916
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: c8f3194601434606a433ebc0b75f7f3b
+run_name: legendary-pig-445
+run_uuid: c8f3194601434606a433ebc0b75f7f3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741576229
+status: 3
+tags: []
+user_id: ceyhun

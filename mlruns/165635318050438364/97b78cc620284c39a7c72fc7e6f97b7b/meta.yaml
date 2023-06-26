@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/97b78cc620284c39a7c72fc7e6f97b7b/artifacts
+deleted_time: 1687742979848
+end_time: 1687742493324
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 97b78cc620284c39a7c72fc7e6f97b7b
+run_name: caring-dog-136
+run_uuid: 97b78cc620284c39a7c72fc7e6f97b7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742491418
+status: 3
+tags: []
+user_id: ceyhun

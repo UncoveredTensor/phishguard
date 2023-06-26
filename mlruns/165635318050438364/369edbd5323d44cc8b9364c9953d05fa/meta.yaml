@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/369edbd5323d44cc8b9364c9953d05fa/artifacts
+deleted_time: 1687743053566
+end_time: 1687742197218
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 369edbd5323d44cc8b9364c9953d05fa
+run_name: bright-wren-382
+run_uuid: 369edbd5323d44cc8b9364c9953d05fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742194135
+status: 3
+tags: []
+user_id: ceyhun

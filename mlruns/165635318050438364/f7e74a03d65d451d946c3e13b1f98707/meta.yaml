@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f7e74a03d65d451d946c3e13b1f98707/artifacts
+deleted_time: 1687742979835
+end_time: 1687742263064
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f7e74a03d65d451d946c3e13b1f98707
+run_name: placid-hog-913
+run_uuid: f7e74a03d65d451d946c3e13b1f98707
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742260447
+status: 3
+tags: []
+user_id: ceyhun

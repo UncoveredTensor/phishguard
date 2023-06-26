@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/0c641932731744bbb77a8f0e4395613a/artifacts
+deleted_time: 1687743165626
+end_time: 1687742966635
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 0c641932731744bbb77a8f0e4395613a
+run_name: debonair-calf-605
+run_uuid: 0c641932731744bbb77a8f0e4395613a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742962944
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/a28f14f11d3c4b2ca6bd713e82c1a5ce/artifacts
+deleted_time: 1687743053579
+end_time: 1687742327309
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: a28f14f11d3c4b2ca6bd713e82c1a5ce
+run_name: fun-shrimp-596
+run_uuid: a28f14f11d3c4b2ca6bd713e82c1a5ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687742322573
+status: 3
+tags: []
+user_id: ceyhun

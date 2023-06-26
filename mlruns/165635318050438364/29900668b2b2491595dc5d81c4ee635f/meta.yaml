@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/29900668b2b2491595dc5d81c4ee635f/artifacts
+deleted_time: 1687741414075
+end_time: 1687741407167
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 29900668b2b2491595dc5d81c4ee635f
+run_name: bald-ray-774
+run_uuid: 29900668b2b2491595dc5d81c4ee635f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741405832
+status: 4
+tags: []
+user_id: ceyhun

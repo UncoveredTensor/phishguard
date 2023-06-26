@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d2caf4fa6e5c43d5960859c8593979c9/artifacts
+deleted_time: 1687741753607
+end_time: 1687741554983
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d2caf4fa6e5c43d5960859c8593979c9
+run_name: masked-foal-321
+run_uuid: d2caf4fa6e5c43d5960859c8593979c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741550266
+status: 3
+tags: []
+user_id: ceyhun

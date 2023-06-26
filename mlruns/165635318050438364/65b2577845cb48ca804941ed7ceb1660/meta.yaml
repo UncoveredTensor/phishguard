@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/65b2577845cb48ca804941ed7ceb1660/artifacts
+deleted_time: 1687741753678
+end_time: 1687741678578
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 65b2577845cb48ca804941ed7ceb1660
+run_name: loud-dove-580
+run_uuid: 65b2577845cb48ca804941ed7ceb1660
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687741675602
+status: 3
+tags: []
+user_id: ceyhun

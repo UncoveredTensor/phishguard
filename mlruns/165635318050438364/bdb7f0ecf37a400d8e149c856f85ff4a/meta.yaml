@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/bdb7f0ecf37a400d8e149c856f85ff4a/artifacts
+deleted_time: 1687738953107
+end_time: 1687738267196
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: bdb7f0ecf37a400d8e149c856f85ff4a
+run_name: rebellious-snipe-113
+run_uuid: bdb7f0ecf37a400d8e149c856f85ff4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687738264299
+status: 3
+tags: []
+user_id: ceyhun
