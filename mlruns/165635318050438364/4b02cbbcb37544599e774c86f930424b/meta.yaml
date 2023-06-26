@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/4b02cbbcb37544599e774c86f930424b/artifacts
+deleted_time: 1687759435806
 end_time: 1687744141406
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4b02cbbcb37544599e774c86f930424b
 run_name: brawny-hound-225
 run_uuid: 4b02cbbcb37544599e774c86f930424b

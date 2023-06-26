@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/460b999e32ed423e89d389c65ce7656b/artifacts
+end_time: 1687759536441
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 460b999e32ed423e89d389c65ce7656b
+run_name: gifted-yak-187
+run_uuid: 460b999e32ed423e89d389c65ce7656b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687759533457
+status: 3
+tags: []
+user_id: ceyhun

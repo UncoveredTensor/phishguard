@@ -235,6 +235,7 @@ def main(
         'alpha': hp.uniform('alpha', alpha[0], alpha[1]),
         'train_set': train_set,
         'test_set': test_set,
+        'top_features': top_features,
         'objective': 'binary:logistic',
         'early_stopping_rounds': early_stopping_rounds,
         'predictor': 'gpu_predictor'

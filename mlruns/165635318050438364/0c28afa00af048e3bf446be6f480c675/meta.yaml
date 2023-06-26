@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/0c28afa00af048e3bf446be6f480c675/artifacts
+deleted_time: 1687759435754
 end_time: 1687744126688
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0c28afa00af048e3bf446be6f480c675
 run_name: stately-mink-555
 run_uuid: 0c28afa00af048e3bf446be6f480c675

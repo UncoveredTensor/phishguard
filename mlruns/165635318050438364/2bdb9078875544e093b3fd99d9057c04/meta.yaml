@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/2bdb9078875544e093b3fd99d9057c04/artifacts
+end_time: 1687759545195
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 2bdb9078875544e093b3fd99d9057c04
+run_name: peaceful-newt-576
+run_uuid: 2bdb9078875544e093b3fd99d9057c04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687759542293
+status: 3
+tags: []
+user_id: ceyhun

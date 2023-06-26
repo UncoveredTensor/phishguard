@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f7961c6a235e4552989ef9b13f01bf90/artifacts
+deleted_time: 1687759435845
 end_time: 1687744167370
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f7961c6a235e4552989ef9b13f01bf90
 run_name: hilarious-flea-242
 run_uuid: f7961c6a235e4552989ef9b13f01bf90
