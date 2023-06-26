@@ -1,5 +1,5 @@
 import pandas as pd
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 from tld import get_tld, get_fld
 import requests
 import dns.resolver
@@ -7,67 +7,75 @@ from ipwhois import IPWhois
 from datetime import datetime
 import ssl
 from googlesearch import search
+import re
 
 class Features:
-    def __init__(self, df: pd.DataFrame):
-        self.df = df
 
-    def get_qty_dot_url(self, str: str) -> int:
-        return str.count('\.')
+    """This class is used to extract the features from the URLs.
 
-    def get_qty_hyphen_url(self, str: str) -> int:
-        return str.count('-')
+    Attributes:
+        None    
+    """
 
-    def get_qty_underline_url(self, str: str) -> int:
-        return str.count('_')
-    
-    def get_qty_slash_url(self, str: str) -> int:
-        return str.count('/')
-    
-    def get_qty_questionmark_url(self, str: str) -> int:
-        return str.count('\?')
-    
-    def get_qty_equal_url(self, str: str) -> int:
-        return str.count('=')
-    
-    def get_qty_at_url(self, str: str) -> int:
-        return str.count('@')
+    def __init__(self):
+        pass
 
-    def get_qty_and_url(self, str: str) -> int:
-        return str.count('&')
+    def get_qty_dot_url(self, url: str) -> int:
+        return url.count('\.')
 
-    def get_qty_exclamation_url(self, str: str) -> int:
-        return str.count('!')
-    
-    def get_qty_space_url(self, str: str) -> int:
-        return str.count(' ')
-    
-    def get_qty_tilde_url(self, str: str) -> int:
-        return str.count('~')
+    def get_qty_hyphen_url(self, url: str) -> int:
+        return url.count('-')
 
-    def get_qty_comma_url(self, str: str) -> int:
-        return str.count(',')
+    def get_qty_underline_url(self, url: str) -> int:
+        return url.count('_')
+    
+    def get_qty_slash_url(self, url: str) -> int:
+        return url.count('/')
+    
+    def get_qty_questionmark_url(self, url: str) -> int:
+        return url.count('\?')
+    
+    def get_qty_equal_url(self, url: str) -> int:
+        return url.count('=')
+    
+    def get_qty_at_url(self, url: str) -> int:
+        return url.count('@')
 
-    def get_qty_plus_url(self, str: str) -> int:
-        return str.count('\+')
-    
-    def get_qty_asterisk_url(self, str: str) -> int:
-        return str.count('\*')
-    
-    def get_qty_hashtag_url(self, str: str) -> int:
-        return str.count('#')
-    
-    def get_qty_dollar_url(self, str: str) -> int:
-        return str.count('\$')
-    
-    def get_qty_percent_url(self, str: str) -> int:
-        return str.count('%')
-    
-    def get_qty_tld_url(self, str: str) -> int:
-        return len(urlparse(str).netloc.split('.'))
+    def get_qty_and_url(self, url: str) -> int:
+        return url.count('&')
 
-    def get_length_url(self, str: str) -> int:
-        return len(str)
+    def get_qty_exclamation_url(self, url: str) -> int:
+        return url.count('!')
+    
+    def get_qty_space_url(self, url: str) -> int:
+        return url.count(' ')
+    
+    def get_qty_tilde_url(self, url: str) -> int:
+        return url.count('~')
+
+    def get_qty_comma_url(self, url: str) -> int:
+        return url.count(',')
+
+    def get_qty_plus_url(self, url: str) -> int:
+        return url.count('\+')
+    
+    def get_qty_asterisk_url(self, url: str) -> int:
+        return url.count('\*')
+    
+    def get_qty_hashtag_url(self, url: str) -> int:
+        return url.count('#')
+    
+    def get_qty_dollar_url(self, url: str) -> int:
+        return url.count('\$')
+    
+    def get_qty_percent_url(self, url: str) -> int:
+        return url.count('%')
+    
+    def get_qty_tld_url(self, url: str) -> int:
+        return len(urlparse(url).netloc.split('.'))
+
+    def get_length_url(self, url: str) -> int:
+        return len(url)
 
     def get_qty_dot_domain(self, url: str) -> int:
         parsed_url = urlparse(url)
@@ -682,3 +690,24 @@ class Features:
             return 0
         except requests.exceptions.RequestException:
             return -1
+
+    def extract_features(self, url: str, source_data: str, top_features: int = 40) -> dict:
+
+        df = pd.read_csv(source_data)
+
+        columns = df.corr()['phishing'].sort_values(ascending=False)[:top_features].index.tolist()
+
+        feature_functions = [getattr(self, func) for func in dir(self) if func.startswith('get') and callable(getattr(self, func)) and func.split('get_')[-1] in columns]
+
+        feature_results = {}
+
+        for func in feature_functions:
+            result = func(url=url)
+            feature_name = func.__name__
+            feature_results[feature_name] = result
+
+        sorted_feature_results = dict(sorted(feature_results.items(), key=lambda x: columns.index(x[0].split('get_')[-1])))
+
+        return sorted_feature_results
+
+
