@@ -23,6 +23,19 @@ PhishGuard is a robust tool designed to classify whether a webpage is a phishing
 </details>
 
 ## Usage
+```
+Usage:
+  pipenv run predict --help
+  
+Flags:
+DATASET:
+  -d, --dataset 
+  
+MODEL:
+  -e, --experiment_id                      The id of the experiment that is going to be used for prediction.
+  -ma, --model_artifact_name               The name of the artifact that is going to be used for prediction.
+  -sa, --min_max_scaler_artifact_name      The name of the artifact that is going to be used for prediction.
+```
 
 ## Dependencies
 
@@ -46,12 +59,14 @@ DATASET:
   -tf, --top_features      The amount of top features we wanna use based on correlation matrix.
   
 MODEL:
-  -ts, --train-size                The train dataset size for when splitting the data into train and validation set.
-  -esr, --early_stopping_rounds    The amount of patience within the early stopping function.
-  -g, --gamma                      The gamma range for training the model. (0.1, 1) - default (0.1, 1.5) 
-  -md, --max_depth                 The max depth range for training the model (1, 50) - default (1, 101)
-  -e, --eta                        The learning range thats going to be used when training the model (-4, 0), default (-3, 0)
-  -a, --alpha                      The alpha range thats going to be used within the training of the model (0.01, 0.8), default (0.01, 1.0)
+  -ma, --model_artifact_name             The name of the min max scaler artifact that is going to be saved.
+  -sa, --min_max_scaler_artifact_name    The name of the min max scaler artifact that is going to be saved.                                                                                              
+  -ts, --train-size                      The train dataset size for when splitting the data into train and validation set.
+  -esr, --early_stopping_rounds          The amount of patience within the early stopping function.
+  -g, --gamma                            The gamma range for training the model. (0.1, 1) - default (0.1, 1.5).
+  -md, --max_depth                       The max depth range for training the model (1, 50) - default (1, 101).
+  -e, --eta                              The learning range thats going to be used when training the model (-4, 0), default (-3, 0).
+  -a, --alpha                            The alpha range thats going to be used within the training of the model (0.01, 0.8), default (0.01, 1.0).
   
 HYPEROPT:
   -hpe, --hyperopt         Defines whether hyperopt needs to be used when training the XGBoost model.
@@ -68,7 +83,7 @@ To classify a single website, you can use the following command:
 
 To classify a batch of websites, you can use the following command:
 
-    pipenv run phishguard -b [example.csv or example.txt]
+    pipenv run phishguard -l [example.csv or example.txt] -o [output path, csv or txt]
 
 
 
