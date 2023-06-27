@@ -65,6 +65,17 @@ def predict(
         output = model.predict(normalized_features)
         logging.info(f"The prediction for the url {data[0]} is {output[0]}.")
 
+    elif data[1] != None:
+        urls = load_list(list_path=data[1])
+        features_extraction = Features()
+        features = features_extraction.extract_features(url=urls[0], source_data=dataset_path)
+        features = {key.split("get_", 1)[1]: value for key, value in features.items()}
+        features_df = pd.DataFrame([features])
+        normalized_features = scaler.transform(features_df)
+
+        output = model.predict(normalized_features)
+        logging.info(f"The prediction for the url {data[0]} is {output[0]}.")
+
 
 @app.command()
 def main(
