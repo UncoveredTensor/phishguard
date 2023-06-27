@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/6f59c1e1180d48a581786cc04f1d2f97/artifacts
+deleted_time: 1687908716107
 end_time: 1687841971041
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6f59c1e1180d48a581786cc04f1d2f97
 run_name: indecisive-crab-845
 run_uuid: 6f59c1e1180d48a581786cc04f1d2f97

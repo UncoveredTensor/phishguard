@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d41f8f3918af46638855e6d9149a6f41/artifacts
+deleted_time: 1687908803399
+end_time: 1687908787328
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d41f8f3918af46638855e6d9149a6f41
+run_name: caring-moth-757
+run_uuid: d41f8f3918af46638855e6d9149a6f41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687908782201
+status: 3
+tags: []
+user_id: ceyhun

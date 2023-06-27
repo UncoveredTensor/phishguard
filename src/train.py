@@ -188,8 +188,8 @@ def fit_xgboost(
         
         evaluation_metrics = get_model_evaluation(model=model, x_test=X_test, y_test=y_test)
 
-        mlflow.xgboost.log_model(model, "xgb_model")
-        mlflow.sklearn.log_model(hyperspace['scaler'], "min_max_scaler")
+        mlflow.xgboost.log_model(model, hyperspace['model_artifact_name'])
+        mlflow.sklearn.log_model(hyperspace['scaler'], hyperspace['min_max_scaler_artifact_name'])
 
         mlflow.log_params(params)
         
@@ -211,6 +211,8 @@ def main(
     top_features: int = typer.Option(40, "--top_features", "-tf", help="Top features that are going to be used for training."),
     hyperopt: Annotated[bool, typer.Option("--hyperopt", "-hpe", help="Enables hyperopt within the training.")] = False,
     max_evals: int = typer.Option(50, "--max_evals", "-me", help="Max evals that we are going to use for the hyperopt."),
+    model_artifact_name: str = typer.Option("xgb_model", "--model_artifact_name", "-ma", help="The name of the model artifact that is going to be saved."),
+    min_max_scaler_artifact_name: str = typer.Option("min_max_scaler", "--min_max_scaler_artifact_name", "-sa", help="The name of the min max scaler artifact that is going to be saved."),
     train_size: float = typer.Option(0.8, "--train_size", "-ts", help="Train size for the train test split."),
     early_stopping_rounds: int = typer.Option(10, "--early_stopping_rounds", "-esr", help="Early stopping rounds for the xgboost model."),
     gamma: Annotated[Tuple[int, int], typer.Option('--gamma', '-g', help="Gamma value for the xgboost model.")] = (0.1, 1.5),
@@ -259,6 +261,8 @@ def main(
         'train_set': train_set,
         'test_set': test_set,
         'scaler': scaler,
+        'model_artifact_name': model_artifact_name,
+        'min_max_scaler_artifact_name': min_max_scaler_artifact_name,
         'top_features': top_features,
         'objective': 'binary:logistic',
         'early_stopping_rounds': early_stopping_rounds,

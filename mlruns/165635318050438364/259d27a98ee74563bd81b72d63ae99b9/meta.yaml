@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/259d27a98ee74563bd81b72d63ae99b9/artifacts
+deleted_time: 1687908716103
 end_time: 1687842042592
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 259d27a98ee74563bd81b72d63ae99b9
 run_name: amazing-ox-593
 run_uuid: 259d27a98ee74563bd81b72d63ae99b9

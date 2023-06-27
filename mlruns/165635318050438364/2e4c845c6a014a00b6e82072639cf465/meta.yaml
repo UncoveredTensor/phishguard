@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/2e4c845c6a014a00b6e82072639cf465/artifacts
+deleted_time: 1687908716080
 end_time: 1687842027430
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2e4c845c6a014a00b6e82072639cf465
 run_name: casual-seal-393
 run_uuid: 2e4c845c6a014a00b6e82072639cf465

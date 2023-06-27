@@ -55,7 +55,9 @@ def save_list(
             data.to_csv(output_path, index=False, header=False)
   
 def load_model(
-    experiment_id: str
+    experiment_id: str,
+    model_artifact_name: str,
+    min_max_scaler_artifact_name: str
 ) -> tuple:
 
     """This function is used to load the model from MLflow.
@@ -75,8 +77,8 @@ def load_model(
     # Get the best run and its corresponding run ID
     best_run_id = sorted_runs.iloc[0]["run_id"]
 
-    model = mlflow.xgboost.load_model(f"runs:/{best_run_id}/xgb_model")
-    scaler = mlflow.sklearn.load_model(f"runs:/{best_run_id}/min_max_scaler")
+    model = mlflow.xgboost.load_model(f"runs:/{best_run_id}/{model_artifact_name}")
+    scaler = mlflow.sklearn.load_model(f"runs:/{best_run_id}/{min_max_scaler_artifact_name}")
 
     return model, scaler
 
@@ -86,7 +88,8 @@ def predict(
     output_path: Union[str, list], 
     dataset_path: str,
     experiment_id: str,
-    artifact_name: str
+    model_artifact_name: str,
+    min_max_scaler_artifact_name: str
 ) -> None:
 
     """This function is used to predict the class of a url or a list of urls.
@@ -102,7 +105,11 @@ def predict(
         None
     """ 
 
-    model, scaler = load_model(experiment_id=experiment_id)
+    model, scaler = load_model(
+        experiment_id=experiment_id, 
+        model_artifact_name=model_artifact_name,
+        min_max_scaler_artifact_name=min_max_scaler_artifact_name  
+    )
 
     feature_extraction = Features()
 
@@ -148,9 +155,10 @@ def main(
     url: str = typer.Option(None, "--url", "-u", help="The url of the model that is going to be used for prediction."),
     list_path: str = typer.Option(None, "--list", "-l", help="The list of images that are going to be used for prediction."),
     output_path: str = typer.Option(None, "--output", "-o", help="The output file where the predictions are going to be saved."),
-    dataset_path: str = typer.Option("src/data/dataset.csv", "--dataset", "-d", help="The dataset that is going to be used for prediction."),
+    dataset_path: str = typer.Option("src/data/dataset.csv", "--dataset", "-d", help="The dataset we need inorder to get the top features out."),
     experiment_id = typer.Option('165635318050438364', "--experiment_id", "-e", help="The id of the experiment that is going to be used for prediction."),
-    artifact_name = typer.Option('xgb_model', "--artifact_name", "-a", help="The name of the artifact that is going to be used for prediction.")
+    model_artifact_name = typer.Option('xgb_model', "--model_artifact_name", "-ma", help="The name of the artifact that is going to be used for prediction."),
+    min_max_scaler_artifact_name = typer.Option('min_max_scaler', "--min_max_scaler_artifact_name", "-sa", help="The name of the artifact that is going to be used for prediction.")
 ) -> None:
 
     """This function is used to predict the class of a url or a list of urls.
@@ -172,7 +180,8 @@ def main(
         output_path=output_path, 
         dataset_path=dataset_path,
         experiment_id=experiment_id, 
-        artifact_name=artifact_name
+        model_artifact_name=model_artifact_name,
+        min_max_scaler_artifact_name=min_max_scaler_artifact_name
     )
 
 if __name__ == "__main__":

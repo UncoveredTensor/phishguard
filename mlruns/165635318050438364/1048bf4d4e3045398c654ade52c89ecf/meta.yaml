@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/1048bf4d4e3045398c654ade52c89ecf/artifacts
+deleted_time: 1687908716085
 end_time: 1687841980355
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1048bf4d4e3045398c654ade52c89ecf
 run_name: overjoyed-grouse-672
 run_uuid: 1048bf4d4e3045398c654ade52c89ecf

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/415e42206bd640e6a4d6ad57b73577e8/artifacts
+deleted_time: 1687908716080
 end_time: 1687841974333
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 415e42206bd640e6a4d6ad57b73577e8
 run_name: sedate-skunk-658
 run_uuid: 415e42206bd640e6a4d6ad57b73577e8

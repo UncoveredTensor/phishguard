@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/08c37ff4bac64a10a14513dfe83d8251/artifacts
+deleted_time: 1687908803413
+end_time: 1687908771302
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 08c37ff4bac64a10a14513dfe83d8251
+run_name: stately-jay-936
+run_uuid: 08c37ff4bac64a10a14513dfe83d8251
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687908767523
+status: 3
+tags: []
+user_id: ceyhun

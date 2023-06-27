@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/944105703ad348aa9da9b774729e87e8/artifacts
+end_time: 1687908901076
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: active
+run_id: 944105703ad348aa9da9b774729e87e8
+run_name: judicious-bat-300
+run_uuid: 944105703ad348aa9da9b774729e87e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687908895924
+status: 3
+tags: []
+user_id: ceyhun
