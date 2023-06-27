@@ -78,9 +78,10 @@ def load_model(
     best_run_id = sorted_runs.iloc[0]["run_id"]
 
     model = mlflow.xgboost.load_model(f"runs:/{best_run_id}/{model_artifact_name}")
+    top_features = model.get_xgb_params()['top_features']
     scaler = mlflow.sklearn.load_model(f"runs:/{best_run_id}/{min_max_scaler_artifact_name}")
 
-    return model, scaler
+    return model, scaler, top_features
 
 @logging_decorator("Prediction")
 def predict(
@@ -105,7 +106,7 @@ def predict(
         None
     """ 
 
-    model, scaler = load_model(
+    model, scaler, top_features = load_model(
         experiment_id=experiment_id, 
         model_artifact_name=model_artifact_name,
         min_max_scaler_artifact_name=min_max_scaler_artifact_name  
@@ -118,7 +119,7 @@ def predict(
         return
 
     if data[0] != None:
-        features = feature_extraction.extract_features(url=data[0], source_data=dataset_path)
+        features = feature_extraction.extract_features(url=data[0], source_data=dataset_path, top_features=top_features)
         features_df = pd.DataFrame([features])
         normalized_features = scaler.transform(features_df)
 
@@ -129,7 +130,7 @@ def predict(
         urls = load_list(list_path=data[1])
 
         if isinstance(urls, pd.DataFrame):
-            feature_results = urls.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=dataset_path), axis=1)
+            feature_results = urls.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=dataset_path, top_features=top_features), axis=1)
             df = pd.concat([urls, feature_results.apply(pd.Series)], axis=1)
             df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])
             df['prediction'] = df.apply(lambda row: model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
@@ -141,7 +142,7 @@ def predict(
         if isinstance(urls, list):
             df = pd.DataFrame(urls, columns=['url'])
 
-            feature_results = df.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=dataset_path), axis=1)
+            feature_results = df.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=dataset_path, top_features=top_features), axis=1)
             df = pd.concat([df, feature_results.apply(pd.Series)], axis=1)
             df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])
             df['prediction'] = df.apply(lambda row: model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
