@@ -18,7 +18,9 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 app = typer.Typer()
 
-def load_data(source_data: str) -> pd.DataFrame:
+def load_data(
+    source_data: str
+) -> pd.DataFrame:
 
     """This function is used to load the data from the source.
 
@@ -28,7 +30,9 @@ def load_data(source_data: str) -> pd.DataFrame:
 
     return pd.read_csv(source_data)
 
-def normalize_features(df: pd.DataFrame) -> tuple:
+def normalize_features(
+    df: pd.DataFrame
+) -> tuple:
     """This function is used to normalize the features.
 
     Args:
@@ -46,13 +50,19 @@ def normalize_features(df: pd.DataFrame) -> tuple:
 
     return df_normalized, scaler
 
-def merge_data(df: pd.DataFrame, external_data: str) -> pd.DataFrame:
+def merge_data(
+    df: pd.DataFrame, 
+    external_data: str
+) -> pd.DataFrame:
     
     external_data_df = pd.read_csv(external_data)
 
     return pd.concat([df, external_data_df], axis=0)
 
-def split_train_test(df: pd.DataFrame, train_size: float) -> Tuple[pd.DataFrame, pd.DataFrame]:
+def split_train_test(
+    df: pd.DataFrame, 
+    train_size: float
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
 
     """This function is used to split the data into train and test.
 
@@ -70,7 +80,9 @@ def split_train_test(df: pd.DataFrame, train_size: float) -> Tuple[pd.DataFrame,
 
     return train_set, test_set
 
-def get_model_loss_plot(model) -> plt.figure:
+def get_model_loss_plot(
+    model
+) -> plt.figure:
 
     """This function is used to get the model loss plot.
 
@@ -104,7 +116,11 @@ def get_model_loss_plot(model) -> plt.figure:
 
     return fig
 
-def get_model_evaluation(model, x_test, y_test) -> Dict[str, float]:
+def get_model_evaluation(
+    model, 
+    x_test: pd.DataFrame, 
+    y_test: pd.DataFrame
+) -> Dict[str, float]:
 
     """This function is used to get the evaluation metrics of the model.
 
@@ -135,7 +151,9 @@ def get_model_evaluation(model, x_test, y_test) -> Dict[str, float]:
         "roc_auc": roc_auc
     }
 
-def fit_xgboost(hyperspace: dict) -> Dict[float, STATUS_OK]: 
+def fit_xgboost(
+    hyperspace: dict
+) -> Dict[float, STATUS_OK]: 
 
     """This function is used to fit the xgboost model.
 
@@ -189,16 +207,16 @@ def fit_xgboost(hyperspace: dict) -> Dict[float, STATUS_OK]:
 @app.command()
 def main(
     source_dataset: str = typer.Option('src/data/dataset.csv', "--source_data", "-sd", help="The original dataset that is going to be used for training."),
-    external_data: str = typer.Option(None, "-external_data", "-ed", help="Extra data that is going to be merged with the source dataset."),
-    top_features: int = typer.Option(40, "-top_features", "-tf", help="Top features that are going to be used for training."),
-    hyperopt: Annotated[bool, typer.Option("-hyperopt", "-hpe", help="Enables hyperopt within the training.")] = False,
-    max_evals: int = typer.Option(50, "-max_evals", "-me", help="Max evals that we are going to use for the hyperopt."),
-    train_size: float = typer.Option(0.8, "-train_size", "-ts", help="Train size for the train test split."),
+    external_data: str = typer.Option(None, "--external_data", "-ed", help="Extra data that is going to be merged with the source dataset."),
+    top_features: int = typer.Option(40, "--top_features", "-tf", help="Top features that are going to be used for training."),
+    hyperopt: Annotated[bool, typer.Option("--hyperopt", "-hpe", help="Enables hyperopt within the training.")] = False,
+    max_evals: int = typer.Option(50, "--max_evals", "-me", help="Max evals that we are going to use for the hyperopt."),
+    train_size: float = typer.Option(0.8, "--train_size", "-ts", help="Train size for the train test split."),
     early_stopping_rounds: int = typer.Option(10, "--early_stopping_rounds", "-esr", help="Early stopping rounds for the xgboost model."),
-    gamma: Annotated[Tuple[int, int], typer.Option('-gamma', '-g', help="Gamma value for the xgboost model.")] = (0.1, 1.5),
-    max_depth: Annotated[Tuple[int, int], typer.Option('-max_depth', '-md', help="Max depth value for the xgboost model.")] = (1, 101),
-    eta: Annotated[Tuple[int, int], typer.Option('-eta', '-e', help="Eta value for the xgboost model.")] = (-3, 0),
-    alpha: Annotated[Tuple[int, int], typer.Option('-alpha', '-a', help="Alpha value for the xgboost model.")] = (0.01, 1.0),
+    gamma: Annotated[Tuple[int, int], typer.Option('--gamma', '-g', help="Gamma value for the xgboost model.")] = (0.1, 1.5),
+    max_depth: Annotated[Tuple[int, int], typer.Option('--max_depth', '-md', help="Max depth value for the xgboost model.")] = (1, 101),
+    eta: Annotated[Tuple[int, int], typer.Option('--eta', '-e', help="Eta value for the xgboost model.")] = (-3, 0),
+    alpha: Annotated[Tuple[int, int], typer.Option('--alpha', '-a', help="Alpha value for the xgboost model.")] = (0.01, 1.0),
 ) -> None:
 
     """This is the main function that is going to be used for training the model.
