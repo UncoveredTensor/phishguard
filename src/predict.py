@@ -153,8 +153,8 @@ def predict(
 
 @app.command()
 def main(
-    url: str = typer.Option(None, "--url", "-u", help="The url of the model that is going to be used for prediction."),
-    list_path: str = typer.Option(None, "--list", "-l", help="The list of images that are going to be used for prediction."),
+    url: str = typer.Option(None, "--url", "-u", help="A url that is going to be used for prediction."),
+    list_path: str = typer.Option(None, "--list", "-l", help="A file path where a batch of urls are within it."),
     output_path: str = typer.Option(None, "--output", "-o", help="The output file where the predictions are going to be saved."),
     dataset_path: str = typer.Option("src/data/dataset.csv", "--dataset", "-d", help="The dataset we need inorder to get the top features out."),
     experiment_id = typer.Option('165635318050438364', "--experiment_id", "-e", help="The id of the experiment that is going to be used for prediction."),
