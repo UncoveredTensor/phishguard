@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/59fcea9d02834a8cb3d7f683692e8884/artifacts
+deleted_time: 1687841467491
+end_time: 1687841049744
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 59fcea9d02834a8cb3d7f683692e8884
+run_name: sedate-finch-858
+run_uuid: 59fcea9d02834a8cb3d7f683692e8884
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841045040
+status: 3
+tags: []
+user_id: ceyhun

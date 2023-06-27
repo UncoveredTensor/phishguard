@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e10e1dd7dc2143a6b916f7adbdf24c36/artifacts
+deleted_time: 1687841467516
+end_time: 1687841035526
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e10e1dd7dc2143a6b916f7adbdf24c36
+run_name: welcoming-swan-87
+run_uuid: e10e1dd7dc2143a6b916f7adbdf24c36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841031797
+status: 3
+tags: []
+user_id: ceyhun

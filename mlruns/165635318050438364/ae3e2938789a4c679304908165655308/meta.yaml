@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ae3e2938789a4c679304908165655308/artifacts
+deleted_time: 1687841467438
+end_time: 1687841084302
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ae3e2938789a4c679304908165655308
+run_name: mercurial-mouse-153
+run_uuid: ae3e2938789a4c679304908165655308
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841078572
+status: 3
+tags: []
+user_id: ceyhun

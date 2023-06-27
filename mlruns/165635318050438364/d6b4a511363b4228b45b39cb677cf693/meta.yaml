@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d6b4a511363b4228b45b39cb677cf693/artifacts
+deleted_time: 1687840445027
+end_time: 1687840200741
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d6b4a511363b4228b45b39cb677cf693
+run_name: bouncy-trout-317
+run_uuid: d6b4a511363b4228b45b39cb677cf693
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840196798
+status: 3
+tags: []
+user_id: ceyhun

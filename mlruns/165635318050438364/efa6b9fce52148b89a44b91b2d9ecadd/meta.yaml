@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/efa6b9fce52148b89a44b91b2d9ecadd/artifacts
+deleted_time: 1687839795231
 end_time: 1687759489127
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: efa6b9fce52148b89a44b91b2d9ecadd
 run_name: illustrious-newt-739
 run_uuid: efa6b9fce52148b89a44b91b2d9ecadd

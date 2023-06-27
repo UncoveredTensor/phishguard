@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e8c497fc9fa74f07b4ec4e7e81835dda/artifacts
+deleted_time: 1687840964077
+end_time: 1687840523524
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e8c497fc9fa74f07b4ec4e7e81835dda
+run_name: lyrical-conch-45
+run_uuid: e8c497fc9fa74f07b4ec4e7e81835dda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840516540
+status: 3
+tags: []
+user_id: ceyhun

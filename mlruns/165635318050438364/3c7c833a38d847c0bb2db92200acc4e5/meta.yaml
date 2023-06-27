@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/3c7c833a38d847c0bb2db92200acc4e5/artifacts
+deleted_time: 1687841749336
+end_time: 1687841620852
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 3c7c833a38d847c0bb2db92200acc4e5
+run_name: dapper-lynx-222
+run_uuid: 3c7c833a38d847c0bb2db92200acc4e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841616646
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f44288a3a86d427483c9b475c67b362b/artifacts
+deleted_time: 1687840445065
+end_time: 1687840231609
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f44288a3a86d427483c9b475c67b362b
+run_name: spiffy-sheep-818
+run_uuid: f44288a3a86d427483c9b475c67b362b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840229222
+status: 3
+tags: []
+user_id: ceyhun

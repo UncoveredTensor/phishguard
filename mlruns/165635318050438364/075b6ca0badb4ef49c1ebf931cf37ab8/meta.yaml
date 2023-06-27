@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/075b6ca0badb4ef49c1ebf931cf37ab8/artifacts
+deleted_time: 1687840075028
+end_time: 1687839856633
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 075b6ca0badb4ef49c1ebf931cf37ab8
+run_name: peaceful-snake-119
+run_uuid: 075b6ca0badb4ef49c1ebf931cf37ab8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687839854490
+status: 3
+tags: []
+user_id: ceyhun

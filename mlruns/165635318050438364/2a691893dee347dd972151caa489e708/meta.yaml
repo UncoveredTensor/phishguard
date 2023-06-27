@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/2a691893dee347dd972151caa489e708/artifacts
+deleted_time: 1687840964060
+end_time: 1687840497253
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 2a691893dee347dd972151caa489e708
+run_name: persistent-tern-585
+run_uuid: 2a691893dee347dd972151caa489e708
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840493602
+status: 3
+tags: []
+user_id: ceyhun

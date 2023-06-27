@@ -16,6 +16,7 @@ tld = "*"
 dnspython = "*"
 ipwhois = "*"
 googlesearch-python = "*"
+colorlog = "*"
 
 [dev-packages]
 

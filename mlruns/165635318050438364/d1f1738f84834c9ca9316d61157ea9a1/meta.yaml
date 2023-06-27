@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d1f1738f84834c9ca9316d61157ea9a1/artifacts
+deleted_time: 1687840964041
+end_time: 1687840544912
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d1f1738f84834c9ca9316d61157ea9a1
+run_name: redolent-moose-817
+run_uuid: d1f1738f84834c9ca9316d61157ea9a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840540187
+status: 3
+tags: []
+user_id: ceyhun

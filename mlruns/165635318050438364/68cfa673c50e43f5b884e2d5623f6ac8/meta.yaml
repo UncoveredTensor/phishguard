@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/68cfa673c50e43f5b884e2d5623f6ac8/artifacts
+deleted_time: 1687841749386
+end_time: 1687841605408
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 68cfa673c50e43f5b884e2d5623f6ac8
+run_name: intrigued-elk-767
+run_uuid: 68cfa673c50e43f5b884e2d5623f6ac8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841601743
+status: 3
+tags: []
+user_id: ceyhun

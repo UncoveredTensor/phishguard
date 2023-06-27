@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/db8bf00928da41af894b51c3ca1a0448/artifacts
+deleted_time: 1687841749344
+end_time: 1687841616570
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: db8bf00928da41af894b51c3ca1a0448
+run_name: caring-steed-595
+run_uuid: db8bf00928da41af894b51c3ca1a0448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841612025
+status: 3
+tags: []
+user_id: ceyhun

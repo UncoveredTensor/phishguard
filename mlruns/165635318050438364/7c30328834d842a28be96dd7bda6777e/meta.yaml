@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/7c30328834d842a28be96dd7bda6777e/artifacts
+deleted_time: 1687841749399
+end_time: 1687841566133
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 7c30328834d842a28be96dd7bda6777e
+run_name: kindly-goose-58
+run_uuid: 7c30328834d842a28be96dd7bda6777e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841561705
+status: 3
+tags: []
+user_id: ceyhun

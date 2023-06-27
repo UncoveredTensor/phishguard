@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/f851767a026943d0821cc09ec0f60e9c/artifacts
+deleted_time: 1687841749360
+end_time: 1687841624185
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: f851767a026943d0821cc09ec0f60e9c
+run_name: powerful-squid-952
+run_uuid: f851767a026943d0821cc09ec0f60e9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841620931
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/8a39ca9888454b39bbf122168ee00de3/artifacts
+deleted_time: 1687841749373
+end_time: 1687841611949
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 8a39ca9888454b39bbf122168ee00de3
+run_name: spiffy-bat-970
+run_uuid: 8a39ca9888454b39bbf122168ee00de3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841608423
+status: 3
+tags: []
+user_id: ceyhun

@@ -12,6 +12,7 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 from hyperopt import fmin, tpe, hp, STATUS_OK
 from xgboost import XGBClassifier
 import mlflow
+from sklearn.preprocessing import MinMaxScaler
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -27,20 +28,23 @@ def load_data(source_data: str) -> pd.DataFrame:
 
     return pd.read_csv(source_data)
 
-def normalize_features(df: pd.DataFrame) -> pd.DataFrame:
-
+def normalize_features(df: pd.DataFrame) -> tuple:
     """This function is used to normalize the features.
 
     Args:
-        features (pd.DataFrame): The features that are going to be normalized.
+        df (pd.DataFrame): The features that are going to be normalized.
     
     Returns:
-        pd.DataFrame: The normalized features.
+        tuple: A tuple containing the normalized DataFrame and the scaler object.
     """
 
-    df.iloc[:, :-1] = df.iloc[:, :-1] / 255
+    scaler = MinMaxScaler()
 
-    return df
+    df_normalized = pd.DataFrame(scaler.fit_transform(df.iloc[:, 1:]), columns=df.columns[1:])
+
+    df_normalized.insert(0, 'phishing', df.iloc[:, 0])
+
+    return df_normalized, scaler
 
 def merge_data(df: pd.DataFrame, external_data: str) -> pd.DataFrame:
     
@@ -142,7 +146,7 @@ def fit_xgboost(hyperspace: dict) -> Dict[float, STATUS_OK]:
         dict: The loss and the status of the model.
     """
 
-    params = {k: v for k, v in hyperspace.items() if k not in ["train_set", "test_set"]}
+    params = {k: v for k, v in hyperspace.items() if k not in ["train_set", "test_set", 'scaler']}
     
     X_train = hyperspace['train_set'].iloc[:, :-1]
     y_train = hyperspace['train_set'].iloc[:, -1]
@@ -167,6 +171,7 @@ def fit_xgboost(hyperspace: dict) -> Dict[float, STATUS_OK]:
         evaluation_metrics = get_model_evaluation(model=model, x_test=X_test, y_test=y_test)
 
         mlflow.xgboost.log_model(model, "xgb_model")
+        mlflow.sklearn.log_model(hyperspace['scaler'], "min_max_scaler")
 
         mlflow.log_params(params)
         
@@ -220,11 +225,11 @@ def main(
     if external_data is not None:
         df = merge_data(df, external_data)
     
-    df = normalize_features(df=df)
-
     columns = df.corr()['phishing'].sort_values(ascending=False)[:top_features].index
 
     df = df[columns]
+
+    df, scaler = normalize_features(df=df)
 
     train_set, test_set = split_train_test(df=df, train_size=train_size)
     
@@ -235,6 +240,7 @@ def main(
         'alpha': hp.uniform('alpha', alpha[0], alpha[1]),
         'train_set': train_set,
         'test_set': test_set,
+        'scaler': scaler,
         'top_features': top_features,
         'objective': 'binary:logistic',
         'early_stopping_rounds': early_stopping_rounds,

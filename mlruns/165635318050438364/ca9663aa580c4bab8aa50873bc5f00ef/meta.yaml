@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ca9663aa580c4bab8aa50873bc5f00ef/artifacts
+deleted_time: 1687840445040
+end_time: 1687840235417
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ca9663aa580c4bab8aa50873bc5f00ef
+run_name: sedate-crane-902
+run_uuid: ca9663aa580c4bab8aa50873bc5f00ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840231693
+status: 3
+tags: []
+user_id: ceyhun

@@ -709,5 +709,3 @@ class Features:
         sorted_feature_results = dict(sorted(feature_results.items(), key=lambda x: columns.index(x[0].split('get_')[-1])))
 
         return sorted_feature_results
-
-

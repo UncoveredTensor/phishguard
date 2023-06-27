@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/4873da34e3c94d7c805a8fa605c4cbfb/artifacts
+deleted_time: 1687839795218
 end_time: 1687759495810
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4873da34e3c94d7c805a8fa605c4cbfb
 run_name: painted-donkey-639
 run_uuid: 4873da34e3c94d7c805a8fa605c4cbfb

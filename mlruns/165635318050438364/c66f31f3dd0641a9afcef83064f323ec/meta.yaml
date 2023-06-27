@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/c66f31f3dd0641a9afcef83064f323ec/artifacts
+deleted_time: 1687841749349
+end_time: 1687841580684
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: c66f31f3dd0641a9afcef83064f323ec
+run_name: hilarious-elk-445
+run_uuid: c66f31f3dd0641a9afcef83064f323ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841577811
+status: 3
+tags: []
+user_id: ceyhun

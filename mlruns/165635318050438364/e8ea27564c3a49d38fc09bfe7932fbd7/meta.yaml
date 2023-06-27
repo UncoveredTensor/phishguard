@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e8ea27564c3a49d38fc09bfe7932fbd7/artifacts
+deleted_time: 1687839795258
 end_time: 1687759480929
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e8ea27564c3a49d38fc09bfe7932fbd7
 run_name: carefree-yak-585
 run_uuid: e8ea27564c3a49d38fc09bfe7932fbd7

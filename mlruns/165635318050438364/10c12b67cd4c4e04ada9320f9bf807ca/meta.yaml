@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/10c12b67cd4c4e04ada9320f9bf807ca/artifacts
+deleted_time: 1687841467454
+end_time: 1687841072601
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 10c12b67cd4c4e04ada9320f9bf807ca
+run_name: colorful-worm-283
+run_uuid: 10c12b67cd4c4e04ada9320f9bf807ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841066260
+status: 3
+tags: []
+user_id: ceyhun

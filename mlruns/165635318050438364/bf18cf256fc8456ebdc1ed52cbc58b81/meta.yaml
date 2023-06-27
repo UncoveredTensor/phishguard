@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/bf18cf256fc8456ebdc1ed52cbc58b81/artifacts
+deleted_time: 1687840445065
+end_time: 1687840219606
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: bf18cf256fc8456ebdc1ed52cbc58b81
+run_name: luminous-elk-515
+run_uuid: bf18cf256fc8456ebdc1ed52cbc58b81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840217411
+status: 3
+tags: []
+user_id: ceyhun

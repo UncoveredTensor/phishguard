@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/8ba3f85aa202481386e62ba14a3d39c8/artifacts
+deleted_time: 1687839795224
 end_time: 1687759529631
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8ba3f85aa202481386e62ba14a3d39c8
 run_name: big-jay-730
 run_uuid: 8ba3f85aa202481386e62ba14a3d39c8

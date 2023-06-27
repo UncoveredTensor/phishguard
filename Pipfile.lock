@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "258ff08f1c43955abb2d27f4b7ea30c10776a855263f67ed59c6887b9f3b584d"
+            "sha256": "b2060c3942c8bf9b2491d3386e57e8c7f67126c446d724f0bdb86d02e9d98da4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -150,8 +150,16 @@
                 "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
                 "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
             ],
-            "markers": "platform_system == 'Windows'",
+            "markers": "sys_platform == 'win32'",
             "version": "==0.4.6"
+        },
+        "colorlog": {
+            "hashes": [
+                "sha256:0d33ca236784a1ba3ff9c532d4964126d8a2c44f1f0cb1d2b0728196f512f662",
+                "sha256:bd94bd21c1e13fac7bd3153f4bc3a7dc0eb0974b8bc2fdf1a989e474f6e582e5"
+            ],
+            "index": "pypi",
+            "version": "==6.7.0"
         },
         "contourpy": {
             "hashes": [

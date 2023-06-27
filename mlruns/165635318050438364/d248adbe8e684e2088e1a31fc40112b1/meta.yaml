@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/d248adbe8e684e2088e1a31fc40112b1/artifacts
+deleted_time: 1687840445077
+end_time: 1687840217328
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: d248adbe8e684e2088e1a31fc40112b1
+run_name: adorable-rook-863
+run_uuid: d248adbe8e684e2088e1a31fc40112b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840214573
+status: 3
+tags: []
+user_id: ceyhun

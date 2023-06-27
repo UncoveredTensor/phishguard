@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/78a5808ef32a491f8a8a91e052deba68/artifacts
+deleted_time: 1687840964087
+end_time: 1687840461243
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 78a5808ef32a491f8a8a91e052deba68
+run_name: trusting-pig-912
+run_uuid: 78a5808ef32a491f8a8a91e052deba68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840458021
+status: 3
+tags: []
+user_id: ceyhun

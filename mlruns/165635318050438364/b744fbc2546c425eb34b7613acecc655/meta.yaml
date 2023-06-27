@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/b744fbc2546c425eb34b7613acecc655/artifacts
+deleted_time: 1687841467471
+end_time: 1687841031715
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: b744fbc2546c425eb34b7613acecc655
+run_name: suave-shoat-370
+run_uuid: b744fbc2546c425eb34b7613acecc655
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841028506
+status: 3
+tags: []
+user_id: ceyhun

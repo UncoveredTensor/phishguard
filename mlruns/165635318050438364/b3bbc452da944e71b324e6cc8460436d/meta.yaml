@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/b3bbc452da944e71b324e6cc8460436d/artifacts
+deleted_time: 1687839795254
 end_time: 1687759542214
 entry_point_name: ''
 experiment_id: '165635318050438364'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b3bbc452da944e71b324e6cc8460436d
 run_name: exultant-fly-237
 run_uuid: b3bbc452da944e71b324e6cc8460436d

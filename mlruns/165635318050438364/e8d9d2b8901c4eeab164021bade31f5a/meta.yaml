@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e8d9d2b8901c4eeab164021bade31f5a/artifacts
+deleted_time: 1687841467454
+end_time: 1687840995742
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e8d9d2b8901c4eeab164021bade31f5a
+run_name: upset-squid-935
+run_uuid: e8d9d2b8901c4eeab164021bade31f5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840989764
+status: 3
+tags: []
+user_id: ceyhun

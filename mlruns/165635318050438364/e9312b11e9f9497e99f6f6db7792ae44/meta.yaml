@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/e9312b11e9f9497e99f6f6db7792ae44/artifacts
+deleted_time: 1687840075013
+end_time: 1687839908932
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: e9312b11e9f9497e99f6f6db7792ae44
+run_name: rumbling-wren-463
+run_uuid: e9312b11e9f9497e99f6f6db7792ae44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687839905512
+status: 3
+tags: []
+user_id: ceyhun

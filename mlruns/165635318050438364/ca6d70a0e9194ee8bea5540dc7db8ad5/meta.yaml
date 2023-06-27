@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/ca6d70a0e9194ee8bea5540dc7db8ad5/artifacts
+deleted_time: 1687840445026
+end_time: 1687840165651
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: ca6d70a0e9194ee8bea5540dc7db8ad5
+run_name: clumsy-dove-470
+run_uuid: ca6d70a0e9194ee8bea5540dc7db8ad5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687840160845
+status: 3
+tags: []
+user_id: ceyhun

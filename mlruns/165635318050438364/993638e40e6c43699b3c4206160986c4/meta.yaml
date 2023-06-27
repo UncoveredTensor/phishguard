@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/993638e40e6c43699b3c4206160986c4/artifacts
+deleted_time: 1687840150616
+end_time: 1687839845130
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 993638e40e6c43699b3c4206160986c4
+run_name: gentle-colt-844
+run_uuid: 993638e40e6c43699b3c4206160986c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687839842454
+status: 3
+tags: []
+user_id: ceyhun

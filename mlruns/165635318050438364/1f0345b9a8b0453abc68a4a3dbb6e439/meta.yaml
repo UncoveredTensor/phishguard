@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/1f0345b9a8b0453abc68a4a3dbb6e439/artifacts
+deleted_time: 1687841749386
+end_time: 1687841589500
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 1f0345b9a8b0453abc68a4a3dbb6e439
+run_name: amazing-shad-390
+run_uuid: 1f0345b9a8b0453abc68a4a3dbb6e439
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687841584054
+status: 3
+tags: []
+user_id: ceyhun
