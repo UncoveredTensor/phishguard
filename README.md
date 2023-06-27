@@ -11,7 +11,7 @@
 
 ---
 
-PhishGuard is a robust tool designed to classify whether a webpage is a phishing site or not. This evaluation relies on advanced classification models that are trained on diverse open-source datasets, referenced in our resource header. Our aim with this project is to gather data about potential phishing sites. By doing so, we aim to create public awareness and help individuals determine the safety of a webpage, thereby protecting them from harmful online experiences.
+PhishGuard is a robust tool designed to classify whether a webpage is a phishing site or not. This evaluation relies on advanced classification models that are trained on diverse open-source datasets, referenced in our resource header. Our aim with this project is to gather data about potential phishing sites. By doing so, we aim to create public awareness and help individuals determine the safety of a webpage, thereby protecting them from harmful online experiences. (Note: Although we have a well-trained dataset to train the models effectively, extracting features from the URL remains complicated due to the lack of instructions regarding the context and specific details for each feature. As a result, we improvised the feature extraction process, which can potentially result in false positives.)
 
 # Install Phishguard
 
