@@ -28,13 +28,20 @@ Usage:
   pipenv run predict --help
   
 Flags:
+PREDICTION:
+  -u, --url     A url that is going to be used for prediction.
+  -l, --list    A file path where a batch of urls are within it.
+
+OUTPUT:
+  -o, --output   The output path where the predictions are going to be saved.
+
 DATASET:
   -d, --dataset 
   
 MODEL:
   -e, --experiment_id                      The id of the experiment that is going to be used for prediction.
-  -ma, --model_artifact_name               The name of the artifact that is going to be used for prediction.
-  -sa, --min_max_scaler_artifact_name      The name of the artifact that is going to be used for prediction.
+  -ma, --model_artifact_name               The name of the model artifact that is going to be used for prediction.
+  -sa, --min_max_scaler_artifact_name      The name of the min_max_scaler artifact that is going to be used for normalization.
 ```
 
 ## Dependencies
