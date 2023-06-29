@@ -7,7 +7,7 @@ import mlflow
 import pandas as pd
 
 from utils.logging_handler import logging_decorator
-from utils.features import Features
+from features import Features
 
 app = typer.Typer()
 

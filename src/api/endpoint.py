@@ -1,7 +1,7 @@
 import mlflow.xgboost
 import xgboost as xgb
 from fastapi import FastAPI
-from src.features import feature_extraction
+from src.features import Features
 import pandas as pd
 
 app = FastAPI()
@@ -31,7 +31,7 @@ def predict(data: list):
 
     df = pd.DataFrame(data, columns=['url'])
 
-    feature_results = df.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data="src/data/dataset.csv", top_features=app.top_features), axis=1)
+    feature_results = df.apply(lambda row: Features.extract_features(url=row.iloc[0], source_data="src/data/dataset.csv", top_features=app.top_features), axis=1)
     df = pd.concat([df, feature_results.apply(pd.Series)], axis=1)
     df.iloc[:, 1:] = app.scaler.transform(df.iloc[:, 1:])
     df['prediction'] = df.apply(lambda row: app.model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
