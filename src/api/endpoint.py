@@ -1,7 +1,7 @@
 import mlflow.xgboost
 import xgboost as xgb
 from fastapi import FastAPI
-from features import feature_extraction
+from src.features import feature_extraction
 import pandas as pd
 
 app = FastAPI()
