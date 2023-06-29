@@ -11,6 +11,8 @@ def load_model():
 
     runs = mlflow.search_runs(experiment_ids="phishguard")
 
+    print(runs)
+
     # Sort the runs by accuracy in descending order
     sorted_runs = runs.sort_values(by="metrics.accuracy", ascending=False)
 
