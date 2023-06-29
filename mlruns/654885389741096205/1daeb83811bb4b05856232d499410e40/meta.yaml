@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/1daeb83811bb4b05856232d499410e40/artifacts
+end_time: 1688026934129
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 1daeb83811bb4b05856232d499410e40
+run_name: flawless-dove-994
+run_uuid: 1daeb83811bb4b05856232d499410e40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688026930688
+status: 3
+tags: []
+user_id: ceyhun

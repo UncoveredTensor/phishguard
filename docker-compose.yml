@@ -1,0 +1,26 @@
+version: '3'
+services:
+  mlflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    command: pipenv run tracking
+    volumes:
+      - mlflow_cache:/mlflow/cache
+
+  endpoint:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5555:5555
+    volumes:
+      - mlflow_cache:/app/endpoint/model_cache
+    command: pipenv run endpoint
+
+volumes:
+  mlflow_cache:
+
+

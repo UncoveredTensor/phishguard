@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/9aa25c1cd85e4e5f8c8b156a663466ec/artifacts
+end_time: 1688027014588
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 9aa25c1cd85e4e5f8c8b156a663466ec
+run_name: stately-vole-274
+run_uuid: 9aa25c1cd85e4e5f8c8b156a663466ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688027010993
+status: 3
+tags: []
+user_id: ceyhun

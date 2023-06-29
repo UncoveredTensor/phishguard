@@ -17,6 +17,8 @@ dnspython = "*"
 ipwhois = "*"
 googlesearch-python = "*"
 colorlog = "*"
+fastapi = "*"
+streamlit = "*"
 
 [dev-packages]
 
@@ -28,3 +30,4 @@ train = "pipenv run python src/train.py"
 predict = "pipenv run python src/predict.py"
 features = "pipenv run python src/utils/features.py"
 tracking = "pipenv run mlflow ui"
+endpoint = "pipenv run uvicorn src.api.endpoint:app --host 0.0.0.0"

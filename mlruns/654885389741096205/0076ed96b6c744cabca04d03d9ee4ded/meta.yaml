@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0076ed96b6c744cabca04d03d9ee4ded/artifacts
+end_time: 1688026998225
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 0076ed96b6c744cabca04d03d9ee4ded
+run_name: receptive-doe-587
+run_uuid: 0076ed96b6c744cabca04d03d9ee4ded
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688026995064
+status: 3
+tags: []
+user_id: ceyhun

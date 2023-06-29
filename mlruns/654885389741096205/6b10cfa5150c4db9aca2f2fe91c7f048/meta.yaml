@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/6b10cfa5150c4db9aca2f2fe91c7f048/artifacts
+end_time: 1688026987419
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 6b10cfa5150c4db9aca2f2fe91c7f048
+run_name: bright-perch-120
+run_uuid: 6b10cfa5150c4db9aca2f2fe91c7f048
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688026983379
+status: 3
+tags: []
+user_id: ceyhun

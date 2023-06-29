@@ -176,7 +176,7 @@ def fit_xgboost(
     
     model = XGBClassifier(**params)
 
-    mlflow.set_experiment("phishing")
+    mlflow.set_experiment("phishguard")
 
     with mlflow.start_run():
     

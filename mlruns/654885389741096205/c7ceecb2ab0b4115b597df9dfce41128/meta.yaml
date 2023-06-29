@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/c7ceecb2ab0b4115b597df9dfce41128/artifacts
+end_time: 1688027010915
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: c7ceecb2ab0b4115b597df9dfce41128
+run_name: angry-bug-494
+run_uuid: c7ceecb2ab0b4115b597df9dfce41128
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688027007516
+status: 3
+tags: []
+user_id: ceyhun

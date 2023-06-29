@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/165635318050438364/7233c254f7f04d6180ce442b22b77c18/artifacts
+deleted_time: 1688026890378
+end_time: 1687908869705
+entry_point_name: ''
+experiment_id: '165635318050438364'
+lifecycle_stage: deleted
+run_id: 7233c254f7f04d6180ce442b22b77c18
+run_name: lyrical-yak-158
+run_uuid: 7233c254f7f04d6180ce442b22b77c18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687908866654
+status: 3
+tags: []
+user_id: ceyhun
