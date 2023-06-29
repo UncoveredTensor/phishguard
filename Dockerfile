@@ -11,6 +11,8 @@ WORKDIR /app
 RUN pip3 install --upgrade pip
 RUN pip3 install mlflow 
 RUN pip3 install fastapi
+RUN pip3 install uvicorn
+RUN pip3 install utils
 
 # Clone the GitHub repository
 RUN git clone https://github.com/UncoveredTensor/phishguard && \

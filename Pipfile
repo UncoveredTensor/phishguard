@@ -19,6 +19,8 @@ googlesearch-python = "*"
 colorlog = "*"
 fastapi = "*"
 streamlit = "*"
+uvicorn = "*"
+utils = "*"
 
 [dev-packages]
 
