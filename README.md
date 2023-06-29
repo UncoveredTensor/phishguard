@@ -66,7 +66,7 @@ DATASET:
   -tf, --top_features      The amount of top features we wanna use based on correlation matrix.
   
 MODEL:
-  -ma, --model_artifact_name             The name of the min max scaler artifact that is going to be saved.
+  -ma, --model_artifact_name             The name of the model artifact that is going to be saved.
   -sa, --min_max_scaler_artifact_name    The name of the min max scaler artifact that is going to be saved.                                                                                              
   -ts, --train-size                      The train dataset size for when splitting the data into train and validation set.
   -esr, --early_stopping_rounds          The amount of patience within the early stopping function.
@@ -105,4 +105,4 @@ in the "Resources" section of the project, you'll find direct links to the main 
 
 XGBoost: **https://xgboost.readthedocs.io/en/stable/)https://xgboost.readthedocs.io/en/stable/** <br>
 Dataset: **https://data.mendeley.com/datasets/72ptz43s9v/1** <br>
-Tracking Server: (COMING SOON!)
+Tracking Server: **https://mlflow.org/**
