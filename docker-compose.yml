@@ -18,7 +18,7 @@ services:
       - 5555:5555
     volumes:
       - mlflow_cache:/app/endpoint/model_cache
-    command: pipenv run uvicorn src.api.endpoint:app --host 0.0.0.0
+    command: pipenv run endpoint
 
 volumes:
   mlflow_cache:

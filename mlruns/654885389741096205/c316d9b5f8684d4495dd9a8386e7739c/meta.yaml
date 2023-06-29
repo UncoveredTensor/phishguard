@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/c316d9b5f8684d4495dd9a8386e7739c/artifacts
+deleted_time: 1688033850734
+end_time: 1688033733568
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: c316d9b5f8684d4495dd9a8386e7739c
+run_name: efficient-snail-120
+run_uuid: c316d9b5f8684d4495dd9a8386e7739c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688033733477
+status: 4
+tags: []
+user_id: ceyhun
