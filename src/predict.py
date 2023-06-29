@@ -157,7 +157,7 @@ def main(
     list_path: str = typer.Option(None, "--list", "-l", help="A file path where a batch of urls are within it."),
     output_path: str = typer.Option(None, "--output", "-o", help="The output path where the predictions are going to be saved."),
     dataset_path: str = typer.Option("src/data/dataset.csv", "--dataset", "-d", help="The dataset we need inorder to get the top features out."),
-    experiment_id = typer.Option('165635318050438364', "--experiment_id", "-e", help="The id of the experiment that is going to be used for prediction."),
+    experiment_id = typer.Option('654885389741096205', "--experiment_id", "-e", help="The id of the experiment that is going to be used for prediction."),
     model_artifact_name = typer.Option('xgb_model', "--model_artifact_name", "-ma", help="The name of the model artifact that is going to be used for prediction."),
     min_max_scaler_artifact_name = typer.Option('min_max_scaler', "--min_max_scaler_artifact_name", "-sa", help="The name of the min_max_scaler artifact that is going to be used for normalization.")
 ) -> None:
