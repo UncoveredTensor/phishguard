@@ -4,6 +4,7 @@ from fastapi import FastAPI
 from src.features import Features
 import pandas as pd
 import mlflow
+import os
 
 app = FastAPI()
 
