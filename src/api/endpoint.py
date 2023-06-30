@@ -20,9 +20,9 @@ def load_model():
 
     print(os.getcwd())
 
-    model = mlflow.xgboost.load_model(f"/mlruns/654885389741096205/{best_run_id}/artifacts/xgb_model")
+    model = mlflow.xgboost.load_model(f"{os.getcwd()}/mlruns/654885389741096205/{best_run_id}/artifacts/xgb_model")
     top_features = model.get_xgb_params()['top_features']
-    scaler = mlflow.sklearn.load_model(f"/mlruns/654885389741096205/{best_run_id}/artifacts/min_max_scaler")
+    scaler = mlflow.sklearn.load_model(f"{os.getcwd()}/mlruns/654885389741096205/{best_run_id}/artifacts/min_max_scaler")
 
     app.model = model
     app.scaler = scaler
