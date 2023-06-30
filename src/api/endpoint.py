@@ -17,9 +17,9 @@ def load_model():
     # Get the best run and its corresponding run ID
     best_run_id = sorted_runs.iloc[0]["run_id"]
 
-    model = mlflow.xgboost.load_model(f"mlruns/0/654885389741096205/{best_run_id}/artifacts/xgb_model")
+    model = mlflow.xgboost.load_model(f"/app/phishguard/mlruns/0/654885389741096205/{best_run_id}/artifacts/xgb_model")
     top_features = model.get_xgb_params()['top_features']
-    scaler = mlflow.sklearn.load_model(f"mlruns/0/654885389741096205/{best_run_id}/artifacts/min_max_scaler")
+    scaler = mlflow.sklearn.load_model(f"/app/phishguard/mlruns/0/654885389741096205/{best_run_id}/artifacts/min_max_scaler")
 
     app.model = model
     app.scaler = scaler
