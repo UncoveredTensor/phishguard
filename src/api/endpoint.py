@@ -42,11 +42,12 @@ def predict(data: DomainsRequest):
 
     domains = data.domains
 
+    domains = [domain[1] for domain in domains]
+
     df = pd.DataFrame(domains, columns=['url'])
 
-    print(df)
-
-    feature_results = df.apply(lambda row: Features.extract_features(url=row.iloc[0], source_data="src/data/dataset.csv", top_features=app.top_features), axis=1)
+    feature_extraction = Features()
+    feature_results = df.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data="src/data/dataset.csv", top_features=app.top_features), axis=1)
     df = pd.concat([df, feature_results.apply(pd.Series)], axis=1)
     df.iloc[:, 1:] = app.scaler.transform(df.iloc[:, 1:])
     df['prediction'] = df.apply(lambda row: app.model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
