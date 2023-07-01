@@ -69,10 +69,13 @@ def predict(data: DomainsRequest) -> List[PredictionResponse]:
     domains = data.domains
 
     # Getting the urls from the post data
-    domains = [domain.name for domain in domains]
+    filtered_domains = [
+        'https://www.' + domain.name if not domain.name.startswith("http://www.") and not domain.name.startswith("https://www.") else domain.name
+        for domain in domains
+    ]
 
     # Creating a dataframe with the urls
-    df = pd.DataFrame(domains, columns=['url'])
+    df = pd.DataFrame(filtered_domains, columns=['url'])
 
     # Extracting the features
     feature_extraction = Features()
