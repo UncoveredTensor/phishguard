@@ -92,11 +92,23 @@ To classify a batch of websites, you can use the following command:
 
     pipenv run phishguard -l [example.csv or example.txt] -o [output path, csv or txt]
 
-
-
 ## Inference
-The model can be executed in inference mode by utilizing the Docker image specified in this README. Upon launching the Docker container, the API can be accessed conveniently from localhost:3000.
+The model can be executed in inference mode by utilizing the Docker image specified in this README. Upon launching the Docker container, the API can be accessed conveniently from localhost:3000/predict.
+The following JSON scheme is utilized for predicting URLs:
 
+    {
+      "domains": [
+              {"name": "http://www.example.com"},
+          ]
+    }
+
+Every URL undergoes a generalization process where "https://" is added as the prefix to the domain. This generalization is applicable to the following URL types:
+
+    example.com
+    www.example.com
+    http://www.example.com
+    https://www.example.com
+  
 # For Contributors
 For those of you interested in contributing to the PhishGuard project, we highly appreciate your involvement. Whether you're a data scientist, a web developer, or someone with an interest in cybersecurity, there are plenty of opportunities for you to help improve PhishGuard. Underneath the this text we can see the sub headers where we can find the resources we have used within this project.
 
