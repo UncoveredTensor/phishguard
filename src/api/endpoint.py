@@ -31,7 +31,7 @@ def load_model():
     app.top_features = top_features
 
 @app.get("/predict")
-def predict(data: json):
+def predict(data):
 
     print(data)
 
