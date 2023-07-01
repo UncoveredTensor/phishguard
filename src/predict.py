@@ -6,7 +6,7 @@ import typer
 import mlflow
 import pandas as pd
 
-from utils.logging_handler import logging_decorator
+from utilities.logging_handler import logging_decorator
 from features import Features
 
 app = typer.Typer()
@@ -25,8 +25,19 @@ def load_list(
     """
  
     if list_path.split(".")[-1] == "csv":
-        df = pd.read_csv(list_path)
-        return df
+
+        df = pd.read_csv(list_path, header=None)
+
+        potential_header = df.iloc[0, 0]
+
+        if "." not in potential_header:
+            df.columns = [potential_header]
+            df = df.iloc[1:, :]
+            return df
+        else:
+            df.columns = ['url']
+            return df
+
     elif list_path.split(".")[-1] == "txt":
         with open(list_path, "r") as file:
             urls = file.read().splitlines()
