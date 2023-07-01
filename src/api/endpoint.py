@@ -1,10 +1,14 @@
+import os
+
 import mlflow.xgboost
 import xgboost as xgb
 from fastapi import FastAPI
-from src.features import Features
 import pandas as pd
 import mlflow
-import os
+import json
+
+from src.features import Features
+
 
 app = FastAPI()
 
@@ -18,8 +22,6 @@ def load_model():
     # Get the best run and its corresponding run ID
     best_run_id = sorted_runs.iloc[0]["run_id"]
 
-    print(os.getcwd())
-
     model = mlflow.xgboost.load_model(f"{os.getcwd()}/mlruns/654885389741096205/{best_run_id}/artifacts/xgb_model")
     top_features = model.get_xgb_params()['top_features']
     scaler = mlflow.sklearn.load_model(f"{os.getcwd()}/mlruns/654885389741096205/{best_run_id}/artifacts/min_max_scaler")
@@ -28,8 +30,10 @@ def load_model():
     app.scaler = scaler
     app.top_features = top_features
 
-@app.post("/predict")
-def predict(data: list):
+@app.get("/predict")
+def predict(data: json):
+
+    print(data)
 
     df = pd.DataFrame(data, columns=['url'])
 
