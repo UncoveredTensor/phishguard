@@ -19,9 +19,6 @@ class Domain(BaseModel):
 class DomainsRequest(BaseModel):
     domains: List[Domain]
 
-class DomainsRequest(BaseModel):
-    domains: list
-
 class PredictionResponse(BaseModel):
     url: str
     prediction: str
