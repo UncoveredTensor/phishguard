@@ -70,7 +70,8 @@ def predict(data: DomainsRequest) -> List[PredictionResponse]:
 
     # Getting the urls from the post data
     filtered_domains = [
-        'https://www.' + domain.name if not domain.name.startswith("http://www.") and not domain.name.startswith("https://www.") else domain.name
+        'https://www.' + domain.name if not domain.name.startswith("http://www.") and not domain.name.startswith("https://www.") 
+        or not domain.name.startswith("http://") and not domain.name.startswith("https://") else domain.name
         for domain in domains
     ]
 
