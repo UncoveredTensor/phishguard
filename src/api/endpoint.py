@@ -1,16 +1,23 @@
 import os
+from typing import List
 
 import mlflow.xgboost
 import xgboost as xgb
 from fastapi import FastAPI
 import pandas as pd
 import mlflow
-import json
+from pydantic import BaseModel
 
 from src.features import Features
 
 
 app = FastAPI()
+
+class Domain(BaseModel):
+    name: str
+
+class DomainsRequest(BaseModel):
+    domains: List[Domain]
 
 @app.on_event("startup")
 def load_model():
@@ -30,12 +37,14 @@ def load_model():
     app.scaler = scaler
     app.top_features = top_features
 
-@app.get("/predict")
-def predict(data):
+@app.post("/predict")
+def predict(data: DomainsRequest):
 
-    print(data)
+    domains = data.domains
 
-    df = pd.DataFrame(data, columns=['url'])
+    df = pd.DataFrame(domains, columns=['url'])
+
+    print(df)
 
     feature_results = df.apply(lambda row: Features.extract_features(url=row.iloc[0], source_data="src/data/dataset.csv", top_features=app.top_features), axis=1)
     df = pd.concat([df, feature_results.apply(pd.Series)], axis=1)
