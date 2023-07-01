@@ -42,7 +42,7 @@ def predict(data: DomainsRequest):
 
     domains = data.domains
 
-    print(domains)
+    domains = [domain.name for domain in domains]
 
     df = pd.DataFrame(domains, columns=['url'])
 
