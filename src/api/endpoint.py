@@ -72,12 +72,10 @@ def predict(data: DomainsRequest) -> List[PredictionResponse]:
     filtered_domains = []
 
     for domain in domains:
-        if domain.name.startswith("http://www.") or domain.name.startswith("https://www."):
-            filtered_domains.append(domain.name)
-        elif domain.name.startswith("www."):
-            filtered_domains.append("http://" + domain.name)
-        elif not domain.name.startswith("http://www.") and not domain.name.startswith("https://www."):
-            filtered_domains.append("http://www." + domain.name)
+        url = 'https://www.' + domain.name.split("//")[-1] if not (
+                domain.name.startswith("https://www.") or domain.name.startswith("http://www.")
+                or domain.name.startswith("http://") or domain.name.startswith("https://")) else domain.name
+        filtered_domains.append(url)
 
     # Creating a dataframe with the urls
     df = pd.DataFrame(filtered_domains, columns=['url'])
