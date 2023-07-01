@@ -72,9 +72,14 @@ def predict(data: DomainsRequest) -> List[PredictionResponse]:
     filtered_domains = []
 
     for domain in domains:
-        url = 'https://www.' + domain.name.split("//")[-1] if not (
-                domain.name.startswith("https://www.") or domain.name.startswith("http://www.")
-                or domain.name.startswith("http://") or domain.name.startswith("https://")) else domain.name
+        if domain.name.startswith("http://") or domain.name.startswith("https://"):
+            url = 'https://www.' + domain.name.split("//")[-1]
+            if "www." not in url:
+                url = url.replace("//", "//www.")
+        elif domain.name.startswith("www."):
+            url = 'https://www.' + domain.name[4:]
+        else:
+            url = 'https://www.' + domain.name
         filtered_domains.append(url)
 
     # Creating a dataframe with the urls
