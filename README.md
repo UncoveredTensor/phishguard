@@ -19,7 +19,7 @@ PhishGuard is a robust tool designed to classify whether a webpage is a phishing
 <summary>Docker</summary>
 <br>
   
-    docker pull SOON!
+    docker-compose up --build
 </details>
 
 ## Usage
