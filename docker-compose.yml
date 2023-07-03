@@ -7,7 +7,6 @@ services:
     ports:
       - 5000:5000
     command: pipenv run tracking
-
   endpoint:
     build:
       context: .
@@ -15,6 +14,5 @@ services:
     ports:
       - 5555:5555
     command: pipenv run endpoint
-
-
-
+    depends_on:
+      - mlflow

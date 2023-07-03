@@ -94,6 +94,25 @@ def load_model(
 
     return model, scaler, top_features
 
+def url_predict(
+    feature_extraction,
+    data,
+    source_data,
+    top_features,
+    scaler,
+    model
+):
+    features = feature_extraction.extract_features(url=data[0], source_data=source_data, top_features=top_features)
+    features_df = pd.DataFrame([features])
+    normalized_features = scaler.transform(features_df)
+
+    output = model.predict(normalized_features)
+
+    return data, output
+
+def list_predict():
+    pass
+
 @logging_decorator("Prediction")
 def predict(
     data: Union[str, str], 
@@ -130,11 +149,16 @@ def predict(
         return
 
     if data[0] != None:
-        features = feature_extraction.extract_features(url=data[0], source_data=dataset_path, top_features=top_features)
-        features_df = pd.DataFrame([features])
-        normalized_features = scaler.transform(features_df)
 
-        output = model.predict(normalized_features)
+        data, output = url_predict(
+            feature_extraction=feature_extraction, 
+            data=data, 
+            source_data=dataset_path, 
+            top_features=top_features, 
+            scaler=scaler,
+            model=model
+        )
+
         logging.info(f"The prediction for the url {data[0]} is {output[0]}.")
 
     elif data[1] != None:
@@ -145,8 +169,6 @@ def predict(
             df = pd.concat([urls, feature_results.apply(pd.Series)], axis=1)
             df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])
             df['prediction'] = df.apply(lambda row: model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
-
-
             save_list(data=df.iloc[:, [0, -1]], output_path=output_path)
             logging.info(f"Predictions for the list of urls have been saved to {output_path}.")
         
@@ -157,8 +179,6 @@ def predict(
             df = pd.concat([df, feature_results.apply(pd.Series)], axis=1)
             df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])
             df['prediction'] = df.apply(lambda row: model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
-
-
             save_list(data=df.iloc[:, [0, -1]], output_path=output_path)
             logging.info(f"Predictions for the list of urls have been saved to {output_path}.")
 
