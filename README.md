@@ -19,7 +19,7 @@ PhishGuard is a robust tool designed to classify whether a webpage is a phishing
 <summary>Docker</summary>
 <br>
   
-    docker pull SOON!
+    docker-compose up --build
 </details>
 
 ## Usage
@@ -45,6 +45,10 @@ MODEL:
 ```
 
 ## Dependencies
+
+Within this project we are using pipenv to create a virtual environment of our project. to install pipenv we can use the following pip command.
+
+    python pip install pipenv
 
 To ensure consistent dependencies within the project, we recommend running the following pipenv command to lock all the dependencies used in the project. This revision maintains clarity and provides a concise instruction, showing the importance of using the pipenv command to lock dependencies for consistency.
 
