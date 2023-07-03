@@ -105,13 +105,30 @@ def url_predict(
     features = feature_extraction.extract_features(url=data[0], source_data=source_data, top_features=top_features)
     features_df = pd.DataFrame([features])
     normalized_features = scaler.transform(features_df)
-
     output = model.predict(normalized_features)
 
     return data, output
 
-def list_predict():
-    pass
+def list_predict(
+    feature_extraction,
+    urls,
+    source_data,
+    output_path,
+    top_features,
+    scaler,
+    model
+):
+    
+    if isinstance(urls, list):
+        urls = pd.DataFrame(urls, columns=['url'])
+    
+    feature_results = urls.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=source_data, top_features=top_features), axis=1)
+    df = pd.concat([urls, feature_results.apply(pd.Series)], axis=1)
+    df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])
+    df['prediction'] = df.apply(lambda row: model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
+    save_list(data=df.iloc[:, [0, -1]], output_path=output_path)
+        
+    return output_path
 
 @logging_decorator("Prediction")
 def predict(
@@ -164,23 +181,17 @@ def predict(
     elif data[1] != None:
         urls = load_list(list_path=data[1])
 
-        if isinstance(urls, pd.DataFrame):
-            feature_results = urls.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=dataset_path, top_features=top_features), axis=1)
-            df = pd.concat([urls, feature_results.apply(pd.Series)], axis=1)
-            df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])
-            df['prediction'] = df.apply(lambda row: model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
-            save_list(data=df.iloc[:, [0, -1]], output_path=output_path)
-            logging.info(f"Predictions for the list of urls have been saved to {output_path}.")
-        
-        if isinstance(urls, list):
-            df = pd.DataFrame(urls, columns=['url'])
+        output = list_predict(
+            feature_extraction=feature_extraction,
+            urls=urls,
+            source_data=dataset_path, 
+            output_path=output_path,
+            top_features=top_features, 
+            scaler=scaler, 
+            model=model
+        )
 
-            feature_results = df.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=dataset_path, top_features=top_features), axis=1)
-            df = pd.concat([df, feature_results.apply(pd.Series)], axis=1)
-            df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])
-            df['prediction'] = df.apply(lambda row: model.predict(row[1:].values.reshape(1, -1))[0], axis=1)
-            save_list(data=df.iloc[:, [0, -1]], output_path=output_path)
-            logging.info(f"Predictions for the list of urls have been saved to {output_path}.")
+        logging.info(f"Predictions for the list of urls have been saved to {output_path}.")
 
 @app.command()
 def main(
