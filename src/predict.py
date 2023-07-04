@@ -1,4 +1,4 @@
-from typing import Union
+from typing import Union, Callable, Tuple
 import logging
 import os
 
@@ -95,13 +95,29 @@ def load_model(
     return model, scaler, top_features
 
 def url_predict(
-    feature_extraction,
-    data,
-    source_data,
-    top_features,
-    scaler,
-    model
-):
+    feature_extraction: Callable,
+    data: str,
+    source_data: str,
+    top_features: int,
+    scaler: Callable,
+    model: Callable
+) -> Tuple[str, int]:
+    
+    """This function is used to predict the class of a url.
+
+    Args:
+        feature_extraction (Callable): The function that is used to extract the features from the url.
+        data (str): The url.
+        source_data (str): The path to the dataset.
+        top_features (int): The number of features that are going to be used for the prediction.
+        scaler (Callable): The scaler object that is used to normalize the features.
+        model (Callable): The model that is used to make the prediction.
+        
+    Returns:
+        tuple: A tuple containing the url and the prediction.
+    
+    """
+
     features = feature_extraction.extract_features(url=data[0], source_data=source_data, top_features=top_features)
     features_df = pd.DataFrame([features])
     normalized_features = scaler.transform(features_df)
@@ -110,14 +126,28 @@ def url_predict(
     return data, output
 
 def list_predict(
-    feature_extraction,
-    urls,
-    source_data,
-    output_path,
-    top_features,
-    scaler,
-    model
+    feature_extraction: Callable,
+    urls: Union[pd.DataFrame, list],
+    source_data: str,
+    output_path: str,
+    top_features: int,
+    scaler: Callable,
+    model: Callable
 ):
+    
+    """this function is used to predict the class of a list of urls.
+
+    Args:
+        feature_extraction (Callable): The function that is used to extract the features from the urls.
+        urls (Union[pd.DataFrame, list]): The list of urls.
+        source_data (str): The path to the dataset.
+        output_path (str): The path to the file where the results are going to be saved.
+        top_features (int): The number of features that are going to be used for the prediction.
+        scaler (Callable): The scaler object that is used to normalize the features.
+
+    Returns:
+        str: The path to the file where the results are saved.    
+    """
     
     if isinstance(urls, list):
         urls = pd.DataFrame(urls, columns=['url'])
