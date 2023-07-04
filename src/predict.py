@@ -30,6 +30,8 @@ def load_list(
 
         potential_header = df.iloc[0, 0]
 
+        logging.info("Reading the csv file and loading in the urls")
+
         if "." not in potential_header:
             df.columns = [potential_header]
             df = df.iloc[1:, :]
@@ -41,8 +43,9 @@ def load_list(
     elif list_path.split(".")[-1] == "txt":
         with open(list_path, "r") as file:
             urls = file.read().splitlines()
+            logging.info("Reading the txt file and loading in the urls")
             return urls
-
+        
 def save_list(
     data: Union[pd.DataFrame, list], 
     output_path: str
@@ -62,8 +65,10 @@ def save_list(
         _, extension = os.path.splitext(output_path)
         if extension == '.csv':
             data.to_csv(output_path, index=False)
+            logging.info(f"Saved the list of urls and predictions to {output_path}")
         elif extension == '.txt':
             data.to_csv(output_path, index=False, header=False)
+            logging.info(f"Saved the list of urls and predictions to {output_path}")
   
 def load_model(
     experiment_id: str,
@@ -81,16 +86,20 @@ def load_model(
     """
 
     runs = mlflow.search_runs(experiment_ids=experiment_id)
+    logging.info("Getting the runs of the tracking server")
 
     # Sort the runs by accuracy in descending order
     sorted_runs = runs.sort_values(by="metrics.accuracy", ascending=False)
+    logging.info("Sorting the runs by accuracy in descending order")
 
     # Get the best run and its corresponding run ID
     best_run_id = sorted_runs.iloc[0]["run_id"]
+    logging.info("Getting the best run ID")
 
     model = mlflow.xgboost.load_model(f"runs:/{best_run_id}/{model_artifact_name}")
     top_features = model.get_xgb_params()['top_features']
     scaler = mlflow.sklearn.load_model(f"runs:/{best_run_id}/{min_max_scaler_artifact_name}")
+    logging.info("Loading the model and the scaler object")
 
     return model, scaler, top_features
 
@@ -119,9 +128,15 @@ def url_predict(
     """
 
     features = feature_extraction.extract_features(url=data[0], source_data=source_data, top_features=top_features)
+
+    logging.info("Getting the features of the url")
     features_df = pd.DataFrame([features])
+
     normalized_features = scaler.transform(features_df)
+    logging.info("Normalizing the features")
+
     output = model.predict(normalized_features)
+    logging.info("Making the prediction")
 
     return data, output
 
@@ -160,7 +175,7 @@ def list_predict(
         
     return output_path
 
-@logging_decorator("Prediction")
+@logging_decorator(project_name="phishguard")
 def predict(
     data: Union[str, str], 
     output_path: Union[str, list], 
@@ -221,7 +236,7 @@ def predict(
             model=model
         )
 
-        logging.info(f"Predictions for the list of urls have been saved to {output_path}.")
+        logging.info(f"Predictions for the list of urls have been made.")
 
 @app.command()
 def main(
