@@ -148,7 +148,7 @@ def list_predict(
     top_features: int,
     scaler: Callable,
     model: Callable
-):
+) -> str:
     
     """this function is used to predict the class of a list of urls.
 
