@@ -7,6 +7,7 @@
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UncoveredTensor/phishguard">
   <img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/UncoveredTensor/phishguard">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/UncoveredTensor/phishguard">
+  <img alt="Discord" src="https://img.shields.io/discord/:1126322560393560204">
 </p>
 
 ---
