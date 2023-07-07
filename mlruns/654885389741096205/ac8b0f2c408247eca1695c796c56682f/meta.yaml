@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ac8b0f2c408247eca1695c796c56682f/artifacts
+deleted_time: 1688691617743
 end_time: 1688026954468
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ac8b0f2c408247eca1695c796c56682f
 run_name: nosy-sponge-773
 run_uuid: ac8b0f2c408247eca1695c796c56682f

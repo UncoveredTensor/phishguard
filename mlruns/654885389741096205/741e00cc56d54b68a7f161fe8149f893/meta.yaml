@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/741e00cc56d54b68a7f161fe8149f893/artifacts
+end_time: 1688695639779
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 741e00cc56d54b68a7f161fe8149f893
+run_name: calm-hog-247
+run_uuid: 741e00cc56d54b68a7f161fe8149f893
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695636312
+status: 3
+tags: []
+user_id: ceyhun

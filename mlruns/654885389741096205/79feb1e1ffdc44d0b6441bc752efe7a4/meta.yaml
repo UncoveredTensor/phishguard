@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/79feb1e1ffdc44d0b6441bc752efe7a4/artifacts
+deleted_time: 1688691617722
 end_time: 1688026983304
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 79feb1e1ffdc44d0b6441bc752efe7a4
 run_name: capricious-doe-61
 run_uuid: 79feb1e1ffdc44d0b6441bc752efe7a4

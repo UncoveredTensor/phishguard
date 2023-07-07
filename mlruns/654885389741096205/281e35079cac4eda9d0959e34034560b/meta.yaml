@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/281e35079cac4eda9d0959e34034560b/artifacts
+end_time: 1688695591609
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 281e35079cac4eda9d0959e34034560b
+run_name: casual-wasp-714
+run_uuid: 281e35079cac4eda9d0959e34034560b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695588645
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/532f12cbbdaf4b25864ff12b7d3eb3cf/artifacts
+deleted_time: 1688695573045
+end_time: 1688695526933
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 532f12cbbdaf4b25864ff12b7d3eb3cf
+run_name: capricious-shrew-393
+run_uuid: 532f12cbbdaf4b25864ff12b7d3eb3cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695522827
+status: 3
+tags: []
+user_id: ceyhun

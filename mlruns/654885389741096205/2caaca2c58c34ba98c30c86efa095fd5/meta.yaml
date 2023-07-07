@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/2caaca2c58c34ba98c30c86efa095fd5/artifacts
+deleted_time: 1688695416560
+end_time: 1688691749446
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 2caaca2c58c34ba98c30c86efa095fd5
+run_name: incongruous-dove-36
+run_uuid: 2caaca2c58c34ba98c30c86efa095fd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691745201
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/5ef5d3fa544d4e548d69b70743e399ee/artifacts
+deleted_time: 1688695416532
+end_time: 1688691665761
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 5ef5d3fa544d4e548d69b70743e399ee
+run_name: redolent-crab-46
+run_uuid: 5ef5d3fa544d4e548d69b70743e399ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691662026
+status: 3
+tags: []
+user_id: ceyhun

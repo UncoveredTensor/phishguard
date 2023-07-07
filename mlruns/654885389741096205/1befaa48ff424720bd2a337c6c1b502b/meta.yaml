@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/1befaa48ff424720bd2a337c6c1b502b/artifacts
+end_time: 1688695654361
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 1befaa48ff424720bd2a337c6c1b502b
+run_name: able-colt-759
+run_uuid: 1befaa48ff424720bd2a337c6c1b502b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695650628
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/2ee64d571a334a778bd570109cda2915/artifacts
+deleted_time: 1688695416566
+end_time: 1688691761094
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 2ee64d571a334a778bd570109cda2915
+run_name: capable-fox-98
+run_uuid: 2ee64d571a334a778bd570109cda2915
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691755916
+status: 3
+tags: []
+user_id: ceyhun

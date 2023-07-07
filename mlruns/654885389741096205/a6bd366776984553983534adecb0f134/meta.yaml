@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/a6bd366776984553983534adecb0f134/artifacts
+deleted_time: 1688695573074
+end_time: 1688695490132
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: a6bd366776984553983534adecb0f134
+run_name: dashing-colt-184
+run_uuid: a6bd366776984553983534adecb0f134
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695485025
+status: 3
+tags: []
+user_id: ceyhun

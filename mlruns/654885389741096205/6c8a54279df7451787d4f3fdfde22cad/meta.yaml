@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/6c8a54279df7451787d4f3fdfde22cad/artifacts
+deleted_time: 1688695416494
+end_time: 1688694508816
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 6c8a54279df7451787d4f3fdfde22cad
+run_name: amazing-rook-950
+run_uuid: 6c8a54279df7451787d4f3fdfde22cad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688694505218
+status: 3
+tags: []
+user_id: ceyhun

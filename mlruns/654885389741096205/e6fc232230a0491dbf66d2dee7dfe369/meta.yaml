@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/e6fc232230a0491dbf66d2dee7dfe369/artifacts
+deleted_time: 1688691617743
 end_time: 1688026945950
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e6fc232230a0491dbf66d2dee7dfe369
 run_name: overjoyed-asp-470
 run_uuid: e6fc232230a0491dbf66d2dee7dfe369

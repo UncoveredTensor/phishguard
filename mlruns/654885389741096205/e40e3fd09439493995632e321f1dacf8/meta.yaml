@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/e40e3fd09439493995632e321f1dacf8/artifacts
+end_time: 1688695608321
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: e40e3fd09439493995632e321f1dacf8
+run_name: handsome-carp-330
+run_uuid: e40e3fd09439493995632e321f1dacf8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695604999
+status: 3
+tags: []
+user_id: ceyhun

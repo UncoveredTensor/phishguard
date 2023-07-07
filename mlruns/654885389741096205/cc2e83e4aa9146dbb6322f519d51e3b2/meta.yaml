@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/cc2e83e4aa9146dbb6322f519d51e3b2/artifacts
+deleted_time: 1688695573067
+end_time: 1688695439756
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: cc2e83e4aa9146dbb6322f519d51e3b2
+run_name: merciful-goose-879
+run_uuid: cc2e83e4aa9146dbb6322f519d51e3b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695435827
+status: 3
+tags: []
+user_id: ceyhun

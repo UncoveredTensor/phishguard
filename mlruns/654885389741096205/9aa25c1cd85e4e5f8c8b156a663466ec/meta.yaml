@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/9aa25c1cd85e4e5f8c8b156a663466ec/artifacts
+deleted_time: 1688691617708
 end_time: 1688027014588
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9aa25c1cd85e4e5f8c8b156a663466ec
 run_name: stately-vole-274
 run_uuid: 9aa25c1cd85e4e5f8c8b156a663466ec

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/731c216694794fa084f83f9fd5fe0407/artifacts
+deleted_time: 1688695573042
+end_time: 1688695550242
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 731c216694794fa084f83f9fd5fe0407
+run_name: secretive-swan-152
+run_uuid: 731c216694794fa084f83f9fd5fe0407
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695546581
+status: 3
+tags: []
+user_id: ceyhun

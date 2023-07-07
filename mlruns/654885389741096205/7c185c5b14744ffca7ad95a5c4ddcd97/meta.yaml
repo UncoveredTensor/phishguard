@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/7c185c5b14744ffca7ad95a5c4ddcd97/artifacts
+end_time: 1688695618839
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 7c185c5b14744ffca7ad95a5c4ddcd97
+run_name: suave-robin-68
+run_uuid: 7c185c5b14744ffca7ad95a5c4ddcd97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695616274
+status: 3
+tags: []
+user_id: ceyhun

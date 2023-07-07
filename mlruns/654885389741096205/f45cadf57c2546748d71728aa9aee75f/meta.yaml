@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/f45cadf57c2546748d71728aa9aee75f/artifacts
+deleted_time: 1688695416496
+end_time: 1688694511435
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: f45cadf57c2546748d71728aa9aee75f
+run_name: rambunctious-dog-353
+run_uuid: f45cadf57c2546748d71728aa9aee75f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688694508890
+status: 4
+tags: []
+user_id: ceyhun

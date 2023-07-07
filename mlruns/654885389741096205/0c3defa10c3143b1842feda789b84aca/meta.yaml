@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0c3defa10c3143b1842feda789b84aca/artifacts
+deleted_time: 1688695416510
+end_time: 1688693837406
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 0c3defa10c3143b1842feda789b84aca
+run_name: skillful-hog-809
+run_uuid: 0c3defa10c3143b1842feda789b84aca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693834181
+status: 3
+tags: []
+user_id: ceyhun

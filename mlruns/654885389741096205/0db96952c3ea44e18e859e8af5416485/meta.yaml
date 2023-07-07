@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0db96952c3ea44e18e859e8af5416485/artifacts
+end_time: 1688695613083
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 0db96952c3ea44e18e859e8af5416485
+run_name: masked-asp-592
+run_uuid: 0db96952c3ea44e18e859e8af5416485
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695608396
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/d26927ed1f1548bba3aa78fcd7dff514/artifacts
+deleted_time: 1688691617704
 end_time: 1688027022187
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d26927ed1f1548bba3aa78fcd7dff514
 run_name: whimsical-whale-850
 run_uuid: d26927ed1f1548bba3aa78fcd7dff514

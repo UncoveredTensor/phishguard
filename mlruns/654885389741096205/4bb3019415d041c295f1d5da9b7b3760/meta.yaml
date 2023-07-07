@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/4bb3019415d041c295f1d5da9b7b3760/artifacts
+deleted_time: 1688691617736
 end_time: 1688026972840
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4bb3019415d041c295f1d5da9b7b3760
 run_name: trusting-skunk-1
 run_uuid: 4bb3019415d041c295f1d5da9b7b3760

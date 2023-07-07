@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/aa1e826fee7a49a68de9cb02f188970c/artifacts
+deleted_time: 1688695416501
+end_time: 1688694087578
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: aa1e826fee7a49a68de9cb02f188970c
+run_name: carefree-snake-314
+run_uuid: aa1e826fee7a49a68de9cb02f188970c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688694084124
+status: 3
+tags: []
+user_id: ceyhun

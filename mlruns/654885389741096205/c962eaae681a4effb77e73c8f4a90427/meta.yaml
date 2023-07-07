@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/c962eaae681a4effb77e73c8f4a90427/artifacts
+deleted_time: 1688695416525
+end_time: 1688691693536
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: c962eaae681a4effb77e73c8f4a90427
+run_name: able-vole-649
+run_uuid: c962eaae681a4effb77e73c8f4a90427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691690532
+status: 3
+tags: []
+user_id: ceyhun

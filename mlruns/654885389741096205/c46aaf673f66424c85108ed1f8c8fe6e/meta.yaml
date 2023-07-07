@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/c46aaf673f66424c85108ed1f8c8fe6e/artifacts
+deleted_time: 1688695416517
+end_time: 1688693655180
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: c46aaf673f66424c85108ed1f8c8fe6e
+run_name: gentle-ape-863
+run_uuid: c46aaf673f66424c85108ed1f8c8fe6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693652162
+status: 3
+tags: []
+user_id: ceyhun

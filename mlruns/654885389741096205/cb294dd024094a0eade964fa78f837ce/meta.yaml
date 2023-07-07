@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/cb294dd024094a0eade964fa78f837ce/artifacts
+deleted_time: 1688695416538
+end_time: 1688691701698
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: cb294dd024094a0eade964fa78f837ce
+run_name: serious-sponge-711
+run_uuid: cb294dd024094a0eade964fa78f837ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691698603
+status: 3
+tags: []
+user_id: ceyhun

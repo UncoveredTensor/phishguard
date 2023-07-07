@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/3efa0012c72246d486850c166aef2d4d/artifacts
+deleted_time: 1688695573088
+end_time: 1688695474287
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 3efa0012c72246d486850c166aef2d4d
+run_name: placid-panda-546
+run_uuid: 3efa0012c72246d486850c166aef2d4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695470499
+status: 3
+tags: []
+user_id: ceyhun

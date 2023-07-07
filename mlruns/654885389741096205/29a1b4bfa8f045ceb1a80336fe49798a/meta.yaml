@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/29a1b4bfa8f045ceb1a80336fe49798a/artifacts
+deleted_time: 1688695416551
+end_time: 1688691715554
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 29a1b4bfa8f045ceb1a80336fe49798a
+run_name: thoughtful-ox-372
+run_uuid: 29a1b4bfa8f045ceb1a80336fe49798a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691711350
+status: 3
+tags: []
+user_id: ceyhun

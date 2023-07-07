@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/346d47718339448f9faa81e07b42b96e/artifacts
+deleted_time: 1688695573082
+end_time: 1688695481810
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 346d47718339448f9faa81e07b42b96e
+run_name: big-worm-538
+run_uuid: 346d47718339448f9faa81e07b42b96e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695478257
+status: 3
+tags: []
+user_id: ceyhun

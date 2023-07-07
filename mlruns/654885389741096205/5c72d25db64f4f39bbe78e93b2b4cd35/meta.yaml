@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/5c72d25db64f4f39bbe78e93b2b4cd35/artifacts
+deleted_time: 1688695573038
+end_time: 1688695557440
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 5c72d25db64f4f39bbe78e93b2b4cd35
+run_name: incongruous-boar-432
+run_uuid: 5c72d25db64f4f39bbe78e93b2b4cd35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695553740
+status: 3
+tags: []
+user_id: ceyhun

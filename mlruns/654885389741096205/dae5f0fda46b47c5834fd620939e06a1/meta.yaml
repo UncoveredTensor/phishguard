@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/dae5f0fda46b47c5834fd620939e06a1/artifacts
+deleted_time: 1688695416560
+end_time: 1688691745124
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: dae5f0fda46b47c5834fd620939e06a1
+run_name: caring-frog-323
+run_uuid: dae5f0fda46b47c5834fd620939e06a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691740764
+status: 3
+tags: []
+user_id: ceyhun

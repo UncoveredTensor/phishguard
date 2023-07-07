@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/279887dc9d0449f4948b41a6afaa7a7d/artifacts
+end_time: 1688695645494
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 279887dc9d0449f4948b41a6afaa7a7d
+run_name: polite-slug-260
+run_uuid: 279887dc9d0449f4948b41a6afaa7a7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695642932
+status: 3
+tags: []
+user_id: ceyhun

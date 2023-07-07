@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/54c5b19aad414b22afb9f968c0096928/artifacts
+deleted_time: 1688691617742
 end_time: 1688026966014
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 54c5b19aad414b22afb9f968c0096928
 run_name: marvelous-elk-393
 run_uuid: 54c5b19aad414b22afb9f968c0096928

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/6ac57f15187b4f5e8904ec22517247cf/artifacts
+deleted_time: 1688691617706
 end_time: 1688027018553
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6ac57f15187b4f5e8904ec22517247cf
 run_name: zealous-horse-282
 run_uuid: 6ac57f15187b4f5e8904ec22517247cf

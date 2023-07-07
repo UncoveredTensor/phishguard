@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0ac91306d27c40faaad484366c95b48c/artifacts
+deleted_time: 1688695573085
+end_time: 1688695465838
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 0ac91306d27c40faaad484366c95b48c
+run_name: stylish-vole-251
+run_uuid: 0ac91306d27c40faaad484366c95b48c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695460202
+status: 3
+tags: []
+user_id: ceyhun

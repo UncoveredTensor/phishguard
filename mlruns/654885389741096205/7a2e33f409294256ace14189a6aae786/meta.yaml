@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/7a2e33f409294256ace14189a6aae786/artifacts
+deleted_time: 1688695416494
+end_time: 1688694705887
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 7a2e33f409294256ace14189a6aae786
+run_name: welcoming-ant-541
+run_uuid: 7a2e33f409294256ace14189a6aae786
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688694700525
+status: 3
+tags: []
+user_id: ceyhun

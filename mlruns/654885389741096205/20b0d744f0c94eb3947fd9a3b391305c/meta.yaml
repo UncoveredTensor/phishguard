@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/20b0d744f0c94eb3947fd9a3b391305c/artifacts
+deleted_time: 1688695416517
+end_time: 1688693609386
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 20b0d744f0c94eb3947fd9a3b391305c
+run_name: enthused-sheep-237
+run_uuid: 20b0d744f0c94eb3947fd9a3b391305c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693603255
+status: 3
+tags: []
+user_id: ceyhun

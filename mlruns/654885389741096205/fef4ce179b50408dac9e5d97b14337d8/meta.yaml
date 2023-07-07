@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/fef4ce179b50408dac9e5d97b14337d8/artifacts
+deleted_time: 1688695573057
+end_time: 1688695508754
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: fef4ce179b50408dac9e5d97b14337d8
+run_name: spiffy-lynx-921
+run_uuid: fef4ce179b50408dac9e5d97b14337d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695506029
+status: 3
+tags: []
+user_id: ceyhun

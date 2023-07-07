@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/2d32c99d86d94de4a31262bc152b870a/artifacts
+deleted_time: 1688695573047
+end_time: 1688695519354
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 2d32c99d86d94de4a31262bc152b870a
+run_name: gentle-bear-84
+run_uuid: 2d32c99d86d94de4a31262bc152b870a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695516085
+status: 3
+tags: []
+user_id: ceyhun

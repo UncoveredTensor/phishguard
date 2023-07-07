@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/faf95392e2014fa6b5afe03b3e1ae2f9/artifacts
+deleted_time: 1688695573071
+end_time: 1688695450493
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: faf95392e2014fa6b5afe03b3e1ae2f9
+run_name: intrigued-finch-736
+run_uuid: faf95392e2014fa6b5afe03b3e1ae2f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695445419
+status: 3
+tags: []
+user_id: ceyhun

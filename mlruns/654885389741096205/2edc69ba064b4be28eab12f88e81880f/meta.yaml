@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/2edc69ba064b4be28eab12f88e81880f/artifacts
+deleted_time: 1688695416531
+end_time: 1688691698525
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 2edc69ba064b4be28eab12f88e81880f
+run_name: funny-cat-476
+run_uuid: 2edc69ba064b4be28eab12f88e81880f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691693615
+status: 3
+tags: []
+user_id: ceyhun

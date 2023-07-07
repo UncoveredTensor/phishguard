@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/f9e3acab580040b6ad7f90cfa4e6eee3/artifacts
+deleted_time: 1688695416539
+end_time: 1688691672104
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: f9e3acab580040b6ad7f90cfa4e6eee3
+run_name: abundant-conch-45
+run_uuid: f9e3acab580040b6ad7f90cfa4e6eee3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691668696
+status: 3
+tags: []
+user_id: ceyhun

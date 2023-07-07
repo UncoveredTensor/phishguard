@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/478099ba44c4487a82a3437f9f2a189c/artifacts
+deleted_time: 1688695416524
+end_time: 1688691722918
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 478099ba44c4487a82a3437f9f2a189c
+run_name: smiling-newt-58
+run_uuid: 478099ba44c4487a82a3437f9f2a189c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691719739
+status: 3
+tags: []
+user_id: ceyhun

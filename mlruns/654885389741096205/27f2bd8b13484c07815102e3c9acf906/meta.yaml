@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/27f2bd8b13484c07815102e3c9acf906/artifacts
+deleted_time: 1688695573032
+end_time: 1688695568172
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 27f2bd8b13484c07815102e3c9acf906
+run_name: bald-koi-384
+run_uuid: 27f2bd8b13484c07815102e3c9acf906
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695561952
+status: 3
+tags: []
+user_id: ceyhun

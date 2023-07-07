@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/d87f8a9a8c0f45e7935ce372f6c84326/artifacts
+deleted_time: 1688695416560
+end_time: 1688693138652
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: d87f8a9a8c0f45e7935ce372f6c84326
+run_name: polite-foal-746
+run_uuid: d87f8a9a8c0f45e7935ce372f6c84326
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693134212
+status: 3
+tags: []
+user_id: ceyhun

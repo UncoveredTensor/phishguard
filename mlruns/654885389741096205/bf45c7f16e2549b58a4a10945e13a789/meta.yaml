@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/bf45c7f16e2549b58a4a10945e13a789/artifacts
+deleted_time: 1688695416509
+end_time: 1688693840131
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: bf45c7f16e2549b58a4a10945e13a789
+run_name: popular-hawk-804
+run_uuid: bf45c7f16e2549b58a4a10945e13a789
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693837483
+status: 3
+tags: []
+user_id: ceyhun

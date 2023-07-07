@@ -7,6 +7,7 @@ import mlflow
 import pandas as pd
 
 from utilities.logging_handler import logging_decorator
+from utilities.banner_handler import banner_decorator
 from features import Features
 
 app = typer.Typer()
@@ -128,8 +129,8 @@ def url_predict(
     """
 
     features = feature_extraction.extract_features(url=data[0], source_data=source_data, top_features=top_features)
-
     logging.info("Getting the features of the url")
+    
     features_df = pd.DataFrame([features])
 
     normalized_features = scaler.transform(features_df)
@@ -175,6 +176,7 @@ def list_predict(
         
     return output_path
 
+@banner_decorator
 @logging_decorator(project_name="phishguard")
 def predict(
     data: Union[str, str], 

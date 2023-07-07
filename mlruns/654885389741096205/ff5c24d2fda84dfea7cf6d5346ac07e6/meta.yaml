@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ff5c24d2fda84dfea7cf6d5346ac07e6/artifacts
+deleted_time: 1688691617729
 end_time: 1688026980327
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ff5c24d2fda84dfea7cf6d5346ac07e6
 run_name: salty-kite-181
 run_uuid: ff5c24d2fda84dfea7cf6d5346ac07e6

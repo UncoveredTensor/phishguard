@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/6d958d2237314f1bbef8f7e37d2af6cf/artifacts
+deleted_time: 1688695573088
+end_time: 1688695470417
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 6d958d2237314f1bbef8f7e37d2af6cf
+run_name: welcoming-hawk-168
+run_uuid: 6d958d2237314f1bbef8f7e37d2af6cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695465914
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/9bec38b92daf43e980f13c83ca72cd7e/artifacts
+deleted_time: 1688695573082
+end_time: 1688695460125
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 9bec38b92daf43e980f13c83ca72cd7e
+run_name: mysterious-hog-676
+run_uuid: 9bec38b92daf43e980f13c83ca72cd7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695456970
+status: 3
+tags: []
+user_id: ceyhun

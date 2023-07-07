@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/93014721a8b245d78db9f5ba4d782ab1/artifacts
+deleted_time: 1688691617702
 end_time: 1688027025663
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 93014721a8b245d78db9f5ba4d782ab1
 run_name: shivering-shad-484
 run_uuid: 93014721a8b245d78db9f5ba4d782ab1

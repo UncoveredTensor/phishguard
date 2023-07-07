@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/5fac400a85af4a17bdc48599f47dc12f/artifacts
+deleted_time: 1688695416525
+end_time: 1688691690452
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 5fac400a85af4a17bdc48599f47dc12f
+run_name: salty-swan-416
+run_uuid: 5fac400a85af4a17bdc48599f47dc12f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691684235
+status: 3
+tags: []
+user_id: ceyhun

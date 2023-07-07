@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/b4c82002c9cc48fa88103d21ff1f42a9/artifacts
+deleted_time: 1688695416501
+end_time: 1688693988824
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: b4c82002c9cc48fa88103d21ff1f42a9
+run_name: zealous-dog-506
+run_uuid: b4c82002c9cc48fa88103d21ff1f42a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693987733
+status: 4
+tags: []
+user_id: ceyhun

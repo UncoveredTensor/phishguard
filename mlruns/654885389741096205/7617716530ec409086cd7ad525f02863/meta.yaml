@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/7617716530ec409086cd7ad525f02863/artifacts
+end_time: 1688695604922
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 7617716530ec409086cd7ad525f02863
+run_name: exultant-hog-603
+run_uuid: 7617716530ec409086cd7ad525f02863
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695600299
+status: 3
+tags: []
+user_id: ceyhun

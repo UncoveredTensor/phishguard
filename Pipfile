@@ -21,6 +21,7 @@ fastapi = "*"
 streamlit = "*"
 uvicorn = "*"
 utils = "*"
+art = "*"
 
 [dev-packages]
 

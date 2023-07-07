@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/732b8d3361d34d5993392f087634419a/artifacts
+deleted_time: 1688691617722
 end_time: 1688026994987
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 732b8d3361d34d5993392f087634419a
 run_name: gifted-cat-929
 run_uuid: 732b8d3361d34d5993392f087634419a

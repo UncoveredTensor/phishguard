@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/a075fb7b145548eab5717424ddf5281b/artifacts
+deleted_time: 1688695416558
+end_time: 1688693254861
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: a075fb7b145548eab5717424ddf5281b
+run_name: worried-colt-119
+run_uuid: a075fb7b145548eab5717424ddf5281b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693250648
+status: 3
+tags: []
+user_id: ceyhun

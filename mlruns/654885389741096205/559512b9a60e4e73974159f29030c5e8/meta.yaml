@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/559512b9a60e4e73974159f29030c5e8/artifacts
+end_time: 1688695657933
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 559512b9a60e4e73974159f29030c5e8
+run_name: rebellious-frog-380
+run_uuid: 559512b9a60e4e73974159f29030c5e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695654438
+status: 3
+tags: []
+user_id: ceyhun

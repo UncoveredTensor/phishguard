@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ffa4b4b5087649ccaa4c7f4e9f105da1/artifacts
+deleted_time: 1688695573065
+end_time: 1688695502309
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ffa4b4b5087649ccaa4c7f4e9f105da1
+run_name: unruly-panda-266
+run_uuid: ffa4b4b5087649ccaa4c7f4e9f105da1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695498527
+status: 3
+tags: []
+user_id: ceyhun

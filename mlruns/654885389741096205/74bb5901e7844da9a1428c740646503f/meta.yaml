@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/74bb5901e7844da9a1428c740646503f/artifacts
+deleted_time: 1688691617735
 end_time: 1688026938789
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 74bb5901e7844da9a1428c740646503f
 run_name: merciful-perch-141
 run_uuid: 74bb5901e7844da9a1428c740646503f

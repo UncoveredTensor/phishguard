@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/bc2e231c5ac04796b0dcebcd19bfba1c/artifacts
+deleted_time: 1688695573058
+end_time: 1688695495102
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: bc2e231c5ac04796b0dcebcd19bfba1c
+run_name: amusing-pug-539
+run_uuid: bc2e231c5ac04796b0dcebcd19bfba1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695490210
+status: 3
+tags: []
+user_id: ceyhun

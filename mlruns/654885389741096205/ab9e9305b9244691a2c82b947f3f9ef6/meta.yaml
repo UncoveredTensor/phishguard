@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ab9e9305b9244691a2c82b947f3f9ef6/artifacts
+deleted_time: 1688691617715
 end_time: 1688027007435
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ab9e9305b9244691a2c82b947f3f9ef6
 run_name: flawless-tern-872
 run_uuid: ab9e9305b9244691a2c82b947f3f9ef6

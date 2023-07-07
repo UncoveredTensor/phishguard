@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0bf07334a959421b9a718b09c16958e2/artifacts
+deleted_time: 1688695416546
+end_time: 1688691684157
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 0bf07334a959421b9a718b09c16958e2
+run_name: incongruous-owl-66
+run_uuid: 0bf07334a959421b9a718b09c16958e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691680173
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/df455358bde2455b8e7ce3c4c916a1fa/artifacts
+deleted_time: 1688695573067
+end_time: 1688695445345
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: df455358bde2455b8e7ce3c4c916a1fa
+run_name: honorable-cub-437
+run_uuid: df455358bde2455b8e7ce3c4c916a1fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695442792
+status: 3
+tags: []
+user_id: ceyhun

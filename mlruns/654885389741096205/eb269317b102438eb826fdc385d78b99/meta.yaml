@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/eb269317b102438eb826fdc385d78b99/artifacts
+end_time: 1688695597154
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: eb269317b102438eb826fdc385d78b99
+run_name: stately-duck-980
+run_uuid: eb269317b102438eb826fdc385d78b99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695594467
+status: 3
+tags: []
+user_id: ceyhun

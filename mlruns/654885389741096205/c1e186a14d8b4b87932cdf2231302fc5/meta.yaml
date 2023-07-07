@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/c1e186a14d8b4b87932cdf2231302fc5/artifacts
+end_time: 1688695628744
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: c1e186a14d8b4b87932cdf2231302fc5
+run_name: zealous-panda-241
+run_uuid: c1e186a14d8b4b87932cdf2231302fc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688695625967
+status: 3
+tags: []
+user_id: ceyhun

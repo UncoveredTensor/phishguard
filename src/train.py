@@ -13,8 +13,12 @@ from hyperopt import fmin, tpe, hp, STATUS_OK
 from xgboost import XGBClassifier
 import mlflow
 from sklearn.preprocessing import MinMaxScaler
+import logging
 
-warnings.filterwarnings("ignore", category=UserWarning)
+from utilities.logging_handler import logging_decorator
+from utilities.banner_handler import banner_decorator
+
+warnings.filterwarnings("ignore")
 
 app = typer.Typer()
 
@@ -164,7 +168,8 @@ def fit_xgboost(
         dict: The loss and the status of the model.
     """
 
-    params = {k: v for k, v in hyperspace.items() if k not in ["train_set", "test_set", 'scaler']}
+    model_params = {k: v for k, v in hyperspace.items() if k not in ["train_set", "test_set", 'scaler', 'min_max_scaler_artifact_name', 'model_artifact_name', 'top_features']}
+    mlflow_params = {k: v for k, v in hyperspace.items() if k not in ["train_set", "test_set", 'scaler']}
     
     X_train = hyperspace['train_set'].iloc[:, :-1]
     y_train = hyperspace['train_set'].iloc[:, -1]
@@ -174,7 +179,7 @@ def fit_xgboost(
     
     eval_set = [(X_train, y_train), (X_test, y_test)]
     
-    model = XGBClassifier(**params)
+    model = XGBClassifier(**model_params)
 
     mlflow.set_experiment("phishguard")
 
@@ -191,7 +196,7 @@ def fit_xgboost(
         mlflow.xgboost.log_model(model, hyperspace['model_artifact_name'])
         mlflow.sklearn.log_model(hyperspace['scaler'], hyperspace['min_max_scaler_artifact_name'])
 
-        mlflow.log_params(params)
+        mlflow.log_params(mlflow_params)
         
         for metric_name, metric_value in evaluation_metrics.items():
             mlflow.log_metric(metric_name, metric_value)
@@ -203,6 +208,62 @@ def fit_xgboost(
     mlflow.end_run()
         
     return {'loss': evaluation_metrics['log_loss'], 'status': STATUS_OK}
+
+@banner_decorator
+@logging_decorator(project_name="phishguard")
+def run(
+    source_dataset: str,
+    external_data: str,
+    top_features: int,
+    hyperopt: bool,
+    max_evals: int,
+    model_artifact_name: str,
+    min_max_scaler_artifact_name: str,
+    train_size: float,
+    early_stopping_rounds: int ,
+    gamma: Tuple[int, int],
+    max_depth: Tuple[int, int],
+    eta: Tuple[int, int],
+    alpha: Tuple[int, int],
+):
+
+    df = load_data(source_data=source_dataset)
+    logging.info(f"Data loaded from {source_dataset}.")
+
+    if external_data is not None:
+        df = merge_data(df, external_data)
+        logging.info(f"External data loaded from {external_data}.")
+    
+    columns = df.corr()['phishing'].sort_values(ascending=False)[:top_features].index
+
+    df = df[columns]
+
+    df, scaler = normalize_features(df=df)
+    logging.info(f"Data normalized.")
+
+    train_set, test_set = split_train_test(df=df, train_size=train_size)
+    logging.info(f"Data splitted into train and test sets.")
+    
+    hyperspace = {
+        'gamma': hp.uniform('gamma', gamma[0], gamma[1]),
+        'eta': hp.loguniform('eta', eta[0], eta[1]),
+        'max_depth': hp.randint('max_depth', max_depth[0], max_depth[1]),
+        'alpha': hp.uniform('alpha', alpha[0], alpha[1]),
+        'train_set': train_set,
+        'test_set': test_set,
+        'scaler': scaler,
+        'model_artifact_name': model_artifact_name,
+        'min_max_scaler_artifact_name': min_max_scaler_artifact_name,
+        'top_features': top_features,
+        'objective': 'binary:logistic',
+        'early_stopping_rounds': early_stopping_rounds,
+        'predictor': 'gpu_predictor'
+    }
+
+    if hyperopt:
+        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=max_evals)
+    else:
+        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=1)
 
 @app.command()
 def main(
@@ -240,40 +301,21 @@ def main(
         None.
     """
 
-    df = load_data(source_data=source_dataset)
-
-    if external_data is not None:
-        df = merge_data(df, external_data)
-    
-    columns = df.corr()['phishing'].sort_values(ascending=False)[:top_features].index
-
-    df = df[columns]
-
-    df, scaler = normalize_features(df=df)
-
-    train_set, test_set = split_train_test(df=df, train_size=train_size)
-    
-    hyperspace = {
-        'gamma': hp.uniform('gamma', gamma[0], gamma[1]),
-        'eta': hp.loguniform('eta', eta[0], eta[1]),
-        'max_depth': hp.randint('max_depth', max_depth[0], max_depth[1]),
-        'alpha': hp.uniform('alpha', alpha[0], alpha[1]),
-        'train_set': train_set,
-        'test_set': test_set,
-        'scaler': scaler,
-        'model_artifact_name': model_artifact_name,
-        'min_max_scaler_artifact_name': min_max_scaler_artifact_name,
-        'top_features': top_features,
-        'objective': 'binary:logistic',
-        'early_stopping_rounds': early_stopping_rounds,
-        'predictor': 'gpu_predictor'
-    }
-
-    if hyperopt:
-        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=max_evals)
-    else:
-        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=1)
-
+    run(
+        source_dataset=source_dataset,
+        external_data=external_data,
+        top_features=top_features,
+        hyperopt=hyperopt,
+        max_evals=max_evals,
+        model_artifact_name=model_artifact_name,
+        min_max_scaler_artifact_name=min_max_scaler_artifact_name,
+        train_size=train_size,
+        early_stopping_rounds=early_stopping_rounds,
+        gamma=gamma,
+        max_depth=max_depth,
+        eta=eta,
+        alpha=alpha,
+    )
 
 if __name__ == "__main__":
     app()

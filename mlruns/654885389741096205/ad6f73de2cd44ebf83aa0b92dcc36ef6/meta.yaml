@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ad6f73de2cd44ebf83aa0b92dcc36ef6/artifacts
+deleted_time: 1688695416504
+end_time: 1688693939963
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ad6f73de2cd44ebf83aa0b92dcc36ef6
+run_name: whimsical-sheep-443
+run_uuid: ad6f73de2cd44ebf83aa0b92dcc36ef6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688693936415
+status: 3
+tags: []
+user_id: ceyhun

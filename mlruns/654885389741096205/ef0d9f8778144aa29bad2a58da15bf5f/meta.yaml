@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ef0d9f8778144aa29bad2a58da15bf5f/artifacts
+deleted_time: 1688695416519
+end_time: 1688691733474
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ef0d9f8778144aa29bad2a58da15bf5f
+run_name: intrigued-cub-137
+run_uuid: ef0d9f8778144aa29bad2a58da15bf5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688691727564
+status: 3
+tags: []
+user_id: ceyhun

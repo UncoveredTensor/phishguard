@@ -33,8 +33,8 @@ def logging_decorator(project_name: str):
                     result = func(*args, **kwargs)
                     return result
                 except Exception as e:
-                    # Log the raised condition with the project name and raised value
-                    logger.info("[\033[34;1m{}\033[0m] Raise condition occurred: {}".format(self.project_name, str(e)))
+                    if not isinstance(e, SystemExit):
+                        logger.info("[\033[34;1m{}\033[0m] Raise condition occurred: {}".format(self.project_name, str(e)))
                     raise
 
         return Wrapper()
