@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/b82db8d87e8448b4b69fce83a4be42fa/artifacts
+deleted_time: 1688753058474
+end_time: 1688753014575
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: b82db8d87e8448b4b69fce83a4be42fa
+run_name: puzzled-newt-619
+run_uuid: b82db8d87e8448b4b69fce83a4be42fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688753014514
+status: 4
+tags: []
+user_id: ceyhun

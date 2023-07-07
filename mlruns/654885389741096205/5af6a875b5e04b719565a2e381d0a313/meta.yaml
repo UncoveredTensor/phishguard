@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/5af6a875b5e04b719565a2e381d0a313/artifacts
+deleted_time: 1688753058466
+end_time: 1688753027963
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 5af6a875b5e04b719565a2e381d0a313
+run_name: efficient-swan-130
+run_uuid: 5af6a875b5e04b719565a2e381d0a313
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688753026021
+status: 4
+tags: []
+user_id: ceyhun

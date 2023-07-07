@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/dda603e2bdac4ff8a544220b020c8289/artifacts
+deleted_time: 1688750261760
+end_time: 1688750174046
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: dda603e2bdac4ff8a544220b020c8289
+run_name: sedate-moth-438
+run_uuid: dda603e2bdac4ff8a544220b020c8289
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688750170203
+status: 3
+tags: []
+user_id: ceyhun

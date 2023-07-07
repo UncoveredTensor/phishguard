@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/08226b132e2647b8a8fc1e74a3b0714f/artifacts
+deleted_time: 1688753058467
+end_time: 1688753025944
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 08226b132e2647b8a8fc1e74a3b0714f
+run_name: gregarious-colt-210
+run_uuid: 08226b132e2647b8a8fc1e74a3b0714f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688753022723
+status: 3
+tags: []
+user_id: ceyhun

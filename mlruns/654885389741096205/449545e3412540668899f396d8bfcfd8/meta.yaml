@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/449545e3412540668899f396d8bfcfd8/artifacts
+deleted_time: 1688753058441
+end_time: 1688752137373
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 449545e3412540668899f396d8bfcfd8
+run_name: youthful-penguin-599
+run_uuid: 449545e3412540668899f396d8bfcfd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752133849
+status: 3
+tags: []
+user_id: ceyhun

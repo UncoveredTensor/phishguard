@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/cd7a5fce56a24a0a860cc7ac6ed549ba/artifacts
+deleted_time: 1688753058458
+end_time: 1688752988016
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: cd7a5fce56a24a0a860cc7ac6ed549ba
+run_name: lyrical-sheep-837
+run_uuid: cd7a5fce56a24a0a860cc7ac6ed549ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752984645
+status: 4
+tags: []
+user_id: ceyhun

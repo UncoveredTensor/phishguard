@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/1042dd805e6b4296921b99776e48b745/artifacts
+deleted_time: 1688753058447
+end_time: 1688752140572
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 1042dd805e6b4296921b99776e48b745
+run_name: orderly-ape-985
+run_uuid: 1042dd805e6b4296921b99776e48b745
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752137448
+status: 3
+tags: []
+user_id: ceyhun

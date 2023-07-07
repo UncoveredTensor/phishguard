@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ccf31740813e48eab51feaf02fe9f3bd/artifacts
+deleted_time: 1688753058473
+end_time: 1688753022639
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ccf31740813e48eab51feaf02fe9f3bd
+run_name: stately-owl-918
+run_uuid: ccf31740813e48eab51feaf02fe9f3bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688753019093
+status: 3
+tags: []
+user_id: ceyhun

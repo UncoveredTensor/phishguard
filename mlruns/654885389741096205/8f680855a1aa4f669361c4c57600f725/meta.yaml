@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/8f680855a1aa4f669361c4c57600f725/artifacts
+deleted_time: 1688753058474
+end_time: 1688753014395
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 8f680855a1aa4f669361c4c57600f725
+run_name: righteous-yak-483
+run_uuid: 8f680855a1aa4f669361c4c57600f725
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688753010250
+status: 3
+tags: []
+user_id: ceyhun

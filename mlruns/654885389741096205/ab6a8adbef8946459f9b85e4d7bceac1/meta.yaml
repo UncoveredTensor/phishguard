@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ab6a8adbef8946459f9b85e4d7bceac1/artifacts
+deleted_time: 1688753058465
+end_time: 1688753001314
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ab6a8adbef8946459f9b85e4d7bceac1
+run_name: adorable-ram-984
+run_uuid: ab6a8adbef8946459f9b85e4d7bceac1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752998558
+status: 3
+tags: []
+user_id: ceyhun

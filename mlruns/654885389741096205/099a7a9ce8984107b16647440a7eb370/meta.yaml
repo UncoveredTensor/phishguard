@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/099a7a9ce8984107b16647440a7eb370/artifacts
+deleted_time: 1688750261761
+end_time: 1688750177927
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 099a7a9ce8984107b16647440a7eb370
+run_name: gregarious-mink-498
+run_uuid: 099a7a9ce8984107b16647440a7eb370
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688750174124
+status: 3
+tags: []
+user_id: ceyhun

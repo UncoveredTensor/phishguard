@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/21d951d452314f689bc7adb2f366a03b/artifacts
+deleted_time: 1688750261764
+end_time: 1688750231806
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 21d951d452314f689bc7adb2f366a03b
+run_name: puzzled-loon-609
+run_uuid: 21d951d452314f689bc7adb2f366a03b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688750227309
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/72609bb1fbe14a7490f9482333daaf62/artifacts
+deleted_time: 1688753058453
+end_time: 1688752142132
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 72609bb1fbe14a7490f9482333daaf62
+run_name: efficient-jay-841
+run_uuid: 72609bb1fbe14a7490f9482333daaf62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752140650
+status: 4
+tags: []
+user_id: ceyhun

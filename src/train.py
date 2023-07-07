@@ -168,6 +168,9 @@ def fit_xgboost(
         dict: The loss and the status of the model.
     """
 
+    logger = logging.getLogger('hyperopt')
+    logger.setLevel(logging.ERROR)
+
     model_params = {k: v for k, v in hyperspace.items() if k not in ["train_set", "test_set", 'scaler', 'min_max_scaler_artifact_name', 'model_artifact_name', 'top_features']}
     mlflow_params = {k: v for k, v in hyperspace.items() if k not in ["train_set", "test_set", 'scaler']}
     
@@ -242,7 +245,7 @@ def run(
     logging.info(f"Data normalized.")
 
     train_set, test_set = split_train_test(df=df, train_size=train_size)
-    logging.info(f"Data splitted into train and test sets.")
+    logging.info(f"Data splitted into train and test sets. \n")
     
     hyperspace = {
         'gamma': hp.uniform('gamma', gamma[0], gamma[1]),
@@ -260,10 +263,14 @@ def run(
         'predictor': 'gpu_predictor'
     }
 
+    logging.getLogger('mlflow.sklearn').setLevel(logging.ERROR)
+    logger = logging.getLogger('hyperopt')
+    logger.setLevel(logging.ERROR)
+
     if hyperopt:
-        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=max_evals)
+        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=max_evals, verbose=1)
     else:
-        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=1)
+        best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=1, verbose=1)
 
 @app.command()
 def main(

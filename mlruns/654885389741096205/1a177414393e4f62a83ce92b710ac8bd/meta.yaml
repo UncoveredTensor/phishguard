@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/1a177414393e4f62a83ce92b710ac8bd/artifacts
+deleted_time: 1688753058461
+end_time: 1688752998481
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 1a177414393e4f62a83ce92b710ac8bd
+run_name: invincible-seal-270
+run_uuid: 1a177414393e4f62a83ce92b710ac8bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752992617
+status: 3
+tags: []
+user_id: ceyhun

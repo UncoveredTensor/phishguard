@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/6300708bc3924aeabc0147fdd177890f/artifacts
+deleted_time: 1688753058454
+end_time: 1688752978194
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 6300708bc3924aeabc0147fdd177890f
+run_name: rambunctious-swan-29
+run_uuid: 6300708bc3924aeabc0147fdd177890f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752974757
+status: 3
+tags: []
+user_id: ceyhun

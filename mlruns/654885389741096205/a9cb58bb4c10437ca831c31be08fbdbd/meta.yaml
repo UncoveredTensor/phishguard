@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/a9cb58bb4c10437ca831c31be08fbdbd/artifacts
+deleted_time: 1688753058449
+end_time: 1688752883838
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: a9cb58bb4c10437ca831c31be08fbdbd
+run_name: crawling-lark-482
+run_uuid: a9cb58bb4c10437ca831c31be08fbdbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688752881744
+status: 4
+tags: []
+user_id: ceyhun

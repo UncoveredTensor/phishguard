@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/55e0ae40f55445cba8b245e3ce95e403/artifacts
+deleted_time: 1688753058471
+end_time: 1688753010176
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 55e0ae40f55445cba8b245e3ce95e403
+run_name: kindly-stag-827
+run_uuid: 55e0ae40f55445cba8b245e3ce95e403
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688753004462
+status: 3
+tags: []
+user_id: ceyhun

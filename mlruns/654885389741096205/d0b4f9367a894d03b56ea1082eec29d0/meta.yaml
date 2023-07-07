@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/d0b4f9367a894d03b56ea1082eec29d0/artifacts
+deleted_time: 1688750261767
+end_time: 1688750234879
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: d0b4f9367a894d03b56ea1082eec29d0
+run_name: indecisive-steed-705
+run_uuid: d0b4f9367a894d03b56ea1082eec29d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688750231881
+status: 3
+tags: []
+user_id: ceyhun
