@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/652c987966d64175bc172d385b5a7d97/artifacts
+deleted_time: 1688770105211
+end_time: 1688769202082
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 652c987966d64175bc172d385b5a7d97
+run_name: thundering-grub-772
+run_uuid: 652c987966d64175bc172d385b5a7d97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688769198316
+status: 3
+tags: []
+user_id: ceyhun

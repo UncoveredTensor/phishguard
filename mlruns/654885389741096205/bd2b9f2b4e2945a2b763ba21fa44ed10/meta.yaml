@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/bd2b9f2b4e2945a2b763ba21fa44ed10/artifacts
+deleted_time: 1688770105202
+end_time: 1688769175584
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: bd2b9f2b4e2945a2b763ba21fa44ed10
+run_name: unequaled-robin-605
+run_uuid: bd2b9f2b4e2945a2b763ba21fa44ed10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688769172690
+status: 3
+tags: []
+user_id: ceyhun

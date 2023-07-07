@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/b9fdedc965454951868cd28ecc9b7434/artifacts
+deleted_time: 1688770266232
+end_time: 1688769205239
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: b9fdedc965454951868cd28ecc9b7434
+run_name: omniscient-shad-752
+run_uuid: b9fdedc965454951868cd28ecc9b7434
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688769202158
+status: 3
+tags: []
+user_id: ceyhun

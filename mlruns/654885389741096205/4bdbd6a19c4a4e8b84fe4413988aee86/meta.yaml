@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/4bdbd6a19c4a4e8b84fe4413988aee86/artifacts
+deleted_time: 1688770266242
+end_time: 1688769232015
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 4bdbd6a19c4a4e8b84fe4413988aee86
+run_name: vaunted-zebra-724
+run_uuid: 4bdbd6a19c4a4e8b84fe4413988aee86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688769230738
+status: 4
+tags: []
+user_id: ceyhun

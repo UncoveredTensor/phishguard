@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/81a7c44a32ee4074bcad18b6aea3184f/artifacts
+deleted_time: 1688770105208
+end_time: 1688769188061
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 81a7c44a32ee4074bcad18b6aea3184f
+run_name: inquisitive-stag-559
+run_uuid: 81a7c44a32ee4074bcad18b6aea3184f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688769183363
+status: 3
+tags: []
+user_id: ceyhun

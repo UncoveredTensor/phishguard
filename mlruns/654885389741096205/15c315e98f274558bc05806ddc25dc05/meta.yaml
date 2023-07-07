@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/15c315e98f274558bc05806ddc25dc05/artifacts
+deleted_time: 1688770266223
+end_time: 1688769215518
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 15c315e98f274558bc05806ddc25dc05
+run_name: capable-ape-912
+run_uuid: 15c315e98f274558bc05806ddc25dc05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688769208846
+status: 3
+tags: []
+user_id: ceyhun

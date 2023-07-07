@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/2daefc93a90840f7b49578e9e3a361d9/artifacts
+deleted_time: 1688770105205
+end_time: 1688769183286
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 2daefc93a90840f7b49578e9e3a361d9
+run_name: nosy-auk-790
+run_uuid: 2daefc93a90840f7b49578e9e3a361d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688769178995
+status: 3
+tags: []
+user_id: ceyhun
