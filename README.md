@@ -56,6 +56,12 @@ To ensure consistent dependencies within the project, we recommend running the f
     pipenv install
 
 ## Retrain
+### Flow
+<p align="center">
+  <img src="img/phishguard_retrain.png" alt="Image">
+</p>
+
+### Usage
 Since the project will continously be updated with new data and be retrained by UncoveredTensor, we give the option also to contributors and developers to retrain the model to their liking. Note: it is nice to know that the data that could be added on should be the same kind of features we want to use, since the model that is being used takes a certain feature matrix as input.
 
 To retrain the model architecture we can use the help command.
