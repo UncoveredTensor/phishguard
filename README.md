@@ -24,7 +24,6 @@ PhishGuard is a robust tool designed to classify whether a webpage is a phishing
 </details>
 
 ## Predict
-### Flow
 <p align="center">
   <img src="img/phishguard_predict.png" alt="Image">
 </p>
@@ -63,7 +62,6 @@ To ensure consistent dependencies within the project, we recommend running the f
     pipenv install
 
 ## Retrain
-### Flow
 <p align="center">
   <img src="img/phishguard_retrain.png" alt="Image">
 </p>
