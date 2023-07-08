@@ -23,6 +23,16 @@ PhishGuard is a robust tool designed to classify whether a webpage is a phishing
     docker-compose up --build
 </details>
 
+## Tracking Server
+<p align="center">
+  <img src="img/phishguard_tracking_server.png" alt="Image">
+</p>
+
+### Usage
+Before we can retrain or make predictions for phishing we first need to start the tracking server inorder to fetch the necessary information to run make these actions. To run the tracking server the following pipenv command can be used.
+
+    pipenv run tracking
+
 ## Predict
 <p align="center">
   <img src="img/phishguard_predict.png" alt="Image">
