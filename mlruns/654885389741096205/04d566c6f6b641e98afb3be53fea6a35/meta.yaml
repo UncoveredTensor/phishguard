@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/04d566c6f6b641e98afb3be53fea6a35/artifacts
+deleted_time: 1688833230283
+end_time: 1688833070081
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 04d566c6f6b641e98afb3be53fea6a35
+run_name: dapper-boar-920
+run_uuid: 04d566c6f6b641e98afb3be53fea6a35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833064325
+status: 3
+tags: []
+user_id: ceyhun

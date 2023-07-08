@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/182795014bf2489999cc7cc906ea061b/artifacts
+deleted_time: 1688833009520
+end_time: 1688832830024
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 182795014bf2489999cc7cc906ea061b
+run_name: efficient-doe-18
+run_uuid: 182795014bf2489999cc7cc906ea061b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832825367
+status: 3
+tags: []
+user_id: ceyhun

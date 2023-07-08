@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/eb269317b102438eb826fdc385d78b99/artifacts
+deleted_time: 1688832800883
 end_time: 1688695597154
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: eb269317b102438eb826fdc385d78b99
 run_name: stately-duck-980
 run_uuid: eb269317b102438eb826fdc385d78b99

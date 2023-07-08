@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ef14e43305e743a1bb95c0d107c506e8/artifacts
+deleted_time: 1688832800843
 end_time: 1688695668563
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ef14e43305e743a1bb95c0d107c506e8
 run_name: bouncy-gull-759
 run_uuid: ef14e43305e743a1bb95c0d107c506e8

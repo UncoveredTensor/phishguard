@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0b57b0e971af430fa5f62658517a9e31/artifacts
+deleted_time: 1688832800867
 end_time: 1688695585606
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0b57b0e971af430fa5f62658517a9e31
 run_name: stylish-mare-648
 run_uuid: 0b57b0e971af430fa5f62658517a9e31

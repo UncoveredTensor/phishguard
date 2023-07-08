@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/281e35079cac4eda9d0959e34034560b/artifacts
+deleted_time: 1688832800876
 end_time: 1688695591609
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 281e35079cac4eda9d0959e34034560b
 run_name: casual-wasp-714
 run_uuid: 281e35079cac4eda9d0959e34034560b

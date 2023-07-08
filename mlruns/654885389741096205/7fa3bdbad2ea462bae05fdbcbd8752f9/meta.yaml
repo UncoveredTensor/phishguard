@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/7fa3bdbad2ea462bae05fdbcbd8752f9/artifacts
+deleted_time: 1688833009532
+end_time: 1688832842130
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 7fa3bdbad2ea462bae05fdbcbd8752f9
+run_name: merciful-koi-533
+run_uuid: 7fa3bdbad2ea462bae05fdbcbd8752f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832837073
+status: 3
+tags: []
+user_id: ceyhun

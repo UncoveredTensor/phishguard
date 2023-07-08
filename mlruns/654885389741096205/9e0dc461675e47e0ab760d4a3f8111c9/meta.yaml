@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/9e0dc461675e47e0ab760d4a3f8111c9/artifacts
+deleted_time: 1688833009516
+end_time: 1688832863148
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 9e0dc461675e47e0ab760d4a3f8111c9
+run_name: bold-turtle-680
+run_uuid: 9e0dc461675e47e0ab760d4a3f8111c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832859250
+status: 3
+tags: []
+user_id: ceyhun

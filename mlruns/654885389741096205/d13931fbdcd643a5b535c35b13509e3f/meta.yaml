@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/d13931fbdcd643a5b535c35b13509e3f/artifacts
+deleted_time: 1688833230284
+end_time: 1688833040461
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: d13931fbdcd643a5b535c35b13509e3f
+run_name: unruly-toad-302
+run_uuid: d13931fbdcd643a5b535c35b13509e3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833036376
+status: 3
+tags: []
+user_id: ceyhun

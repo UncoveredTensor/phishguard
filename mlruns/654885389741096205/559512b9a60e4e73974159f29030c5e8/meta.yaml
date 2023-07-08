@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/559512b9a60e4e73974159f29030c5e8/artifacts
+deleted_time: 1688832800849
 end_time: 1688695657933
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 559512b9a60e4e73974159f29030c5e8
 run_name: rebellious-frog-380
 run_uuid: 559512b9a60e4e73974159f29030c5e8

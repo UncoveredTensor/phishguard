@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/71ba948137a04200b238b07c9813880d/artifacts
+deleted_time: 1688833009491
+end_time: 1688832893289
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 71ba948137a04200b238b07c9813880d
+run_name: grandiose-colt-360
+run_uuid: 71ba948137a04200b238b07c9813880d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832889741
+status: 3
+tags: []
+user_id: ceyhun

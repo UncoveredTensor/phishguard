@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/e4615bbca555425385590bbb4a93e1b1/artifacts
+deleted_time: 1688833230300
+end_time: 1688833053900
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: e4615bbca555425385590bbb4a93e1b1
+run_name: zealous-bass-680
+run_uuid: e4615bbca555425385590bbb4a93e1b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833049971
+status: 3
+tags: []
+user_id: ceyhun

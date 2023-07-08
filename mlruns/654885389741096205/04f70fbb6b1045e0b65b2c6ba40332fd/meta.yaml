@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/04f70fbb6b1045e0b65b2c6ba40332fd/artifacts
+end_time: 1688833329417
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 04f70fbb6b1045e0b65b2c6ba40332fd
+run_name: upset-cow-89
+run_uuid: 04f70fbb6b1045e0b65b2c6ba40332fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833324798
+status: 3
+tags: []
+user_id: ceyhun

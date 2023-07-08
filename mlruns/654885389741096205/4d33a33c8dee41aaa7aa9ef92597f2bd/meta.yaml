@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/4d33a33c8dee41aaa7aa9ef92597f2bd/artifacts
+deleted_time: 1688833230258
+end_time: 1688833102998
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 4d33a33c8dee41aaa7aa9ef92597f2bd
+run_name: marvelous-conch-542
+run_uuid: 4d33a33c8dee41aaa7aa9ef92597f2bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833098354
+status: 3
+tags: []
+user_id: ceyhun

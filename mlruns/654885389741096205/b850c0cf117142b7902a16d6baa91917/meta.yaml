@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/b850c0cf117142b7902a16d6baa91917/artifacts
+deleted_time: 1688832800837
 end_time: 1688695674602
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b850c0cf117142b7902a16d6baa91917
 run_name: overjoyed-rook-461
 run_uuid: b850c0cf117142b7902a16d6baa91917

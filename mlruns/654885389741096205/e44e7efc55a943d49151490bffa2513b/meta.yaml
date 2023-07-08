@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/e44e7efc55a943d49151490bffa2513b/artifacts
+end_time: 1688833277664
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: e44e7efc55a943d49151490bffa2513b
+run_name: upbeat-pig-617
+run_uuid: e44e7efc55a943d49151490bffa2513b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833274751
+status: 3
+tags: []
+user_id: ceyhun

@@ -95,14 +95,15 @@ def load_model(
 
     # Get the best run and its corresponding run ID
     best_run_id = sorted_runs.iloc[0]["run_id"]
+    best_run = mlflow.get_run(best_run_id)
+    top_features = best_run.data.params['top_features']
     logging.info("Getting the best run ID")
 
     model = mlflow.xgboost.load_model(f"runs:/{best_run_id}/{model_artifact_name}")
-    top_features = model.get_xgb_params()['top_features']
     scaler = mlflow.sklearn.load_model(f"runs:/{best_run_id}/{min_max_scaler_artifact_name}")
     logging.info("Loading the model and the scaler object")
 
-    return model, scaler, top_features
+    return model, scaler, int(top_features)
 
 def url_predict(
     feature_extraction: Callable,

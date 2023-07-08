@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/860e9afde48743bc9431ebb2fb1a4fff/artifacts
+deleted_time: 1688832800883
 end_time: 1688695594393
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 860e9afde48743bc9431ebb2fb1a4fff
 run_name: hilarious-vole-814
 run_uuid: 860e9afde48743bc9431ebb2fb1a4fff

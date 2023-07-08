@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/faf43f84b75e4614bcf9e2628c48aa95/artifacts
+deleted_time: 1688833009516
+end_time: 1688832825290
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: faf43f84b75e4614bcf9e2628c48aa95
+run_name: unruly-skink-148
+run_uuid: faf43f84b75e4614bcf9e2628c48aa95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832822573
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/742b26ca965b4cab8619d5852a8d7134/artifacts
+end_time: 1688833250627
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 742b26ca965b4cab8619d5852a8d7134
+run_name: mercurial-mink-621
+run_uuid: 742b26ca965b4cab8619d5852a8d7134
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833247521
+status: 3
+tags: []
+user_id: ceyhun

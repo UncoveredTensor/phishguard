@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/717b315f895e4e80b04b05ecb96d55d8/artifacts
+end_time: 1688833334014
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 717b315f895e4e80b04b05ecb96d55d8
+run_name: righteous-squid-766
+run_uuid: 717b315f895e4e80b04b05ecb96d55d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833329494
+status: 3
+tags: []
+user_id: ceyhun

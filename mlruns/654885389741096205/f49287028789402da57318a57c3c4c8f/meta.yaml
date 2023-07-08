@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/f49287028789402da57318a57c3c4c8f/artifacts
+end_time: 1688833268938
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: f49287028789402da57318a57c3c4c8f
+run_name: likeable-zebra-40
+run_uuid: f49287028789402da57318a57c3c4c8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833263703
+status: 3
+tags: []
+user_id: ceyhun

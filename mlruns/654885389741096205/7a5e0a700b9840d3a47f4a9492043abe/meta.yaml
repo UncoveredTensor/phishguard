@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/7a5e0a700b9840d3a47f4a9492043abe/artifacts
+deleted_time: 1688833009522
+end_time: 1688832859170
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 7a5e0a700b9840d3a47f4a9492043abe
+run_name: stately-gnu-702
+run_uuid: 7a5e0a700b9840d3a47f4a9492043abe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832853659
+status: 3
+tags: []
+user_id: ceyhun

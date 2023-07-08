@@ -264,8 +264,7 @@ def run(
     }
 
     logging.getLogger('mlflow.sklearn').setLevel(logging.ERROR)
-    logger = logging.getLogger('hyperopt')
-    logger.setLevel(logging.ERROR)
+    logging.getLogger('hyperopt').setLevel(logging.ERROR)
 
     if hyperopt:
         best = fmin(fit_xgboost, hyperspace, algo=tpe.suggest, max_evals=max_evals, verbose=1)

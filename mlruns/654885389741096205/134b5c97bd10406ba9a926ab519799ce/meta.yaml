@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/134b5c97bd10406ba9a926ab519799ce/artifacts
+deleted_time: 1688833230292
+end_time: 1688833058570
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 134b5c97bd10406ba9a926ab519799ce
+run_name: nebulous-stoat-416
+run_uuid: 134b5c97bd10406ba9a926ab519799ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833053976
+status: 3
+tags: []
+user_id: ceyhun

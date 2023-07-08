@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/3a9ab4dff8af4404a7d851481faef960/artifacts
+end_time: 1688833290153
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 3a9ab4dff8af4404a7d851481faef960
+run_name: resilient-finch-70
+run_uuid: 3a9ab4dff8af4404a7d851481faef960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833286134
+status: 3
+tags: []
+user_id: ceyhun

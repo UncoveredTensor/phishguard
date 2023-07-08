@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ff684a619f7847168e9ae3a075dd0fdb/artifacts
+deleted_time: 1688832800870
 end_time: 1688695588572
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ff684a619f7847168e9ae3a075dd0fdb
 run_name: dashing-shrew-26
 run_uuid: ff684a619f7847168e9ae3a075dd0fdb

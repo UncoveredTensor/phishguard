@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/8a93c0637b4648a4aae394770822bde5/artifacts
+deleted_time: 1688832800860
 end_time: 1688695636235
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8a93c0637b4648a4aae394770822bde5
 run_name: nervous-swan-444
 run_uuid: 8a93c0637b4648a4aae394770822bde5

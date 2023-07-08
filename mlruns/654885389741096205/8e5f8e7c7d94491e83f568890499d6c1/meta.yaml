@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/8e5f8e7c7d94491e83f568890499d6c1/artifacts
+deleted_time: 1688833230265
+end_time: 1688833087954
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 8e5f8e7c7d94491e83f568890499d6c1
+run_name: whimsical-snipe-112
+run_uuid: 8e5f8e7c7d94491e83f568890499d6c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833083417
+status: 3
+tags: []
+user_id: ceyhun

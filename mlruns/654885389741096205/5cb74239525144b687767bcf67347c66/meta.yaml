@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/5cb74239525144b687767bcf67347c66/artifacts
+end_time: 1688833320417
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 5cb74239525144b687767bcf67347c66
+run_name: masked-worm-81
+run_uuid: 5cb74239525144b687767bcf67347c66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833315733
+status: 3
+tags: []
+user_id: ceyhun

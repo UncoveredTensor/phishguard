@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ced294ad39f449e69aede610fed77fe3/artifacts
+deleted_time: 1688833230265
+end_time: 1688833092172
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ced294ad39f449e69aede610fed77fe3
+run_name: crawling-sloth-533
+run_uuid: ced294ad39f449e69aede610fed77fe3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833088030
+status: 3
+tags: []
+user_id: ceyhun

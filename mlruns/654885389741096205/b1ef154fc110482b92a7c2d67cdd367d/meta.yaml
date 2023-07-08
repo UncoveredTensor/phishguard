@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/b1ef154fc110482b92a7c2d67cdd367d/artifacts
+deleted_time: 1688833230250
+end_time: 1688833120223
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: b1ef154fc110482b92a7c2d67cdd367d
+run_name: fortunate-rook-368
+run_uuid: b1ef154fc110482b92a7c2d67cdd367d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833114403
+status: 3
+tags: []
+user_id: ceyhun

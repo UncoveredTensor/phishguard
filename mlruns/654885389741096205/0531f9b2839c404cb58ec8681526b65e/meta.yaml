@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0531f9b2839c404cb58ec8681526b65e/artifacts
+end_time: 1688833257058
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 0531f9b2839c404cb58ec8681526b65e
+run_name: abrasive-rat-896
+run_uuid: 0531f9b2839c404cb58ec8681526b65e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833254082
+status: 3
+tags: []
+user_id: ceyhun

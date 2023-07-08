@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/870a9d7d602c45579fbbdc044b09d557/artifacts
+deleted_time: 1688833009510
+end_time: 1688832819294
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 870a9d7d602c45579fbbdc044b09d557
+run_name: trusting-calf-675
+run_uuid: 870a9d7d602c45579fbbdc044b09d557
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832814900
+status: 3
+tags: []
+user_id: ceyhun

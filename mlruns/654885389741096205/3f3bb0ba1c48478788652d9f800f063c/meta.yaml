@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/3f3bb0ba1c48478788652d9f800f063c/artifacts
+deleted_time: 1688832800862
 end_time: 1688695633495
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3f3bb0ba1c48478788652d9f800f063c
 run_name: valuable-worm-393
 run_uuid: 3f3bb0ba1c48478788652d9f800f063c

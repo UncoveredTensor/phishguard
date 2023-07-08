@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/7ab211d879534962a05febfc51b9c7ef/artifacts
+deleted_time: 1688833009528
+end_time: 1688832849341
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 7ab211d879534962a05febfc51b9c7ef
+run_name: marvelous-trout-608
+run_uuid: 7ab211d879534962a05febfc51b9c7ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832845512
+status: 3
+tags: []
+user_id: ceyhun

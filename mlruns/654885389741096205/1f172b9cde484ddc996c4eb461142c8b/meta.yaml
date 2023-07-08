@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/1f172b9cde484ddc996c4eb461142c8b/artifacts
+deleted_time: 1688832800845
 end_time: 1688695663256
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1f172b9cde484ddc996c4eb461142c8b
 run_name: illustrious-loon-719
 run_uuid: 1f172b9cde484ddc996c4eb461142c8b

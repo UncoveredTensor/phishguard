@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/1939d1e1c0a44cff8abf6ad78c68d937/artifacts
+deleted_time: 1688832800875
 end_time: 1688695622890
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1939d1e1c0a44cff8abf6ad78c68d937
 run_name: nebulous-rook-810
 run_uuid: 1939d1e1c0a44cff8abf6ad78c68d937

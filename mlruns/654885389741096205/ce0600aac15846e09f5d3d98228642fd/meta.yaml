@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ce0600aac15846e09f5d3d98228642fd/artifacts
+deleted_time: 1688833230284
+end_time: 1688833064250
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ce0600aac15846e09f5d3d98228642fd
+run_name: bustling-lynx-915
+run_uuid: ce0600aac15846e09f5d3d98228642fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833061569
+status: 3
+tags: []
+user_id: ceyhun

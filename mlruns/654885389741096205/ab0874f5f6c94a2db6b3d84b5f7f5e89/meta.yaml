@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ab0874f5f6c94a2db6b3d84b5f7f5e89/artifacts
+deleted_time: 1688833009481
+end_time: 1688832909342
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: ab0874f5f6c94a2db6b3d84b5f7f5e89
+run_name: dashing-frog-672
+run_uuid: ab0874f5f6c94a2db6b3d84b5f7f5e89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832905593
+status: 3
+tags: []
+user_id: ceyhun

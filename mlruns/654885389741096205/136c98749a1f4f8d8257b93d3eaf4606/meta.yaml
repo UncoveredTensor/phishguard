@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/136c98749a1f4f8d8257b93d3eaf4606/artifacts
+end_time: 1688833254006
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 136c98749a1f4f8d8257b93d3eaf4606
+run_name: thundering-rat-877
+run_uuid: 136c98749a1f4f8d8257b93d3eaf4606
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833250702
+status: 3
+tags: []
+user_id: ceyhun

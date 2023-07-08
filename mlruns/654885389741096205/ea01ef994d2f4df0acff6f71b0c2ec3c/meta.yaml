@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/ea01ef994d2f4df0acff6f71b0c2ec3c/artifacts
+end_time: 1688833307431
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: ea01ef994d2f4df0acff6f71b0c2ec3c
+run_name: amusing-doe-671
+run_uuid: ea01ef994d2f4df0acff6f71b0c2ec3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833302137
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/76d31f86ba0c40a5a853d2583a4eb5a4/artifacts
+deleted_time: 1688832800885
 end_time: 1688695600223
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 76d31f86ba0c40a5a853d2583a4eb5a4
 run_name: aged-cub-312
 run_uuid: 76d31f86ba0c40a5a853d2583a4eb5a4

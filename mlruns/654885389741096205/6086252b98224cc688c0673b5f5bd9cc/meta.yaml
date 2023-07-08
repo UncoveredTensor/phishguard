@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/6086252b98224cc688c0673b5f5bd9cc/artifacts
+deleted_time: 1688833009488
+end_time: 1688832905512
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 6086252b98224cc688c0673b5f5bd9cc
+run_name: bemused-ram-308
+run_uuid: 6086252b98224cc688c0673b5f5bd9cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832901723
+status: 3
+tags: []
+user_id: ceyhun

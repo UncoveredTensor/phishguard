@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/efb2a63593cb47238ccbbfd4c666c4ce/artifacts
+deleted_time: 1688833230293
+end_time: 1688833046918
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: efb2a63593cb47238ccbbfd4c666c4ce
+run_name: salty-shrimp-713
+run_uuid: efb2a63593cb47238ccbbfd4c666c4ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833043819
+status: 3
+tags: []
+user_id: ceyhun

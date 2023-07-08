@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/480cc35064e24a23af03e3bccc2c4110/artifacts
+deleted_time: 1688833230294
+end_time: 1688833061494
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 480cc35064e24a23af03e3bccc2c4110
+run_name: auspicious-skink-805
+run_uuid: 480cc35064e24a23af03e3bccc2c4110
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833058647
+status: 3
+tags: []
+user_id: ceyhun

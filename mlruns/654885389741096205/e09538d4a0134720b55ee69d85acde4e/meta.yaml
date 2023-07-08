@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/e09538d4a0134720b55ee69d85acde4e/artifacts
+end_time: 1688833283338
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: e09538d4a0134720b55ee69d85acde4e
+run_name: bustling-penguin-715
+run_uuid: e09538d4a0134720b55ee69d85acde4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833277738
+status: 3
+tags: []
+user_id: ceyhun

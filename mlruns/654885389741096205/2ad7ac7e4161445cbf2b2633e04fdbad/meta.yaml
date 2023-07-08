@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/2ad7ac7e4161445cbf2b2633e04fdbad/artifacts
+end_time: 1688833286060
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 2ad7ac7e4161445cbf2b2633e04fdbad
+run_name: suave-dolphin-696
+run_uuid: 2ad7ac7e4161445cbf2b2633e04fdbad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833283413
+status: 3
+tags: []
+user_id: ceyhun

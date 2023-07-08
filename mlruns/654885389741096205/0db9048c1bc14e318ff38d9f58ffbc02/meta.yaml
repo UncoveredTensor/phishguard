@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/0db9048c1bc14e318ff38d9f58ffbc02/artifacts
+deleted_time: 1688833230243
+end_time: 1688833131066
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 0db9048c1bc14e318ff38d9f58ffbc02
+run_name: burly-fly-50
+run_uuid: 0db9048c1bc14e318ff38d9f58ffbc02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833125916
+status: 3
+tags: []
+user_id: ceyhun

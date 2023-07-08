@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/071099b9063041cfbc16f00386815cb9/artifacts
+deleted_time: 1688832800853
 end_time: 1688695650549
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 071099b9063041cfbc16f00386815cb9
 run_name: nosy-penguin-345
 run_uuid: 071099b9063041cfbc16f00386815cb9

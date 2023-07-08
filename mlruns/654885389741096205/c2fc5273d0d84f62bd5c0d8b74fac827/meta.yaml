@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/c2fc5273d0d84f62bd5c0d8b74fac827/artifacts
+deleted_time: 1688833230276
+end_time: 1688833076340
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: c2fc5273d0d84f62bd5c0d8b74fac827
+run_name: whimsical-doe-361
+run_uuid: c2fc5273d0d84f62bd5c0d8b74fac827
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833073075
+status: 3
+tags: []
+user_id: ceyhun

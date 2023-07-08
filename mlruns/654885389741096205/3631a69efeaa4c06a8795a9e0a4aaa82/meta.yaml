@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/3631a69efeaa4c06a8795a9e0a4aaa82/artifacts
+end_time: 1688833244759
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: 3631a69efeaa4c06a8795a9e0a4aaa82
+run_name: mercurial-cow-742
+run_uuid: 3631a69efeaa4c06a8795a9e0a4aaa82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833241918
+status: 3
+tags: []
+user_id: ceyhun

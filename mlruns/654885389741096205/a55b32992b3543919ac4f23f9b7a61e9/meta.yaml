@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/a55b32992b3543919ac4f23f9b7a61e9/artifacts
+deleted_time: 1688832800867
 end_time: 1688695625894
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a55b32992b3543919ac4f23f9b7a61e9
 run_name: skillful-fly-46
 run_uuid: a55b32992b3543919ac4f23f9b7a61e9

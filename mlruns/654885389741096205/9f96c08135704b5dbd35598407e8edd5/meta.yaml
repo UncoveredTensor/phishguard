@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/9f96c08135704b5dbd35598407e8edd5/artifacts
+deleted_time: 1688833009504
+end_time: 1688832869423
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: deleted
+run_id: 9f96c08135704b5dbd35598407e8edd5
+run_name: flawless-asp-385
+run_uuid: 9f96c08135704b5dbd35598407e8edd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688832865947
+status: 3
+tags: []
+user_id: ceyhun

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/7c185c5b14744ffca7ad95a5c4ddcd97/artifacts
+deleted_time: 1688832800877
 end_time: 1688695618839
 entry_point_name: ''
 experiment_id: '654885389741096205'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7c185c5b14744ffca7ad95a5c4ddcd97
 run_name: suave-robin-68
 run_uuid: 7c185c5b14744ffca7ad95a5c4ddcd97

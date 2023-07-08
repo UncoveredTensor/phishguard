@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ceyhun/Documents/GitHub/phishguard/mlruns/654885389741096205/d72e0f26a9f34623a62a7d71e2fa3566/artifacts
+end_time: 1688833272003
+entry_point_name: ''
+experiment_id: '654885389741096205'
+lifecycle_stage: active
+run_id: d72e0f26a9f34623a62a7d71e2fa3566
+run_name: dapper-mink-129
+run_uuid: d72e0f26a9f34623a62a7d71e2fa3566
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833269013
+status: 3
+tags: []
+user_id: ceyhun
