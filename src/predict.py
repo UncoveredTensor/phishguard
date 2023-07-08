@@ -105,6 +105,23 @@ def load_model(
 
     return model, scaler, int(top_features)
 
+def generalize_url(row: str) -> str:
+    
+    if row.startswith("http://") or row.startswith("https://"):
+
+        if "www." not in row:
+            url = row.replace("//", "//www.")
+        else:
+            url = 'https://www.' + row.split("//www.")[-1] 
+            if "www." not in url:
+                url = url.replace("//", "//www.")
+    elif row.startswith("www."):
+        url = 'https://www.' + row[4:]
+    else:
+        url = 'https://www.' + row
+    
+    return url
+
 def url_predict(
     feature_extraction: Callable,
     data: str,
@@ -169,6 +186,7 @@ def list_predict(
     if isinstance(urls, list):
         urls = pd.DataFrame(urls, columns=['url'])
     
+    urls['url'] = urls['url'].apply(lambda row: generalize_url(row))
     feature_results = urls.apply(lambda row: feature_extraction.extract_features(url=row.iloc[0], source_data=source_data, top_features=top_features), axis=1)
     df = pd.concat([urls, feature_results.apply(pd.Series)], axis=1)
     df.iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])

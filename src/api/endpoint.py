@@ -74,9 +74,12 @@ def predict(data: DomainsRequest) -> List[PredictionResponse]:
 
     for domain in domains:
         if domain.name.startswith("http://") or domain.name.startswith("https://"):
-            url = 'https://www.' + domain.name.split("//")[-1]
-            if "www." not in url:
-                url = url.replace("//", "//www.")
+            if "www." not in domain.name:
+                url = domain.name.replace("//", "//www.")
+            else:
+                url = 'https://www.' + domain.name.split("//www.")[-1] 
+                if "www." not in url:
+                    url = url.replace("//", "//www.")
         elif domain.name.startswith("www."):
             url = 'https://www.' + domain.name[4:]
         else:
