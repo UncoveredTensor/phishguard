@@ -23,7 +23,14 @@ PhishGuard is a robust tool designed to classify whether a webpage is a phishing
     docker-compose up --build
 </details>
 
-## Usage
+## Predict
+### Flow
+<p align="center">
+  <img src="img/phishguard_predict.png" alt="Image">
+</p>
+
+
+### Usage
 ```
 Usage:
   pipenv run predict --help
